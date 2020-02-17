@@ -1,0 +1,56 @@
+@tailwind base;
+
+:root {
+  --main-teal: #01bdc8;
+  --main-pink: #c801bd;
+  --main-yellow: #bdc801;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+a,
+ul,
+li,
+p,
+div {
+  font-family: "Montserrat", sans-serif;
+}
+
+@tailwind components;
+
+#nav {
+  background-color: var(--main-teal);
+  color: #fff;
+}
+
+.hero {
+  height: "100vh";
+  margin-top: "-85.55px";
+  background-image: "linear-gradient(to bottom right, #01bdc8 15%, #fff 50%)";
+}
+
+.big-text {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+@tailwind utilities;
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat" sans-serif;
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+}
