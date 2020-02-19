@@ -3,15 +3,22 @@ import { FaBan, FaCheck } from "react-icons/fa"
 
 const Learn = () => {
   return (
-    <div className="bg-gray-200 py-12">
+    <div className="bg-gray-200 py-12 px-6">
       <div className="flex flex-col justify-center">
         <h2 className="text-4xl text-gray-700 self-center text-center mb-12">
           Learn More
         </h2>
-        <h4 className="teal self-center text-center text-2xl flex">
-          No Photos. <FaBan className="self-center mx-2" /> No Reviews.{" "}
-          <FaBan className="self-center mx-2" /> Just Videos.{" "}
-          <FaCheck className="self-center mx-2" />
+        <h4 className="teal self-center text-center text-2xl flex flex-col lg:flex-row">
+          <span className="flex">
+            No Photos. <FaBan className="self-center mx-2" />
+          </span>
+          <span className="flex">
+            No Reviews. <FaBan className="self-center mx-2" />
+          </span>
+          <span className="flex">
+            Just Videos.
+            <FaCheck className="self-center mx-2" />
+          </span>
         </h4>
         <p className="self-center text-center text-md fredoka text-gray-500">
           Videos uploaded by travelers, locals, and friends for travel rewards.
