@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", sans-serif;
+  font-family: "Fredoka One", sans-serif;
 }
 
 a,
@@ -20,7 +20,7 @@ ul,
 li,
 p,
 div {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 @tailwind components;
@@ -41,16 +41,77 @@ div {
   font-weight: 900;
 }
 
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 0.5rem;
+  position: relative;
+}
+
+.insta-container {
+  position: relative;
+}
+
+.insta-text-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: var(--main-teal);
+}
+
+.insta-container:hover,
+.insta-text-overlay:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.insta-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 @tailwind utilities;
 
 .lato {
   font-family: "Lato", sans-serif;
 }
 
-.montserrat {
-  font-family: "Montserrat" sans-serif;
+.fredoka {
+  font-family: "Fredoka One", sans-serif;
 }
 
-.quicksand {
-  font-family: "Quicksand", sans-serif;
+.teal-background {
+  background-color: var(--main-teal);
+}
+
+.text-xs-sm {
+  font-size: 0.875rem;
 }

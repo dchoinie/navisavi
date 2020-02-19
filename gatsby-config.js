@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Navi Savi`,
-    description: `Real People's Travels. Short Videos.`,
+    description: `Real Travels. Short Videos.`,
     author: `Dan Choiniere`,
   },
   plugins: [
@@ -21,8 +21,14 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Lato", "Montserrat", "Quicksand"],
+          families: ["Lato", "Fredoka One"],
         },
+      },
+    },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `navisavi_official`,
       },
     },
     {
