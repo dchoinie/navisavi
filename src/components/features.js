@@ -41,7 +41,7 @@ const Features = () => {
   `)
   return (
     <div className="py-12 bg-gray-200">
-      <h2 className="text-4xl text-center text-gray-700">Features</h2>
+      <h2 className="text-4xl text-center text-gray-700 mb-12">Features</h2>
       <div className="features-grid lg:mx-24">
         <div className="flex flex-col p-12">
           <Img fluid={data.phone1.childImageSharp.fluid} className="w-full" />

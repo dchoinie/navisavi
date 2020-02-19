@@ -83,6 +83,10 @@ div {
   column-gap: 2rem;
 }
 
+.footer-lists li {
+  font-family: "Fredoka One", sans-serif;
+}
+
 @media screen and (max-width: 1280px) {
   .features-grid {
     grid-template-columns: repeat(2, 1fr);

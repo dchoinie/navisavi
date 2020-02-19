@@ -1,14 +1,17 @@
 import React from "react"
+import { FaBan, FaCheck } from "react-icons/fa"
 
 const Learn = () => {
   return (
     <div className="bg-gray-200 py-12">
       <div className="flex flex-col justify-center">
-        <h2 className="text-4xl text-gray-700 self-center text-center">
+        <h2 className="text-4xl text-gray-700 self-center text-center mb-12">
           Learn More
         </h2>
-        <h4 className="teal self-center text-center text-xl">
-          No Photos. No Reviews. Just Videos.
+        <h4 className="teal self-center text-center text-2xl flex">
+          No Photos. <FaBan className="self-center mx-2" /> No Reviews.{" "}
+          <FaBan className="self-center mx-2" /> Just Videos.{" "}
+          <FaCheck className="self-center mx-2" />
         </h4>
         <p className="self-center text-center text-md fredoka text-gray-500">
           Videos uploaded by travelers, locals, and friends for travel rewards.
@@ -20,7 +23,7 @@ const Learn = () => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/7hQQDCLHLOM"
+            src="https://www.youtube.com/embed/rbK4jrWYEPc"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen

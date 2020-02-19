@@ -45,7 +45,7 @@ const InstaFeed = () => {
                 <Img
                   fluid={insta.localFile.childImageSharp.fluid}
                   // style={{ border: "1px solid green" }}
-                  className="w-full"
+                  className="w-full rounded-lg"
                   imgStyle={{ objectFit: "cover" }}
                 />
                 <div className="insta-text-overlay flex justify-center">
