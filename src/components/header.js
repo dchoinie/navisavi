@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 const Header = () => {
   const data = useStaticQuery(graphql`
     {
-      logo: file(relativePath: { eq: "logo-transparent.png" }) {
+      logo: file(relativePath: { eq: "logo-teal.png" }) {
         childImageSharp {
           fluid {
             src
@@ -29,7 +29,7 @@ const Header = () => {
         <FaBars className="text-2xl self-center" />
       </div>
       <div className="lg:flex hidden">
-        <ul className="flex text-xl text-gray-300">
+        <ul className="flex text-xl">
           <li className="mr-6 self-center fredoka text-center">
             <span className="uppercase">Learn</span> <br />
             <span className="text-base">More</span>

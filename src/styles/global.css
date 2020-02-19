@@ -26,14 +26,14 @@ div {
 @tailwind components;
 
 #nav {
-  background-color: var(--main-teal);
-  color: #fff;
+  background-color: #fff;
+  color: var(--main-teal);
 }
 
 .hero {
   height: "100vh";
   margin-top: "-85.55px";
-  background-image: "linear-gradient(to bottom right, #01bdc8 15%, #fff 50%)";
+  background-image: "linear-gradient(#01bdc8 15%, #fff 50%)";
 }
 
 .big-text {
@@ -118,6 +118,10 @@ div {
 
 .teal {
   color: var(--main-teal);
+}
+
+.pink {
+  color: var(--main-pink);
 }
 
 .text-xs-sm {
