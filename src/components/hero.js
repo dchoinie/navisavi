@@ -56,14 +56,16 @@ const Hero = () => {
             <input
               type="email"
               name="email"
-              className="text-xl"
+              className="text-xl rounded-l"
               placeholder="Email"
-              style={{ padding: "0.25rem 0.5rem" }}
+              style={{
+                padding: "0.25rem 0.5rem",
+              }}
             />
             <input
               type="submit"
               value="Get Savi"
-              className="text-xl fredoka bg-gray-700 text-white cursor-pointer"
+              className="text-xl fredoka bg-gray-700 text-white cursor-pointer rounded-r"
               style={{
                 padding: "0.25rem 0.5rem",
               }}

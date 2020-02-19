@@ -2,6 +2,7 @@ import React from "react"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 import { FaBars } from "react-icons/fa"
+import { Link } from "gatsby"
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -18,12 +19,12 @@ const Header = () => {
   `)
   return (
     <div id="nav" className="flex justify-between px-6 lg:px-24">
-      <div className="flex">
+      <Link to="/" className="flex">
         <Img
           fluid={data.logo.childImageSharp.fluid}
           style={{ width: "175px" }}
         />
-      </div>
+      </Link>
       <div className="flex lg:hidden">
         <FaBars className="text-2xl self-center" />
       </div>

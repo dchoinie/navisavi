@@ -10,6 +10,10 @@ const Learn = () => {
         <h4 className="teal self-center text-center text-xl">
           No Photos. No Reviews. Just Videos.
         </h4>
+        <p className="self-center text-center text-md fredoka text-gray-500">
+          Videos uploaded by travelers, locals, and friends for travel rewards.
+          Now you can search, save, and share, all in one app.
+        </p>
       </div>
       <div className="flex justify-center py-6">
         <iframe
@@ -23,12 +27,7 @@ const Learn = () => {
         ></iframe>
       </div>
       <div className="flex flex-col justify-center">
-        <p className="teal self-center text-center text-xl fredoka">
-          Videos uploaded by travelers, locals, and friends for travel rewards.{" "}
-          <br />
-          Now you can search, save, and share, all in one app.
-        </p>
-        <h4 className="text-3xl text-gray-700 self-center text-center">
+        <h4 className="text-2xl text-gray-700 self-center text-center">
           That’s why Savi Travelers Start Here. Navi Savi.
         </h4>
       </div>
