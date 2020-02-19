@@ -15,16 +15,18 @@ const Learn = () => {
           Now you can search, save, and share, all in one app.
         </p>
       </div>
-      <div className="flex justify-center py-6">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/7hQQDCLHLOM"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          className="rounded-lg"
-        ></iframe>
+      <div className="max-w-2xl mx-auto py-6">
+        <div className="iframe-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/7hQQDCLHLOM"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            className="rounded-lg"
+          ></iframe>
+        </div>
       </div>
       <div className="flex flex-col justify-center">
         <h4 className="text-2xl text-gray-700 self-center text-center">
