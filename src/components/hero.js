@@ -46,7 +46,9 @@ const Hero = () => {
     >
       <div className="w-1/2 flex flex-col justify-center">
         <div className="self-center">
-          <h1 className="text-4xl teal">Savi Travelers Start Here</h1>
+          <h1 className="text-2xl md:text-4xl teal">
+            Savi Travelers Start Here
+          </h1>
           <p className="text-gray-700 pb-2">
             Get on the list now to be the first to test our Beta App &amp; Earn
             Rewards.
@@ -81,7 +83,7 @@ const Hero = () => {
           </small>
         </div>
       </div>
-      <div className="flex justify-center w-1/2">
+      <div className="hidden lg:flex justify-center w-1/2">
         <Img
           className="w-full self-center"
           fluid={data.phone.childImageSharp.fluid}
