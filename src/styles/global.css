@@ -2,6 +2,11 @@
 
 :root {
   --main-teal: #01bdc8;
+  --teal2: #00a4af;
+  --teal3: #008a95;
+  --teal4: #00717c;
+  --teal5: #005762;
+  --teal6: #003e49;
   --main-pink: #c801bd;
   --main-yellow: #bdc801;
 }
@@ -87,9 +92,25 @@ div {
   font-family: "Fredoka One", sans-serif;
 }
 
+.beta-submit {
+  background-color: var(--main-teal);
+}
+
+.beta-submit:hover {
+  background-color: var(--teal3);
+}
+
 input:focus {
   border: 1px solid var(--main-teal);
   outline: none;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  grid-template-rows: repeat(auto, 1fr);
+  row-gap: 2rem;
 }
 
 @media screen and (max-width: 1280px) {

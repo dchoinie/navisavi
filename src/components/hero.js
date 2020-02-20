@@ -70,10 +70,9 @@ const Hero = () => {
             <input
               type="submit"
               value="Get Savi"
-              className="text-xl fredoka text-white cursor-pointer rounded-r"
+              className="beta-submit text-xl fredoka text-white cursor-pointer rounded-r"
               style={{
                 padding: "0.25rem 0.5rem",
-                backgroundColor: "#01bdc8",
                 border: "1px solid transparent",
               }}
             />
