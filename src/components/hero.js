@@ -45,7 +45,7 @@ const Hero = () => {
       }}
     >
       <div className="w-1/2 flex flex-col justify-center">
-        <div className="self-center">
+        <div className="self-center lg:self-end lg:mr-6">
           <h1 className="text-2xl md:text-4xl teal">
             Savi Travelers Start Here
           </h1>
@@ -83,7 +83,7 @@ const Hero = () => {
           </small>
         </div>
       </div>
-      <div className="hidden lg:flex justify-center w-1/2">
+      <div className="hidden lg:flex justify-start ml-6 w-1/2">
         <Img
           className="w-full self-center"
           fluid={data.phone.childImageSharp.fluid}
