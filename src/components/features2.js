@@ -8,6 +8,7 @@ import {
   FaGraduationCap,
   FaSave,
   FaPlaneDeparture,
+  FaVideo,
 } from "react-icons/fa"
 
 const Features2 = () => {
@@ -88,7 +89,7 @@ const Features2 = () => {
           //   style={{ border: "1px solid red" }}
         >
           <div className="self-center text-5xl teal my-2">
-            <FaFolderOpen />
+            <FaVideo />
           </div>
           <h3 className="text-2xl text-gray-700 self-center">
             Browse Videos By Other Travellers
