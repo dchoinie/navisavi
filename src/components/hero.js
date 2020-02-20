@@ -46,7 +46,7 @@ const Hero = () => {
     >
       <div className="w-1/2 flex flex-col justify-center">
         <div className="self-center lg:self-end lg:mr-6">
-          <h1 className="text-2xl md:text-4xl teal">
+          <h1 className="text-2xl md:text-4xl teal lowercase">
             Savi Travelers Start Here
           </h1>
           <p className="text-gray-700 pb-2">
@@ -61,7 +61,7 @@ const Hero = () => {
             <input
               type="email"
               name="email"
-              className="text-xl border border-gray-500 rounded-l"
+              className="text-xl text-gray-700 border border-gray-500 rounded-l"
               placeholder="Email"
               style={{
                 padding: "0.25rem 0.5rem",
@@ -70,10 +70,9 @@ const Hero = () => {
             <input
               type="submit"
               value="Get Savi"
-              className="beta-submit text-xl fredoka text-white cursor-pointer rounded-r"
+              className="beta-submit text-xl fredoka cursor-pointer rounded-r lowercase"
               style={{
                 padding: "0.25rem 0.5rem",
-                border: "1px solid transparent",
               }}
             />
           </form>

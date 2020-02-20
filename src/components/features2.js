@@ -49,14 +49,14 @@ const Features2 = () => {
     }
   `)
   return (
-    <div className="py-24 mx-56">
-      <h2 className="text-center text-3xl teal pb-12">Features</h2>
+    <div className="py-24 lg:mx-56">
+      <h2 className="text-center text-5xl teal pb-12 lowercase">Features</h2>
       <div
-        className="flex justify-between w-full"
+        className="flex flex-col lg:flex-row justify-between w-full"
         // style={{ border: "1px solid red" }}
       >
         <div
-          className="flex justify-center w-1/2"
+          className="flex justify-center w-full lg:w-1/2"
           //   style={{ border: "1px solid red" }}
         >
           <Img
@@ -65,10 +65,10 @@ const Features2 = () => {
           />
         </div>
         <div
-          className="flex flex-col justify-center w-1/2"
+          className="flex flex-col justify-center lg:w-1/2 px-12 text-center"
           //   style={{ border: "1px solid red" }}
         >
-          <div className="self-center text-5xl teal my-2">
+          <div className="self-center text-3xl lg:text-5xl teal my-2">
             <FaSearch />
           </div>
           <h3 className="text-2xl text-gray-700 self-center">
@@ -81,14 +81,14 @@ const Features2 = () => {
         </div>
       </div>
       <div
-        className="flex justify-between w-full"
+        className="flex flex-col lg:flex-row justify-between w-full"
         // style={{ border: "1px solid red" }}
       >
         <div
-          className="flex flex-col justify-center w-1/2"
+          className="flex flex-col justify-center w-full lg:w-1/2"
           //   style={{ border: "1px solid red" }}
         >
-          <div className="self-center text-5xl teal my-2">
+          <div className="self-center text-3xl lg:text-5xl teal my-2 ">
             <FaVideo />
           </div>
           <h3 className="text-2xl text-gray-700 self-center">
@@ -100,7 +100,7 @@ const Features2 = () => {
           </p>
         </div>
         <div
-          className="flex justify-center w-1/2"
+          className="flex justify-center w-full lg:w-1/2"
           //   style={{ border: "1px solid red" }}
         >
           <Img
@@ -110,11 +110,11 @@ const Features2 = () => {
         </div>
       </div>
       <div
-        className="flex justify-between w-full"
+        className="flex flex-col lg:flex-row justify-between w-full"
         // style={{ border: "1px solid red" }}
       >
         <div
-          className="flex justify-center w-1/2"
+          className="flex justify-center w-full lg:w-1/2"
           //   style={{ border: "1px solid red" }}
         >
           <Img
@@ -123,10 +123,10 @@ const Features2 = () => {
           />
         </div>
         <div
-          className="flex flex-col justify-center w-1/2"
+          className="flex flex-col justify-center w-full lg:w-1/2"
           //   style={{ border: "1px solid red" }}
         >
-          <div className="self-center text-5xl teal my-2">
+          <div className="self-center text-3xl lg:text-5xl teal my-2">
             <FaGraduationCap />
           </div>
           <h3 className="text-2xl text-gray-700 self-center">
@@ -139,14 +139,14 @@ const Features2 = () => {
         </div>
       </div>
       <div
-        className="flex justify-between w-full"
+        className="flex flex-col lg:flex-row justify-between w-full"
         // style={{ border: "1px solid red" }}
       >
         <div
-          className="flex flex-col justify-center w-1/2"
+          className="flex flex-col justify-center w-full lg:w-1/2"
           //   style={{ border: "1px solid red" }}
         >
-          <div className="self-center text-5xl teal my-2">
+          <div className="self-center text-3xl lg:text-5xl teal my-2">
             <FaPlaneDeparture />
           </div>
           <h3 className="text-2xl text-gray-700 self-center">
@@ -158,7 +158,7 @@ const Features2 = () => {
           </p>
         </div>
         <div
-          className="flex justify-center w-1/2"
+          className="flex justify-center w-full lg:w-1/2"
           //   style={{ border: "1px solid red" }}
         >
           <Img

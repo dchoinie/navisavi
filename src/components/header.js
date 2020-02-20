@@ -31,16 +31,16 @@ const Header = () => {
       <div className="lg:flex hidden">
         <ul className="flex text-xl">
           <li className="mr-6 self-center fredoka text-center">
-            <span className="uppercase">Learn</span> <br />
-            <span className="text-base">More</span>
+            <span className="lowercase">Learn</span> <br />
+            <span className="text-base lowercase">More</span>
           </li>
           <li className="mx-6 self-center fredoka text-center">
-            <span className="uppercase">Earn</span> <br />{" "}
-            <span className="text-base">Rewards</span>
+            <span className="lowercase">Earn</span> <br />{" "}
+            <span className="text-base lowercase">Rewards</span>
           </li>
           <li className="ml-6 self-center fredoka text-center">
-            <span className="uppercase">Talk</span> <br />{" "}
-            <span className="text-base">To Us</span>
+            <span className="lowercase">Talk</span> <br />{" "}
+            <span className="text-base lowercase">To Us</span>
           </li>
         </ul>
       </div>

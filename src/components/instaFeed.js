@@ -25,7 +25,9 @@ const InstaFeed = () => {
   `)
   return (
     <div className="my-12">
-      <h2 className="text-center text-3xl">Follow Us On Instagram</h2>
+      <h2 className="text-center text-3xl text-gray-700">
+        Follow Us On Instagram
+      </h2>
       <div
         className="insta-grid py-12 px-12"
         // style={{ border: "1px solid red" }}

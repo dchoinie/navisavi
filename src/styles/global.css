@@ -72,7 +72,7 @@ div {
 
 .insta-container:hover,
 .insta-text-overlay:hover {
-  opacity: 0.8;
+  opacity: 0.9;
   cursor: pointer;
 }
 
@@ -94,6 +94,7 @@ div {
 
 .beta-submit {
   background-color: var(--main-teal);
+  color: #fff;
 }
 
 .beta-submit:hover {
@@ -111,6 +112,12 @@ input:focus {
   column-gap: 2rem;
   grid-template-rows: repeat(auto, 1fr);
   row-gap: 2rem;
+}
+
+.friends-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
 }
 
 @media screen and (max-width: 1280px) {

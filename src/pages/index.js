@@ -5,6 +5,7 @@ import Hero from "../components/hero"
 import Learn from "../components/learn"
 import Features from "../components/features"
 import Features2 from "../components/features2"
+import Earn from "../components/earn"
 import Download from "../components/download"
 import InstaFeed from "../components/instaFeed"
 
@@ -12,9 +13,11 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
-    {/* <Learn /> */}
+    <Learn />
+
     <Features2 />
-    <Download />
+    <Earn />
+    {/* <Download /> */}
     <InstaFeed />
   </Layout>
 )
