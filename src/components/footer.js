@@ -22,7 +22,9 @@ const Footer = () => {
           <li className="mx-2 text-center lg:text-left teal">
             <Link to="/terms-of-service">Terms Of Service</Link>
           </li>
-          <li className="mx-2 text-center lg:text-left teal">Contact</li>
+          <li className="mx-2 text-center lg:text-left teal">
+            <a href="mailto:contact@navisaviapp.com">Contact</a>
+          </li>
         </ul>
         <div className="flex flex-col">
           <div className="flex justify-end my-2">
