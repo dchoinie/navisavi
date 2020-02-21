@@ -8,16 +8,17 @@ import Features2 from "../components/features2"
 import Earn from "../components/earn"
 import Download from "../components/download"
 import InstaFeed from "../components/instaFeed"
+import Contact from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
     <Learn />
-
     <Features2 />
     <Earn />
     {/* <Download /> */}
+    <Contact />
     <InstaFeed />
   </Layout>
 )

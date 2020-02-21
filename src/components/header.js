@@ -47,7 +47,6 @@ export default class Header extends Component {
     const { navOpen } = this.state
     return (
       <div className="flex justify-between px-6 lg:px-24">
-        {console.log(navOpen)}
         <Logo />
         <div
           className="lg:hidden teal self-center relative"

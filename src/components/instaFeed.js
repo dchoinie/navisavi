@@ -24,7 +24,7 @@ const InstaFeed = () => {
     }
   `)
   return (
-    <div className="my-12">
+    <div className="py-24">
       <h2 className="text-center text-3xl text-gray-700">
         Follow Us On Instagram
       </h2>
@@ -47,7 +47,7 @@ const InstaFeed = () => {
                 <Img
                   fluid={insta.localFile.childImageSharp.fluid}
                   // style={{ border: "1px solid green" }}
-                  className="w-full rounded-lg"
+                  className="w-full rounded"
                   imgStyle={{ objectFit: "cover" }}
                 />
                 <div className="insta-text-overlay flex justify-center">
