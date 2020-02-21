@@ -94,13 +94,15 @@ div {
 }
 
 .beta-submit,
-.contact-submit {
+.contact-submit,
+.partnerships-btn {
   background-color: var(--main-teal);
   color: #fff;
 }
 
 .beta-submit:hover,
-.contact-submit:hover {
+.contact-submit:hover,
+.partnerships-btn:hover {
   background-color: var(--teal3);
 }
 
