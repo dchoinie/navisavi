@@ -69,14 +69,17 @@ const Hero = () => {
                 padding: "0.25rem 0.5rem",
               }}
             />
-            <input
+            <button
               type="submit"
               value="Get Savi"
-              className="beta-submit text-xl fredoka cursor-pointer rounded-r lowercase"
+              className="beta-submit text-xl
+              fredoka cursor-pointer rounded-r lowercase"
               style={{
                 padding: "0.25rem 0.5rem",
               }}
-            />
+            >
+              Get Savi
+            </button>
           </form>
           <small className="text-gray-500">
             <em>Launching Spring 2020</em>
