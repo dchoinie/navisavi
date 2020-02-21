@@ -17,6 +17,7 @@ const Contact = () => {
           name="howdy"
           method="POST"
           data-netlify="true"
+          //   data-netlify-recaptcha="true"
           className="flex flex-col md:w-1/3 mb-4 md:mb-0"
           //   style={{ border: "1px solid red" }}
         >
