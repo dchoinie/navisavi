@@ -9,6 +9,7 @@ import Earn from "../components/earn"
 import Download from "../components/download"
 import InstaFeed from "../components/instaFeed"
 import Contact from "../components/contact"
+import Partnership from "../components/partnership"
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <Learn />
     <Features2 />
     <Earn />
+    <Partnership />
     {/* <Download /> */}
     <Contact />
     <InstaFeed />
