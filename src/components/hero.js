@@ -57,7 +57,6 @@ const Hero = () => {
             name="beta-signup"
             method="POST"
             data-netlify="true"
-            // data-netlify-recaptcha="true"
             className="flex self-center"
           >
             <input
