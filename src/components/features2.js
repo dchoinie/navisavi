@@ -83,7 +83,6 @@ const Features2 = () => {
       <div
         className="flex flex-col lg:flex-row justify-between w-full"
         // style={{ border: "1px solid red" }}
-        style={{ marginTop: "-10%" }}
       >
         <div
           className="flex flex-col justify-center w-full lg:w-1/2"
@@ -113,7 +112,6 @@ const Features2 = () => {
       <div
         className="flex flex-col lg:flex-row justify-between w-full"
         // style={{ border: "1px solid red" }}
-        style={{ marginTop: "-10%" }}
       >
         <div
           className="flex justify-center w-full lg:w-1/2"
@@ -143,7 +141,6 @@ const Features2 = () => {
       <div
         className="flex flex-col lg:flex-row justify-between w-full"
         // style={{ border: "1px solid red" }}
-        style={{ marginTop: "-10%" }}
       >
         <div
           className="flex flex-col justify-center w-full lg:w-1/2"

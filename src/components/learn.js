@@ -29,9 +29,9 @@ const Learn = () => {
             width="560"
             height="315"
             src="https://www.youtube.com/embed/rbK4jrWYEPc"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
             className="rounded-lg"
           ></iframe>
         </div>
