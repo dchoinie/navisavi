@@ -10,9 +10,9 @@ const Partnership = () => {
       </h3>
       <a
         href="mailto:contact@navisaviapp.com"
-        className="partnerships-btn text-xl fredoka lowercase text-white self-center rounded mt-2"
+        className="partnerships-btn text-2xl fredoka lowercase text-white self-center rounded mt-6 p-2"
         style={{
-          padding: "0.25rem 0.5rem",
+          padding: "12px 32px",
         }}
       >
         Email Us

@@ -8,13 +8,13 @@ const Learn = () => {
       <div className="flex flex-col justify-center">
         <h4 className="teal self-center text-center text-2xl flex flex-col lg:flex-row">
           <span className="flex lowercase">
-            <FaBan className="self-center mx-2" /> No Photos.
+            <FaBan className="accent self-center mx-2" /> No Photos.
           </span>
           <span className="flex lowercase">
-            <FaBan className="self-center mx-2" /> No Reviews.
+            <FaBan className="accent self-center mx-2" /> No Reviews.
           </span>
           <span className="flex lowercase">
-            <FaCheck className="self-center mx-2" />
+            <FaCheck className="accent self-center mx-2" />
             Just Videos.
           </span>
         </h4>

@@ -27,7 +27,7 @@ const Earn = () => {
           <div className="flex flex-col">
             <div className="flex py-6">
               <div className="flex justify-end w-1/4">
-                <FaStar className="text-5xl teal mr-4" />
+                <FaStar className="text-5xl teal mr-4 accent" />
               </div>
               <div className="flex flex-col w-3/4">
                 <h2
@@ -47,7 +47,7 @@ const Earn = () => {
             </div>
             <div className="flex py-6">
               <div className="flex justify-end w-1/4">
-                <FaStar className="text-5xl teal mr-4" />
+                <FaStar className="text-5xl teal mr-4 accent" />
               </div>
               <div className="flex flex-col w-3/4">
                 <h2
@@ -66,7 +66,7 @@ const Earn = () => {
             </div>
             <div className="flex py-6">
               <div className="flex justify-end w-1/4">
-                <FaStar className="text-5xl teal mr-4" />
+                <FaStar className="text-5xl teal mr-4 accent" />
               </div>
               <div className="flex flex-col w-3/4">
                 <h2

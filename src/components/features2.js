@@ -69,7 +69,7 @@ const Features2 = () => {
           // style={{ border: "1px solid red" }}
         >
           <div className="self-center text-3xl lg:text-5xl teal my-2">
-            <FaSearch />
+            <FaSearch className="accent" />
           </div>
           <h3 className="text-2xl text-gray-700 self-center">
             Search &amp; Filter Destinations
@@ -89,7 +89,7 @@ const Features2 = () => {
           //   style={{ border: "1px solid red" }}
         >
           <div className="self-center text-3xl lg:text-5xl teal my-2 ">
-            <FaVideo />
+            <FaVideo className="accent" />
           </div>
           <h3 className="text-2xl text-gray-700 self-center">
             Browse Videos By Other Travellers
@@ -127,7 +127,7 @@ const Features2 = () => {
           //   style={{ border: "1px solid red" }}
         >
           <div className="self-center text-3xl lg:text-5xl teal my-2">
-            <FaGraduationCap />
+            <FaGraduationCap className="accent" />
           </div>
           <h3 className="text-2xl text-gray-700 self-center">
             Learn More About An Experience
@@ -147,7 +147,7 @@ const Features2 = () => {
           //   style={{ border: "1px solid red" }}
         >
           <div className="self-center text-3xl lg:text-5xl teal my-2">
-            <FaPlaneDeparture />
+            <FaPlaneDeparture className="accent" />
           </div>
           <h3 className="text-2xl text-gray-700 self-center">
             Save Clips &amp; Plan Trips

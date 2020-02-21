@@ -9,6 +9,7 @@
   --teal6: #003e49;
   --main-pink: #c801bd;
   --main-yellow: #bdc801;
+  --accent: rgba(254, 44, 85, 1);
 }
 
 h1,
@@ -96,7 +97,7 @@ div {
 .beta-submit,
 .contact-submit,
 .partnerships-btn {
-  background-color: var(--main-teal);
+  background-color: var(--accent);
   color: #fff;
 }
 
@@ -163,6 +164,10 @@ input:focus {
 
 .teal {
   color: var(--main-teal);
+}
+
+.accent {
+  color: var(--accent);
 }
 
 .pink {
