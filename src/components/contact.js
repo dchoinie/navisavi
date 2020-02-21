@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"
 const Contact = () => {
   return (
     <div className="py-24 px-6 md:mx-0">
-      <div className="flex flex-col justify-center mb-6">
+      <div className="flex flex-col justify-center pb-12">
         <h2 className="text-center text-5xl teal lowercase">Howdy</h2>
         <h4 className="text-center text-gray-700">Talk To Us</h4>
       </div>

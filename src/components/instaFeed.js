@@ -25,11 +25,11 @@ const InstaFeed = () => {
   `)
   return (
     <div className="py-24">
-      <h2 className="text-center text-3xl text-gray-700">
+      <h2 className="text-center text-5xl teal pb-12 lowercase">
         Follow Us On Instagram
       </h2>
       <div
-        className="insta-grid py-12 px-12"
+        className="insta-grid pb-12 px-12"
         // style={{ border: "1px solid red" }}
       >
         {data.allInstaNode.edges.map(({ node: insta }) => {
