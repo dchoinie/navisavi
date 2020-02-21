@@ -3,15 +3,13 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"
 
 const Contact = () => {
   return (
-    <div className="py-24">
+    <div className="py-24 px-6 md:mx-0">
       <div className="flex flex-col justify-center mb-6">
         <h2 className="text-center text-5xl teal lowercase">Howdy</h2>
-        <h4 className="text-center text-gray-700">
-          Let Us Know If You Have Any Questions
-        </h4>
+        <h4 className="text-center text-gray-700">Talk To Us</h4>
       </div>
       <div
-        className="flex justify-center w-full"
+        className="flex flex-col md:flex-row justify-center w-full"
         // style={{ border: "1px solid red" }}
       >
         <form
@@ -19,38 +17,38 @@ const Contact = () => {
           name="howdy"
           method="POST"
           data-netlify="true"
-          className="flex flex-col w-1/3"
+          className="flex flex-col md:w-1/3 mb-4 md:mb-0"
           //   style={{ border: "1px solid red" }}
         >
           <input
             type="text"
             name="full_name"
             placeholder="Name"
-            className="p-1 text-lg text-gray-700 mb-1 border-gray-3sides rounded-tl rounded-bl"
+            className="p-1 text-lg text-gray-700 mb-1 border border-gray-500 rounded"
           />
           <input
             type="email"
             name="email"
             placeholder="Email"
-            className="p-1 text-lg text-gray-700 my-1 border-gray-3sides rounded-tl rounded-bl"
+            className="p-1 text-lg text-gray-700 my-1 border border-gray-500 rounded"
           />
           <input
             type="tel"
             name="phone"
             placeholder="Phone"
-            className="p-1 text-lg text-gray-700 my-1 border-gray-3sides rounded-tl rounded-bl"
+            className="p-1 text-lg text-gray-700 my-1 border border-gray-500 rounded"
           />
           <textarea
             name="message"
             cols="30"
             rows="5"
-            className="text-gray-700 text-lg p-1 my-1 border-gray-3sides rounded-tl rounded-bl"
+            className="text-gray-700 text-lg p-1 my-1 border border-gray-500 rounded"
             placeholder="Message"
           ></textarea>
           <div className="flex">
             <button
               type="submit"
-              className="contact-submit text-xl fredoka cursor-pointer rounded-tl rounded-bl lowercase w-full"
+              className="contact-submit text-xl fredoka cursor-pointer rounded md:rounded-tr-none md:rounded-br-none md:rounded-tl md:rounded-bl lowercase w-full"
               style={{
                 padding: "0.25rem 0.5rem",
               }}
@@ -61,7 +59,7 @@ const Contact = () => {
           </div>
         </form>
         <div
-          className="flex flex-col w-1/3 teal-background p-6 rounded-tr rounded-br"
+          className="flex flex-col md:w-1/3 teal-background p-6 rounded-tr rounded-br"
           //   style={{ border: "1px solid red" }}
         >
           <h3 className="text-2xl text-white lowercase">Contact Info</h3>

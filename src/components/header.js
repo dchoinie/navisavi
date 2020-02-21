@@ -49,7 +49,7 @@ export default class Header extends Component {
       <div className="flex justify-between px-6 lg:px-24">
         <Logo />
         <div
-          className="lg:hidden teal self-center relative"
+          className="lg:hidden teal self-center relative cursor-pointer"
           onClick={() => this.toggleNav()}
         >
           <FaBars className="cursor-pointer" />
