@@ -54,8 +54,9 @@ const Hero = () => {
             Rewards.
           </p>
           <form
-            action="https://formspree.io/xgekgznv"
+            name="beta-signup"
             method="POST"
+            data-netlify="true"
             className="flex self-center"
           >
             <input

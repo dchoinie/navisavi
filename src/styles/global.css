@@ -68,6 +68,7 @@ div {
   opacity: 0;
   transition: 0.5s ease;
   background-color: var(--main-teal);
+  border-radius: 0.25rem;
 }
 
 .insta-container:hover,
