@@ -44,7 +44,10 @@ const Hero = () => {
         height: "calc(100vh - 85.55px)",
       }}
     >
-      <div className="w-1/2 flex flex-col justify-center">
+      <div
+        className="px-6 flex flex-col justify-center lg:w-1/2 lg:px-0"
+        style={{ border: "1px solid red" }}
+      >
         <div className="self-center lg:self-end lg:mr-6">
           <h1 className="text-2xl md:text-4xl teal lowercase">
             Savi Travelers Start Here
