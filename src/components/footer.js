@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"
 
 const Footer = () => {
@@ -6,10 +7,21 @@ const Footer = () => {
     <div className="bg-gray-900 text-gray-500 py-6">
       <div className="flex flex-col lg:flex-row justify-between px-24">
         <ul className="flex flex-col self-center lg:flex-row">
-          <li className="mx-2 text-center lg:text-left">About</li>
-          <li className="mx-2 text-center lg:text-left">Careers</li>
-          <li className="mx-2 text-center lg:text-left">Privacy Policy</li>
-          <li className="mx-2 text-center lg:text-left">Terms Of Service</li>
+          <li className="mx-2 text-center lg:text-left">
+            <Link to="/about">About</Link>
+          </li>
+          <li className="mx-2 text-center lg:text-left">
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li className="mx-2 text-center lg:text-left">
+            <Link to="/careers">Careers</Link>
+          </li>
+          <li className="mx-2 text-center lg:text-left">
+            <Link to="/privacy-policy">Privacy Policy</Link>
+          </li>
+          <li className="mx-2 text-center lg:text-left">
+            <Link to="/terms-of-service">Terms Of Service</Link>
+          </li>
           <li className="mx-2 text-center lg:text-left">Contact</li>
         </ul>
         <div className="flex flex-col">
