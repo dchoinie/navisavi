@@ -15,7 +15,8 @@ const Features2 = () => {
           showThumbs={false}
           showStatus={false}
           infiniteLoop={true}
-          autoPlay="true"
+          autoPlay={true}
+          swipeable={true}
         >
           <FeaturesItem1 />
           <FeaturesItem2 />
