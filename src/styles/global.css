@@ -47,6 +47,10 @@ div {
   font-weight: 900;
 }
 
+.carousel .slide {
+  background: transparent !important;
+}
+
 .insta-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);

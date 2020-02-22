@@ -1,171 +1,28 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import Dogs from "../videos/dog.mp4"
-import {
-  FaSearch,
-  FaFolderOpen,
-  FaGraduationCap,
-  FaSave,
-  FaPlaneDeparture,
-  FaVideo,
-} from "react-icons/fa"
+import FeaturesItem1 from "../components/features/featuresItem1"
+import FeaturesItem2 from "../components/features/featuresItem2"
+import FeaturesItem3 from "../components/features/featuresItem3"
+import FeaturesItem4 from "../components/features/featuresItem4"
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Carousel } from "react-responsive-carousel"
+import Image from "../images/phones/iPhone1.png"
 
 const Features2 = () => {
-  const data = useStaticQuery(graphql`
-    {
-      phone1: file(relativePath: { eq: "phones/iPhone1.png" }) {
-        childImageSharp {
-          fluid(quality: 80) {
-            src
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      phone2: file(relativePath: { eq: "phones/iPhone2.png" }) {
-        childImageSharp {
-          fluid(quality: 80) {
-            src
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      phone3: file(relativePath: { eq: "phones/iPhone3.png" }) {
-        childImageSharp {
-          fluid(quality: 80) {
-            src
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      phone4: file(relativePath: { eq: "phones/iPhone4.png" }) {
-        childImageSharp {
-          fluid(quality: 80) {
-            src
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
   return (
     <div className="py-24 lg:mx-56">
       <h2 className="text-center text-5xl teal pb-12 lowercase">Features</h2>
-      <div
-        className="flex flex-col lg:flex-row justify-between w-full"
-        // style={{ border: "1px solid red" }}
-      >
-        <div
-          className="flex justify-center w-full lg:w-1/2"
-          //   style={{ border: "1px solid red" }}
+      <div className="px-6 lg:px-0">
+        <Carousel
+          showThumbs={false}
+          showStatus={false}
+          infiniteLoop={true}
+          autoPlay="true"
         >
-          <Img
-            fluid={data.phone1.childImageSharp.fluid}
-            style={{ width: "50%" }}
-          />
-        </div>
-        <div
-          className="flex flex-col justify-center lg:w-1/2 px-12 text-center"
-          // style={{ border: "1px solid red" }}
-        >
-          <div className="self-center text-3xl lg:text-5xl teal my-2">
-            <FaSearch className="accent" />
-          </div>
-          <h3 className="text-2xl text-gray-700 self-center">
-            Search &amp; Filter Destinations
-          </h3>
-          <p className="self-center text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-            porro?
-          </p>
-        </div>
-      </div>
-      <div
-        className="flex flex-col lg:flex-row justify-between w-full"
-        // style={{ border: "1px solid red" }}
-      >
-        <div
-          className="flex flex-col justify-center w-full lg:w-1/2"
-          //   style={{ border: "1px solid red" }}
-        >
-          <div className="self-center text-3xl lg:text-5xl teal my-2 ">
-            <FaVideo className="accent" />
-          </div>
-          <h3 className="text-2xl text-gray-700 self-center">
-            Browse Videos By Other Travellers
-          </h3>
-          <p className="self-center text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-            porro?
-          </p>
-        </div>
-        <div
-          className="flex justify-center w-full lg:w-1/2"
-          //   style={{ border: "1px solid red" }}
-        >
-          <Img
-            fluid={data.phone2.childImageSharp.fluid}
-            style={{ width: "50%" }}
-          />
-        </div>
-      </div>
-      <div
-        className="flex flex-col lg:flex-row justify-between w-full"
-        // style={{ border: "1px solid red" }}
-      >
-        <div
-          className="flex justify-center w-full lg:w-1/2"
-          //   style={{ border: "1px solid red" }}
-        >
-          <Img
-            fluid={data.phone3.childImageSharp.fluid}
-            style={{ width: "50%" }}
-          />
-        </div>
-        <div
-          className="flex flex-col justify-center w-full lg:w-1/2"
-          //   style={{ border: "1px solid red" }}
-        >
-          <div className="self-center text-3xl lg:text-5xl teal my-2">
-            <FaGraduationCap className="accent" />
-          </div>
-          <h3 className="text-2xl text-gray-700 self-center">
-            Learn More About An Experience
-          </h3>
-          <p className="self-center text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-            porro?
-          </p>
-        </div>
-      </div>
-      <div
-        className="flex flex-col lg:flex-row justify-between w-full"
-        // style={{ border: "1px solid red" }}
-      >
-        <div
-          className="flex flex-col justify-center w-full lg:w-1/2"
-          //   style={{ border: "1px solid red" }}
-        >
-          <div className="self-center text-3xl lg:text-5xl teal my-2">
-            <FaPlaneDeparture className="accent" />
-          </div>
-          <h3 className="text-2xl text-gray-700 self-center">
-            Save Clips &amp; Plan Trips
-          </h3>
-          <p className="self-center text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-            porro?
-          </p>
-        </div>
-        <div
-          className="flex justify-center w-full lg:w-1/2"
-          //   style={{ border: "1px solid red" }}
-        >
-          <Img
-            fluid={data.phone4.childImageSharp.fluid}
-            style={{ width: "50%" }}
-          />
-        </div>
+          <FeaturesItem1 />
+          <FeaturesItem2 />
+          <FeaturesItem3 />
+          <FeaturesItem4 />
+        </Carousel>
       </div>
     </div>
   )

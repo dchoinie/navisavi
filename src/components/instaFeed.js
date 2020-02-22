@@ -30,7 +30,7 @@ const InstaFeed = () => {
         <h2 className="text-center text-5xl teal lowercase flex justify-center">
           Follow
         </h2>
-        <div className="flex text-5xl justify-center pb-12">
+        <div className="flex text-2xl justify-center pb-12">
           <FaInstagram className="self-center accent mr-1" />
           <FaFacebook className="self-center accent mx-1" />
           <FaTwitter className="self-center accent mx-1" />
