@@ -34,7 +34,7 @@ const FeaturesItem1 = () => {
         className="flex flex-col justify-center lg:w-1/2 px-12 text-center"
         // style={{ border: "1px solid red" }}
       >
-        <div className="self-center text-3xl lg:text-5xl teal my-2">
+        <div className="self-center text-3xl lg:text-5xl teal mt-4 lg:my-2">
           <FaSearch className="accent" />
         </div>
         <h3 className="text-2xl text-gray-700 self-center">

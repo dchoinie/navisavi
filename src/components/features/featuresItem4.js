@@ -31,7 +31,7 @@ const FeaturesItem4 = () => {
         <h3 className="text-2xl text-gray-700 self-center">
           Save Clips &amp; Plan Trips
         </h3>
-        <p className="self-center text-gray-600">
+        <p className="self-center text-gray-600 mb-4 lg:mb-0">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
           porro?
         </p>

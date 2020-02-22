@@ -1,12 +1,12 @@
 import React from "react"
-import FeaturesItem1 from "../components/features/featuresItem1"
-import FeaturesItem2 from "../components/features/featuresItem2"
-import FeaturesItem3 from "../components/features/featuresItem3"
-import FeaturesItem4 from "../components/features/featuresItem4"
+import FeaturesItem1 from "./features/featuresItem1"
+import FeaturesItem2 from "./features/featuresItem2"
+import FeaturesItem3 from "./features/featuresItem3"
+import FeaturesItem4 from "./features/featuresItem4"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from "react-responsive-carousel"
 
-const Features2 = () => {
+const Features = () => {
   return (
     <div className="py-24 lg:mx-56">
       <h2 className="text-center text-5xl teal pb-12 lowercase">Features</h2>
@@ -28,4 +28,4 @@ const Features2 = () => {
   )
 }
 
-export default Features2
+export default Features

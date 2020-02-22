@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
 import Learn from "../components/learn"
-import Features2 from "../components/features2"
+import Features from "../components/features"
 import Earn from "../components/earn"
 import Download from "../components/download"
 import InstaFeed from "../components/instaFeed"
@@ -15,7 +15,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Hero />
     <Learn />
-    <Features2 />
+    <Features />
     <Earn />
     <Partnership />
     {/* <Download /> */}
