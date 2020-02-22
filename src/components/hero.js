@@ -67,7 +67,7 @@ const Hero = () => {
               type="submit"
               value="Get Savi"
               className="beta-submit text-xl
-              fredoka cursor-pointer rounded-r lowercase"
+              fredoka cursor-pointer rounded-r lowercase whitespace-no-wrap"
               style={{
                 padding: "0.25rem 0.5rem",
               }}

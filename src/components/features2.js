@@ -5,7 +5,6 @@ import FeaturesItem3 from "../components/features/featuresItem3"
 import FeaturesItem4 from "../components/features/featuresItem4"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from "react-responsive-carousel"
-import Image from "../images/phones/iPhone1.png"
 
 const Features2 = () => {
   return (
