@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FaAngleRight } from "react-icons/fa"
 import { useSpring, animated } from "react-spring"
+import DogSled from "../videos/Phone_With_Video.mp4"
 
 const Hero = () => {
   const fade = useSpring({
@@ -81,7 +82,10 @@ const Hero = () => {
         </div>
       </div>
       <div className="hidden lg:flex justify-start ml-6 w-1/2">
-        <Img
+        <video className="max-w-md" autoPlay="true" loop="true" muted="true">
+          <source src={DogSled} type="video/mp4" />
+        </video>
+        {/* <Img
           className="w-full self-center"
           fluid={data.phone.childImageSharp.fluid}
           style={{ maxWidth: "275px" }}
@@ -94,7 +98,7 @@ const Hero = () => {
             marginLeft: "-115px",
             marginTop: "100px",
           }}
-        />
+        /> */}
       </div>
     </div>
   )
