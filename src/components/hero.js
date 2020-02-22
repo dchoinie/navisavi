@@ -41,7 +41,7 @@ const Hero = () => {
   `)
   return (
     <div
-      className="flex justify-center h-screen pb-12"
+      className="flex flex-col lg:flex-row justify-between lg:justify-center lg:h-screen lg:pb-12 pt-12"
       style={{
         height: "calc(100vh - 85.55px)",
       }}
@@ -82,8 +82,13 @@ const Hero = () => {
           </small>
         </div>
       </div>
-      <div className="hidden lg:flex justify-start ml-6 w-1/2">
-        <video className="max-w-md" autoPlay="true" loop="true" muted="true">
+      <div className="lg:flex justify-start ml-6 w-1/2">
+        <video
+          className="max-w-xs lg:max-w-md"
+          autoPlay="true"
+          loop="true"
+          muted="true"
+        >
           <source src={DogSled_mp4} type="video/mp4" />
           <source src={DogSled_webm} type="video/webm" />
         </video>
