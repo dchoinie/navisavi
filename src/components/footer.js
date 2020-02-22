@@ -27,7 +27,7 @@ const Footer = () => {
           </li>
         </ul>
         <div className="flex flex-col">
-          <div className="flex justify-end my-2">
+          <div className="flex justify-center lg:justify-end my-2">
             <a
               href="https://www.facebook.com/navisaviapp/"
               target="_blank"

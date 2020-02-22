@@ -25,47 +25,43 @@ const Contact = () => {
             type="text"
             name="full_name"
             placeholder="Name"
-            className="p-1 text-lg text-gray-700 mb-1 border border-gray-500 rounded"
+            className="p-1 text-lg text-gray-700 mb-1 border border-gray-200 rounded"
             required
           />
           <input
             type="email"
             name="email"
             placeholder="Email"
-            className="p-1 text-lg text-gray-700 my-1 border border-gray-500 rounded"
+            className="p-1 text-lg text-gray-700 my-1 border border-gray-200 rounded"
             required
           />
           <input
             type="tel"
             name="phone"
             placeholder="Phone"
-            className="p-1 text-lg text-gray-700 my-1 border border-gray-500 rounded"
+            className="p-1 text-lg text-gray-700 my-1 border border-gray-200 rounded"
           />
           <textarea
             name="message"
             cols="30"
             rows="5"
-            className="text-gray-700 text-lg p-1 my-1 border border-gray-500 rounded"
+            className="text-gray-700 text-lg p-1 my-1 border border-gray-200 rounded"
             placeholder="Message"
             required
           ></textarea>
-          <div className="flex border border-gray-500 rounded">
+          <div className="flex rounded">
             <button
               type="submit"
-              className="contact-submit text-xl fredoka cursor-pointer rounded md:rounded-tr-none md:rounded-br-none md:rounded-tl md:rounded-bl lowercase "
+              className="contact-submit text-xl fredoka cursor-pointer rounded lowercase "
               style={{
                 padding: "0.25rem 0.5rem",
               }}
-              //   style={{ border: "1px solid blue" }}
             >
               Send
             </button>
           </div>
         </form>
-        <div
-          className="flex flex-col md:w-1/3 bg-gray-400 p-6 rounded-tr rounded-br"
-          //   style={{ border: "1px solid red" }}
-        >
+        <div className="flex flex-col md:w-1/3 bg-gray-200 p-6 rounded-tr rounded-br">
           <h3 className="text-2xl lowercase accent">Contact Info</h3>
           <h5 className="text-gray-700">Address</h5>
           <p className="text-gray-600">

@@ -9,7 +9,8 @@
   --teal6: #003e49;
   --main-pink: #c801bd;
   --main-yellow: #bdc801;
-  --accent: rgba(254, 44, 85, 1);
+  --accent: #fe2c55;
+  --accentDark: #cb0022;
 }
 
 h1,
@@ -108,7 +109,7 @@ div {
 .beta-submit:hover,
 .contact-submit:hover,
 .partnerships-btn:hover {
-  background-color: var(--teal3);
+  background-color: var(--accentDark);
 }
 
 .border-gray-3sides {
