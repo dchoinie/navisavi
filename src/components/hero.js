@@ -79,7 +79,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="self-center lg:flex lg:justify-start lg:ml-6 lg:w-1/2">
-        <video className="home-video" autoPlay="true" loop="true" muted="true">
+        <video className="home-video" autoPlay={true} loop={true} muted={true}>
           <source src={HomeVideoMP4} type="video/mp4" />
           <source src={HomeVideoWEBM} type="video/mp4" />
           {/* <source src={HomeVideoOGG} type="video/ogg" /> */}

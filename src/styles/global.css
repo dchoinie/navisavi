@@ -134,6 +134,33 @@ textarea:focus {
   width: 66.66vw;
 }
 
+.terms-list p,
+ul,
+li,
+ol {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.main-list {
+  font-family: "Fredoka One", sans-serif;
+  color: var(--main-teal);
+  text-transform: lowercase;
+  font-size: 1.5rem;
+}
+
+.sub-list {
+  margin-left: 0.75rem;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  color: #4a5568;
+}
+
+.terms-list p,
+ul {
+  color: #718096;
+}
+
 @media screen and (max-width: 1280px) {
   .features-grid {
     grid-template-columns: repeat(2, 1fr);

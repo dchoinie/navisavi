@@ -10,7 +10,7 @@ const termsOfService = () => {
         <h2 className="text-center text-5xl teal pb-12 lowercase">
           Terms Of Service
         </h2>
-        <div className="container mx-auto">
+        <div className="container mx-auto text-gray-600">
           <p>
             TERMS OF USE Welcome to Navi Savi. The following terms and
             conditions form a binding agreement between our users (“you” or
@@ -25,191 +25,244 @@ const termsOfService = () => {
             Terms of Use more readable, certain terms are Capitalized and
             defined below.
           </p>
-          <ol className="list-decimal">
-            <li>
-              INTRODUCTION
-              <p>
-                Navi Savi is an online community where travelers can find,
-                research, and experience new places around the world. Please
-                read these Terms of Use carefully because they govern your
-                access to and use of the Platform, including any content,
-                information, products or services therein. This is a legal
-                agreement between you and Navi Savi and applies to you whether
-                or not you are a Member.
-              </p>
-              <p>
-                By visiting or using the Platform, you acknowledge your
-                acceptance of both the Terms of Use as well as the terms and
-                conditions of our Privacy Notice. If you do not agree to all of
-                these terms or conditions, you may not use the Platform.
-              </p>
-              <p>
-                The Platform may contain links to other websites. Please be
-                aware that we are not responsible for the practices, privacy
-                policies or the content of such third-party websites. We
-                encourage our users to read the Terms of Use and Privacy Notices
-                of each and every website they visit. The ability to access
-                information of third-parties from the Platform, or links to
-                other websites or locations, is for your convenience and does
-                not signify our endorsement of such third-parties, their
-                products, their services, other websites, locations or their
-                content. You expressly relieve us from any and all liability
-                arising from your use of any third-party website that occurs as
-                a result of your use of the Platform.
-              </p>
-              <p>
-                You are permitted to use the Platform only if you: ( 1 )
-                Represent that you are able to form a binding contract in your
-                jurisdiction; ( 2 ) Comply with our Terms of Use; ( 3 ) Agree
-                that you will not copy or distribute any part of the Platform in
-                any medium without Navi Savi’s prior written authorization,
-                except as permitted through the Platform’s functionality and
-                under these Terms of Use; ( 4 ) Agree that you will provide
-                accurate and complete information when creating an account; ( 5
-                ) Acknowledge that you are solely responsible for the activity
-                that occurs while signed in to or while using the Platform; ( 6
-                ) Agree that you will not collect any personally identifiable
-                information, including full names, physical addresses or e-mail
-                addresses, from the Platform; ( 7 ) Acknowledge your sole
-                responsibility for Your Content; ( 8 ) Represent that you own or
-                have the necessary licenses, rights, permissions, and consent to
-                use and authorize Navi Savi to use all patent, trademark, trade
-                secret, copyright or other proprietary rights in and to Your
-                Content to enable inclusion and use of the submissions across
-                the Platform; ( 9 ) Grant each user of the Platform, whether
-                using the Platform or an application developed via a third-party
-                developer, a non-exclusive license to access Your Content
-                through the Platform and to use, reproduce, distribute, prepare
-                derivative works of, display and perform such submissions as
-                permitted through the Platform’s functionality and under these
-                Terms of Use; ( 10 ) Agree that you will not submit material
-                that is copyrighted or subject to third party proprietary
-                rights, including privacy, publicity, trade secret, etc., unless
-                you are the owner of such rights or have the appropriate
-                permission from their rightful owner to specifically submit such
-                materials to the Platform; and ( 11 ) Agree that we have the
-                right to determine whether any of your submissions are
-                appropriate and complies with these Terms of Use, remove any or
-                all of Your Content, or terminate your account with or without
-                prior notice.
-              </p>
+          <ol className="list-decimal list-inside terms-list">
+            <li className="main-list">INTRODUCTION</li>
+            <p>
+              Navi Savi is an online community where travelers can find,
+              research, and experience new places around the world. Please read
+              these Terms of Use carefully because they govern your access to
+              and use of the Platform, including any content, information,
+              products or services therein. This is a legal agreement between
+              you and Navi Savi and applies to you whether or not you are a
+              Member.
+            </p>
+            <p>
+              By visiting or using the Platform, you acknowledge your acceptance
+              of both the Terms of Use as well as the terms and conditions of
+              our Privacy Notice. If you do not agree to all of these terms or
+              conditions, you may not use the Platform.
+            </p>
+            <p>
+              The Platform may contain links to other websites. Please be aware
+              that we are not responsible for the practices, privacy policies or
+              the content of such third-party websites. We encourage our users
+              to read the Terms of Use and Privacy Notices of each and every
+              website they visit. The ability to access information of
+              third-parties from the Platform, or links to other websites or
+              locations, is for your convenience and does not signify our
+              endorsement of such third-parties, their products, their services,
+              other websites, locations or their content. You expressly relieve
+              us from any and all liability arising from your use of any
+              third-party website that occurs as a result of your use of the
+              Platform.
+            </p>
+            <p>
+              You are permitted to use the Platform only if you: ( 1 ) Represent
+              that you are able to form a binding contract in your jurisdiction;
+              ( 2 ) Comply with our Terms of Use; ( 3 ) Agree that you will not
+              copy or distribute any part of the Platform in any medium without
+              Navi Savi’s prior written authorization, except as permitted
+              through the Platform’s functionality and under these Terms of Use;
+              ( 4 ) Agree that you will provide accurate and complete
+              information when creating an account; ( 5 ) Acknowledge that you
+              are solely responsible for the activity that occurs while signed
+              in to or while using the Platform; ( 6 ) Agree that you will not
+              collect any personally identifiable information, including full
+              names, physical addresses or e-mail addresses, from the Platform;
+              ( 7 ) Acknowledge your sole responsibility for Your Content; ( 8 )
+              Represent that you own or have the necessary licenses, rights,
+              permissions, and consent to use and authorize Navi Savi to use all
+              patent, trademark, trade secret, copyright or other proprietary
+              rights in and to Your Content to enable inclusion and use of the
+              submissions across the Platform; ( 9 ) Grant each user of the
+              Platform, whether using the Platform or an application developed
+              via a third-party developer, a non-exclusive license to access
+              Your Content through the Platform and to use, reproduce,
+              distribute, prepare derivative works of, display and perform such
+              submissions as permitted through the Platform’s functionality and
+              under these Terms of Use; ( 10 ) Agree that you will not submit
+              material that is copyrighted or subject to third party proprietary
+              rights, including privacy, publicity, trade secret, etc., unless
+              you are the owner of such rights or have the appropriate
+              permission from their rightful owner to specifically submit such
+              materials to the Platform; and ( 11 ) Agree that we have the right
+              to determine whether any of your submissions are appropriate and
+              complies with these Terms of Use, remove any or all of Your
+              Content, or terminate your account with or without prior notice.
+            </p>
+            <li className="main-list">YOUR ACCOUNT AND PROFILE</li>
+            <p>
+              You will need to register by creating an account (i.e. become a
+              Member) in order to publish Your Content on the Platform. If you
+              become a Member, you agree that you will provide only accurate,
+              complete registration information, and that you will keep that
+              information up-to-date if it changes.
+            </p>
+            <p>
+              When you register, you will select (or we will issue to you) a
+              User ID. Individuals and entities who use the Platform and have
+              previously been terminated by Navi Savi may not register for an
+              account and may not be designated by you to use your account on
+              your behalf. You acknowledge and understand that Navi Savi relies
+              on User IDs to distinguish Members from other users. If someone
+              accesses our Platform using your User ID, we will rely on that
+              User ID and will assume that you or your representative is
+              accessing the Platform. No one except the user that originally
+              created a User ID is authorized to access the Platform using that
+              User ID, even if that person shares his or her registration
+              information or other credentials with another person. You are
+              solely responsible for any and all access to the Platform or use
+              of the Service by other persons using your User ID. Please notify
+              us immediately if you become aware that your User ID is being used
+              without authorization.
+            </p>
+            <li className="main-list">
+              RULES REGARDING INFORMATION AND OTHER CONTENT
             </li>
+            <p className="sub-list">3.1. Content Guidelines.</p>
+            <p>
+              You agree not to revise Content posted by others, and you agree
+              not to post or use Your Content in any manner that violates our
+              Content Guidelines, including, but not limited to Your Content
+              which:
+            </p>
+            <ul className="list-disc list-inside">
+              <li>
+                infringes the copyright, trademark, trade secret, or other
+                intellectual property or proprietary rights of others
+              </li>
+              <li>
+                creates or reflects a conflict of interest (e.g. reviews of your
+                own employer, relative’s company, direct competitor, etc.)
+              </li>
+              <li>is irrelevant to the site(s) tagged in the Content</li>
+              <li>
+                solicits payment or other compensation (unless you are a Listed
+                Business advertising services)
+              </li>
+              <li>
+                violates the privacy, publicity, or other rights of third
+                parties
+              </li>
+              <li>
+                is unlawful, defamatory, discriminatory, libelous, pornographic,
+                obscene, abusive, threatening, harassing, or pornographic
+              </li>
+              <li>
+                is related to sex work or sex trafficking, regardless of whether
+                such conduct is legal in any particular jurisdiction
+              </li>
+              <li>
+                encourages conduct that would be considered a criminal offense,
+                would give rise to civil liability, would violate any law, or is
+                otherwise inappropriate, as determined by Navi Savi in its sole
+                discretion
+              </li>
+              <li>is false or inaccurate; or</li>
+              <li>
+                could damage us or our parent company, sister companies,
+                affiliates, advertisers, or other parties.
+              </li>
+            </ul>
+            <p className="sub-list">3.2. Exposure.</p>
+            <p>
+              We reserve the right to remove content from the Platform,
+              including but not limited to content that violates the content
+              guidelines above. Though we strive to enforce these rules with all
+              of our users, you may be exposed through the Platform to Content
+              that violates our Content Guidelines or is otherwise offensive.
+              You use the Platform at your own risk. We may, but are not
+              obligated to, terminate user accounts or remove Content from the
+              Platform if we determine or suspect that those accounts or Content
+              violate the terms of these Terms of Use or the applicable
+              agreement with the offending user(s). We take no responsibility
+              for, and you expressly waive any contractual claim arising out of,
+              your exposure to Content on the Platform whether it violates our
+              content policies or not.
+            </p>
+            <p className="sub-list">3.3. Feedback.</p>
+            <p>
+              If you provide feedback to us, we may use and disclose such
+              feedback for any purpose, in accordance with these Terms of Use
+              and our Privacy Notice. You agree that any such comments and any
+              email we receive becomes our property. We may use feedback for
+              marketing purposes or to add to or modify our services without
+              paying any royalties or other compensation to you.
+            </p>
+            <li className="main-list">GENERAL RULES OF USER CONDUCT</li>
+            <p>
+              It is our goal to make the use of our Platform a good experience
+              for all of our users, so you agree to follow our Content
+              Guidelines. Specifically, you agree that you will only communicate
+              with and pay other Members using the Platform for any Services you
+              provide or purchase. You also agree not to do any of the
+              following:
+            </p>
+            <ul className="list-disc list-inside">
+              <li>
+                Conduct or promote any illegal activities while using the
+                Platform;
+              </li>
+              <li>
+                Upload, distribute or print anything that may be harmful to
+                minors, including any sexually explicit or subjective material;
+              </li>
+              <li>
+                Jeopardize or attempt to jeopardize the correct functioning of
+                the Platform;
+              </li>
+            </ul>
           </ol>
-          2. YOUR ACCOUNT AND PROFILE You will need to register by creating an
-          account (i.e. become a Member) in order to publish Your Content on the
-          Platform. If you become a Member, you agree that you will provide only
-          accurate, complete registration information, and that you will keep
-          that information up-to-date if it changes. When you register, you will
-          select (or we will issue to you) a User ID. Individuals and entities
-          who use the Platform and have previously been terminated by Navi Savi
-          may not register for an account and may not be designated by you to
-          use your account on your behalf. You acknowledge and understand that
-          Navi Savi relies on User IDs to distinguish Members from other users.
-          If someone accesses our Platform using your User ID, we will rely on
-          that User ID and will assume that you or your representative is
-          accessing the Platform. No one except the user that originally created
-          a User ID is authorized to access the Platform using that User ID,
-          even if that person shares his or her registration information or
-          other credentials with another person. You are solely responsible for
-          any and all access to the Platform or use of the Service by other
-          persons using your User ID. Please notify us immediately if you become
-          aware that your User ID is being used without authorization. 3. RULES
-          REGARDING INFORMATION AND OTHER CONTENT 3.1. Content Guidelines. You
-          agree not to revise Content posted by others, and you agree not to
-          post or use Your Content in any manner that violates our Content
-          Guidelines, including, but not limited to Your Content which: ●
-          infringes the copyright, trademark, trade secret, or other
-          intellectual property or proprietary rights of others, ● creates or
-          reflects a conflict of interest (e.g. reviews of your own employer,
-          relative’s company, direct competitor, etc.), ● is irrelevant to the
-          site(s) tagged in the Content, ● solicits payment or other
-          compensation (unless you are a Listed Business advertising services),
-          ● violates the privacy, publicity, or other rights of third parties, ●
-          is unlawful, defamatory, discriminatory, libelous, pornographic,
-          obscene, abusive, threatening, harassing, or pornographic; ● is
-          related to sex work or sex trafficking, regardless of whether such
-          conduct is legal in any particular jurisdiction; ● encourages conduct
-          that would be considered a criminal offense, would give rise to civil
-          liability, would violate any law, or is otherwise inappropriate, as
-          determined by Navi Savi in its sole discretion; ● is false or
-          inaccurate; or ● could damage us or our parent company, sister
-          companies, affiliates, advertisers, or other parties. 3.2. Exposure.
-          We reserve the right to remove content from the Platform, including
-          but not limited to content that violates the content guidelines above.
-          Though we strive to enforce these rules with all of our users, you may
-          be exposed through the Platform to Content that violates our Content
-          Guidelines or is otherwise offensive. You use the Platform at your own
-          risk. We may, but are not obligated to, terminate user accounts or
-          remove Content from the Platform if we determine or suspect that those
-          accounts or Content violate the terms of these Terms of Use or the
-          applicable agreement with the offending user(s). We take no
-          responsibility for, and you expressly waive any contractual claim
-          arising out of, your exposure to Content on the Platform whether it
-          violates our content policies or not. 3.3. Feedback. If you provide
-          feedback to us, we may use and disclose such feedback for any purpose,
-          in accordance with these Terms of Use and our Privacy Notice. You
-          agree that any such comments and any email we receive becomes our
-          property. We may use feedback for marketing purposes or to add to or
-          modify our services without paying any royalties or other compensation
-          to you. 4. GENERAL RULES OF USER CONDUCT It is our goal to make the
-          use of our Platform a good experience for all of our users, so you
-          agree to follow our Content Guidelines. Specifically, you agree that
-          you will only communicate with and pay other Members using the
-          Platform for any Services you provide or purchase. You also agree not
-          to do any of the following: ● Conduct or promote any illegal
-          activities while using the Platform; ● Upload, distribute or print
-          anything that may be harmful to minors, including any sexually
-          explicit or subjective material; ● Jeopardize or attempt to jeopardize
-          the correct functioning of the Platform; ● Attempt to gain access to
-          secured portions of the Platform to which you do not possess access
-          rights ● Upload or transmit any form of virus, worm, Trojan horse, or
-          other malicious code; ● Use the Platform to generate unsolicited email
-          advertisements or spam; ● Use any automatic or manual process to
-          search or harvest information from the Platform, or to interfere in
-          any way with the proper functioning of the Platform; or ● Impersonate
-          another user. In addition, you waive any right you may have to reverse
-          engineer or otherwise attempt to derive the source code of the
-          software (including any tools, methods, processes, and infrastructure)
-          that enables or underlies the Platform, except insofar as such rights
-          are not waivable under United States law. We reserve the right, but
-          have no obligation, to monitor, or take any action we deem appropriate
-          regarding disputes that you may have with other users or Listed
-          Businesses. 5. PAYMENT We strive to make the logistics of your
-          transactions on the Platform as streamlined and efficient as possible,
-          including the payment process. When you engage in any Transaction on
-          the Platform, you: ● Agree to provide valid credit card, debit card,
-          or bank account information through our Payment Management Vendors
-          (your “Payment Information”) before each Transaction, or sufficiently
-          soon thereafter to meet your payment obligations arising out of each
-          Transaction; ● Represent and warrant that the credit limit or account
-          balance (as applicable) for your Payment Information is and will
-          remain sufficient in order to consummate each Transaction; ● Authorize
-          us to run a credit check, contact your card provider or bank, or
-          perform other due diligence that we determine to be reasonably
-          necessary in order to verify a sufficient credit limit or balance for
-          your Payment Information; ● Authorize us to charge the credit, debit,
-          or bank account associated with your Payment Information when the
-          Transaction has been completed, and ● Authorize us to charge the
-          credit, debit, or bank account associated with your Payment
-          Information for any future transactions that you purchase through the
-          Platform, unless you remove the Payment Information from your profile.
-          If all or part of your payment cannot be processed using the Payment
-          Information you provide for a given Transaction, we will submit an
-          invoice to you. In that case, you: ● Agree to pay the amount indicated
-          on the invoice within thirty (30) days from the date of the invoice; ●
-          Authorize us to contact you by email, telephone, text message, or mail
-          regarding your outstanding balance; ● Agree that we may sell your
-          outstanding debt to a third party or hire a collection agency to
-          collect it; ● Agree to pay interest on any overdue payments at the
-          highest rate allowed by applicable law or as agreed by you and us in
-          writing, whichever is lower; and ● Agree to indemnify us for the costs
-          of any third-party collections agencies or attorney’s fees we incur in
-          order to collect your outstanding balance. 6. SECURITY Navi Savi will
-          use reasonable efforts to maintain the security and integrity of
-          information you provide to us. However, you acknowledge and agree that
-          Navi Savi cannot fully eliminate security risks and cannot guarantee
-          that unauthorized access to your information will never occur. You
-          agree that you will keep your user ID and password for your Navi Savi
+          ● ● ● ● Attempt to gain access to secured portions of the Platform to
+          which you do not possess access rights ● Upload or transmit any form
+          of virus, worm, Trojan horse, or other malicious code; ● Use the
+          Platform to generate unsolicited email advertisements or spam; ● Use
+          any automatic or manual process to search or harvest information from
+          the Platform, or to interfere in any way with the proper functioning
+          of the Platform; or ● Impersonate another user. In addition, you waive
+          any right you may have to reverse engineer or otherwise attempt to
+          derive the source code of the software (including any tools, methods,
+          processes, and infrastructure) that enables or underlies the Platform,
+          except insofar as such rights are not waivable under United States
+          law. We reserve the right, but have no obligation, to monitor, or take
+          any action we deem appropriate regarding disputes that you may have
+          with other users or Listed Businesses. 5. PAYMENT We strive to make
+          the logistics of your transactions on the Platform as streamlined and
+          efficient as possible, including the payment process. When you engage
+          in any Transaction on the Platform, you: ● Agree to provide valid
+          credit card, debit card, or bank account information through our
+          Payment Management Vendors (your “Payment Information”) before each
+          Transaction, or sufficiently soon thereafter to meet your payment
+          obligations arising out of each Transaction; ● Represent and warrant
+          that the credit limit or account balance (as applicable) for your
+          Payment Information is and will remain sufficient in order to
+          consummate each Transaction; ● Authorize us to run a credit check,
+          contact your card provider or bank, or perform other due diligence
+          that we determine to be reasonably necessary in order to verify a
+          sufficient credit limit or balance for your Payment Information; ●
+          Authorize us to charge the credit, debit, or bank account associated
+          with your Payment Information when the Transaction has been completed,
+          and ● Authorize us to charge the credit, debit, or bank account
+          associated with your Payment Information for any future transactions
+          that you purchase through the Platform, unless you remove the Payment
+          Information from your profile. If all or part of your payment cannot
+          be processed using the Payment Information you provide for a given
+          Transaction, we will submit an invoice to you. In that case, you: ●
+          Agree to pay the amount indicated on the invoice within thirty (30)
+          days from the date of the invoice; ● Authorize us to contact you by
+          email, telephone, text message, or mail regarding your outstanding
+          balance; ● Agree that we may sell your outstanding debt to a third
+          party or hire a collection agency to collect it; ● Agree to pay
+          interest on any overdue payments at the highest rate allowed by
+          applicable law or as agreed by you and us in writing, whichever is
+          lower; and ● Agree to indemnify us for the costs of any third-party
+          collections agencies or attorney’s fees we incur in order to collect
+          your outstanding balance. 6. SECURITY Navi Savi will use reasonable
+          efforts to maintain the security and integrity of information you
+          provide to us. However, you acknowledge and agree that Navi Savi
+          cannot fully eliminate security risks and cannot guarantee that
+          unauthorized access to your information will never occur. You agree
+          that you will keep your user ID and password for your Navi Savi
           account confidential and secure, that you will never share them with
           another person, and that you will not use a password on Navi Savi that
           you have used on another website. 7. PRIVACY We believe that personal
