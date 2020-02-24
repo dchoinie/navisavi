@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 export default ({ blogPost }) => {
   return (
-    <Link to={`/${blogPost.slug}`}>
+    <Link to={`blog/${blogPost.slug}`}>
       <div className="flex flex-col justify-center">
         <h2 className="text-5xl lowercase teal self-center">
           {blogPost.title}
