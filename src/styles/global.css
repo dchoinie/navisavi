@@ -80,6 +80,7 @@ div {
 .insta-text-overlay:hover {
   opacity: 0.9;
   cursor: pointer;
+  border-radius: 0.25rem;
 }
 
 .insta-text {

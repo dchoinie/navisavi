@@ -37,17 +37,10 @@ const InstaFeed = () => {
           <FaLinkedin className="self-center accent ml-1" />
         </div>
       </div>
-      <div
-        className="insta-grid"
-        // style={{ border: "1px solid red" }}
-      >
+      <div className="insta-grid">
         {data.allInstaNode.edges.map(({ node: insta }) => {
           return (
-            <div
-              key={insta.id}
-              className="insta-container flex"
-              //   style={{ border: "1px solid blue" }}
-            >
+            <div key={insta.id} className="insta-container flex">
               <a
                 href="https://www.instagram.com/navisavi_official/"
                 className="flex w-full"
@@ -55,8 +48,7 @@ const InstaFeed = () => {
               >
                 <Img
                   fluid={insta.localFile.childImageSharp.fluid}
-                  // style={{ border: "1px solid green" }}
-                  className="w-full rounded"
+                  className="w-full rounded insta-img"
                   imgStyle={{ objectFit: "cover" }}
                 />
                 <div className="insta-text-overlay flex justify-center">
