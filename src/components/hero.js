@@ -75,7 +75,7 @@ const Hero = () => {
                 padding: "0.25rem 0.5rem",
               }}
             >
-              Get Savi <FaAngleRight className="self-center ml-1" />
+              Get Savi <FaAngleRight className="self-center" />
             </button>
           </form>
           <small className="text-gray-500">

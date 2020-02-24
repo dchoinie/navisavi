@@ -25,7 +25,7 @@ const InstaFeed = () => {
     }
   `)
   return (
-    <div className="py-24">
+    <div className="py-24 px-6">
       <div className="flex flex-col">
         <h2 className="text-center text-5xl teal lowercase flex justify-center">
           Follow
@@ -38,7 +38,7 @@ const InstaFeed = () => {
         </div>
       </div>
       <div
-        className="insta-grid pb-12 px-12"
+        className="insta-grid"
         // style={{ border: "1px solid red" }}
       >
         {data.allInstaNode.edges.map(({ node: insta }) => {

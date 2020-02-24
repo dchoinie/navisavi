@@ -1,4 +1,5 @@
 import React from "react"
+import { FaEnvelope } from "react-icons/fa"
 
 const Partnership = () => {
   return (
@@ -10,12 +11,12 @@ const Partnership = () => {
       </h3>
       <a
         href="mailto:contact@navisaviapp.com"
-        className="partnerships-btn text-2xl fredoka lowercase text-white self-center rounded mt-6 p-2"
+        className="partnerships-btn text-2xl fredoka lowercase text-white self-center rounded mt-6 p-2 flex"
         style={{
-          padding: "12px 32px",
+          padding: "0.5rem 1rem",
         }}
       >
-        Email Us
+        Email Us <FaEnvelope className="self-center ml-2" />
       </a>
     </div>
   )

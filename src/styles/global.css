@@ -55,7 +55,6 @@ div {
 .insta-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  column-gap: 0.5rem;
   position: relative;
 }
 
@@ -132,10 +131,8 @@ input:focus {
   row-gap: 2rem;
 }
 
-.friends-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(auto, 1fr);
+.contact-section-width {
+  width: 66.66vw;
 }
 
 @media screen and (max-width: 1280px) {
@@ -145,11 +142,17 @@ input:focus {
 }
 
 @media screen and (max-width: 1024px) {
+  .contact-section-width {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .features-grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .insta-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

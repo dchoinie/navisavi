@@ -1,24 +1,27 @@
 import React from "react"
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaAngleRight,
+} from "react-icons/fa"
 
 const Contact = () => {
   return (
-    <div className="py-24 px-6 md:mx-0">
+    <div className="py-24 px-6 md:mx-0 flex flex-col">
       <div className="flex flex-col justify-center pb-12">
         <h2 className="text-center text-5xl teal lowercase">Howdy</h2>
         <h3 className="text-center text-2xl text-gray-700">Talk To Us</h3>
       </div>
-      <div
-        className="flex flex-col md:flex-row justify-center w-full"
-        // style={{ border: "1px solid red" }}
-      >
+      <div className="flex flex-col md:flex-row justify-center self-center md:border md:border-gray-200 md:rounded contact-section-width">
         <form
           action=""
           name="howdy"
           method="POST"
           data-netlify="true"
           //   data-netlify-recaptcha="true"
-          className="flex flex-col md:w-1/3 mb-4 md:mb-0"
+          className="flex flex-col md:w-1/2 mb-4 md:p-4 md:mb-0"
           //   style={{ border: "1px solid red" }}
         >
           <input
@@ -52,16 +55,16 @@ const Contact = () => {
           <div className="flex rounded">
             <button
               type="submit"
-              className="contact-submit text-xl fredoka cursor-pointer rounded lowercase "
+              className="contact-submit text-xl fredoka cursor-pointer rounded lowercase flex"
               style={{
                 padding: "0.25rem 0.5rem",
               }}
             >
-              Send
+              Send <FaAngleRight className="self-center" />
             </button>
           </div>
         </form>
-        <div className="flex flex-col md:w-1/3 bg-gray-200 p-6 rounded-tr rounded-br">
+        <div className="flex flex-col md:w-1/2 bg-gray-200 p-6 rounded-tr rounded-br">
           <h3 className="text-2xl lowercase accent">Contact Info</h3>
           <h5 className="text-gray-700">Address</h5>
           <p className="text-gray-600">
@@ -91,7 +94,14 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="ml-1" />
+              <FaLinkedin className="mx-1" />
+            </a>
+            <a
+              href="https://twitter.com/navisaviapp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className="ml-1" />
             </a>
           </div>
         </div>
