@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import BlogPosts from "../components/blogPosts"
 
 const Blog = () => {
   return (
@@ -9,6 +10,7 @@ const Blog = () => {
       <div className="flex justify-center py-24">
         <h2 className="text-center text-5xl teal pb-12 lowercase">Blog</h2>
       </div>
+      <BlogPosts />
     </Layout>
   )
 }
