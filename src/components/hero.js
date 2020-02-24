@@ -41,13 +41,8 @@ const Hero = () => {
     }
   `)
   return (
-    <div
-      className="flex flex-col lg:flex-row justify-between lg:justify-center lg:h-screen lg:pb-12 pt-12"
-      style={{
-        height: "calc(100vh - 85.55px)",
-      }}
-    >
-      <div className="px-6 flex flex-col justify-center lg:w-1/2 lg:px-0">
+    <div className="flex flex-col lg:flex-row justify-center px-6 hero">
+      <div className="flex flex-col justify-center lg:w-1/2 mb-6 lg:mb-0">
         <div className="self-center lg:self-end lg:mr-6">
           <h1 className="text-2xl md:text-4xl teal lowercase">
             Savi Travelers Start Here
@@ -83,31 +78,12 @@ const Hero = () => {
           </small>
         </div>
       </div>
-      <div className="lg:flex justify-start ml-6 w-1/2">
-        <video
-          className="max-w-xs lg:max-w-md"
-          autoPlay="true"
-          loop="true"
-          muted="true"
-        >
+      <div className="self-center lg:flex lg:justify-start lg:ml-6 lg:w-1/2">
+        <video className="home-video" autoPlay="true" loop="true" muted="true">
           <source src={HomeVideoMP4} type="video/mp4" />
           <source src={HomeVideoWEBM} type="video/mp4" />
           {/* <source src={HomeVideoOGG} type="video/ogg" /> */}
         </video>
-        {/* <Img
-          className="w-full self-center"
-          fluid={data.phone.childImageSharp.fluid}
-          style={{ maxWidth: "275px" }}
-        />
-        <Img
-          className="w-full self-center"
-          fluid={data.phone2.childImageSharp.fluid}
-          style={{
-            maxWidth: "275px",
-            marginLeft: "-115px",
-            marginTop: "100px",
-          }}
-        /> */}
       </div>
     </div>
   )
