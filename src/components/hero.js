@@ -3,8 +3,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FaAngleRight } from "react-icons/fa"
 import { useSpring, animated } from "react-spring"
-import DogSled_mp4 from "../videos/Phone_With_Video.mp4"
-import DogSled_webm from "../videos/Phone_With_Video.webm"
+import HomeVideoMP4 from "../videos/Navi_Savi_Homepage_Video.mp4"
+import HomeVideoWEBM from "../videos/Navi_Savi_Homepage_Video.webm"
+// import HomeVideoOGG from "../videos/Navi_Savi_Homepage_Video.ogg"
 
 const Hero = () => {
   const fade = useSpring({
@@ -69,12 +70,12 @@ const Hero = () => {
               type="submit"
               value="Get Savi"
               className="beta-submit text-xl
-              fredoka cursor-pointer rounded-r lowercase whitespace-no-wrap"
+              fredoka cursor-pointer rounded-r lowercase whitespace-no-wrap flex"
               style={{
                 padding: "0.25rem 0.5rem",
               }}
             >
-              Get Savi
+              Get Savi <FaAngleRight className="self-center ml-1" />
             </button>
           </form>
           <small className="text-gray-500">
@@ -89,8 +90,9 @@ const Hero = () => {
           loop="true"
           muted="true"
         >
-          <source src={DogSled_mp4} type="video/mp4" />
-          <source src={DogSled_webm} type="video/webm" />
+          <source src={HomeVideoMP4} type="video/mp4" />
+          <source src={HomeVideoWEBM} type="video/mp4" />
+          {/* <source src={HomeVideoOGG} type="video/ogg" /> */}
         </video>
         {/* <Img
           className="w-full self-center"
