@@ -9,7 +9,7 @@ import {
 
 const Contact = () => {
   return (
-    <div className="py-24 px-6 md:mx-0 flex flex-col">
+    <div className="py-24 px-6 md:mx-0 flex flex-col" id="talk">
       <div className="flex flex-col justify-center pb-12">
         <h2 className="text-center text-5xl teal lowercase">Howdy</h2>
         <h3 className="text-center text-2xl text-gray-700">Talk To Us</h3>

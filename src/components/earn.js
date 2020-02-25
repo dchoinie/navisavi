@@ -17,7 +17,7 @@ const Earn = () => {
     }
   `)
   return (
-    <div className="py-24">
+    <div className="py-24" id="earn">
       <h2 className="text-center text-5xl teal pb-12 lowercase">Earn</h2>
       <div className="flex flex-col lg:flex-row lg:px-24 justify-between">
         <div className="hidden w-1/2 lg:flex justify-center max-w-xl">

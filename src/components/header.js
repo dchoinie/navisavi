@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll"
 import { FaBars } from "react-icons/fa"
 import { Link } from "gatsby"
 
@@ -56,9 +57,38 @@ export default class Header extends Component {
           <div className="teal absolute" style={{ right: "0" }}>
             {navOpen && (
               <ul className="text-right">
-                <li className="whitespace-no-wrap">Learn More</li>
-                <li className="whitespace-no-wrap">Earn Rewards</li>
-                <li className="whitespace-no-wrap">Talk To Us</li>
+                <li className="whitespace-no-wrap">
+                  <ScrollLink
+                    to="learn"
+                    smooth={true}
+                    duration={500}
+                    offset={96}
+                  >
+                    Learn More
+                  </ScrollLink>
+                </li>
+                <li className="whitespace-no-wrap">
+                  <ScrollLink
+                    to="earn"
+                    smooth={true}
+                    duration={500}
+                    className="fredoka cursor-pointer"
+                    offset={96}
+                  >
+                    Earn Rewards
+                  </ScrollLink>
+                </li>
+                <li className="whitespace-no-wrap">
+                  <ScrollLink
+                    to="talk"
+                    smooth={true}
+                    duration={500}
+                    className="fredoka cursor-pointer"
+                    offset={96}
+                  >
+                    Talk To Us
+                  </ScrollLink>
+                </li>
               </ul>
             )}
           </div>
@@ -66,19 +96,43 @@ export default class Header extends Component {
         <div className="hidden lg:flex">
           <ul className="flex self-center text-center">
             <li className="lowercase fredoka teal mr-2">
-              <span className="text-xl">Learn</span>
-              <br />
-              <span className="text-base">More</span>
+              <ScrollLink
+                to="learn"
+                smooth={true}
+                duration={500}
+                className="fredoka cursor-pointer"
+                offset={96}
+              >
+                <span className="text-xl">Learn</span>
+                <br />
+                <span className="text-base">More</span>
+              </ScrollLink>
             </li>
             <li className="lowercase fredoka teal mx-2">
-              <span className="text-xl">Earn</span>
-              <br />
-              <span className="text-base">Rewards</span>
+              <ScrollLink
+                to="earn"
+                smooth={true}
+                duration={500}
+                className="fredoka cursor-pointer"
+                offset={96}
+              >
+                <span className="text-xl">Earn</span>
+                <br />
+                <span className="text-base">Rewards</span>
+              </ScrollLink>
             </li>
             <li className="lowercase fredoka teal ml-2">
-              <span className="text-xl">Talk</span>
-              <br />
-              <span className="text-base">To Us</span>
+              <ScrollLink
+                to="talk"
+                smooth={true}
+                duration={500}
+                className="fredoka cursor-pointer"
+                offset={96}
+              >
+                <span className="text-xl">Talk</span>
+                <br />
+                <span className="text-base">To Us</span>
+              </ScrollLink>
             </li>
           </ul>
         </div>

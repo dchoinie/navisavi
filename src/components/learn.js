@@ -3,7 +3,7 @@ import { FaBan, FaCheck } from "react-icons/fa"
 
 const Learn = () => {
   return (
-    <div className="py-24 px-6">
+    <div className="py-24 px-6" id="learn">
       <h2 className="text-center text-5xl teal pb-12 lowercase">Learn</h2>
       <div className="flex flex-col justify-center">
         <h4 className="teal self-center text-center text-2xl flex flex-col lg:flex-row">
