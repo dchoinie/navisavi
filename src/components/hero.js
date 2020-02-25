@@ -55,7 +55,7 @@ const Hero = () => {
             name="beta-signup"
             method="POST"
             data-netlify="true"
-            className="flex self-center"
+            className="flex"
           >
             <input
               type="email"
