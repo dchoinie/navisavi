@@ -49,6 +49,10 @@ div {
   background: transparent !important;
 }
 
+.carousel .control-dots .dot {
+  background: var(--main-teal) !important;
+}
+
 .insta-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -122,22 +126,14 @@ textarea:focus {
   outline: none;
 }
 
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 2rem;
-  grid-template-rows: repeat(auto, 1fr);
-  row-gap: 2rem;
-}
-
 .contact-section-width {
   width: 66.66vw;
 }
 
-.terms-list p,
-ul,
-li,
-ol {
+.terms-list > p,
+.terms-list > ul,
+.terms-list > li,
+.terms-list > ol {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -181,7 +177,7 @@ ul {
     grid-template-columns: repeat(3, 1fr);
   }
   .home-video {
-    max-width: 15rem;
+    max-width: 12rem;
   }
 }
 

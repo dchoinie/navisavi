@@ -44,10 +44,10 @@ const Hero = () => {
     <div className="flex flex-col lg:flex-row justify-center px-6 hero">
       <div className="flex flex-col justify-center lg:w-1/2 mb-6 lg:mb-0">
         <div className="self-center lg:self-end lg:mr-6">
-          <h1 className="text-2xl md:text-4xl teal lowercase">
+          <h1 className="text-xl md:text-4xl teal lowercase">
             Savi Travelers Start Here
           </h1>
-          <p className="text-gray-700 pb-2">
+          <p className="text-sm md:text-base text-gray-700 pb-2">
             Get on the list now to be the first to test our Beta App &amp; Earn
             Rewards.
           </p>
@@ -55,7 +55,7 @@ const Hero = () => {
             <input
               type="email"
               name="email"
-              className="text-xl text-gray-700 border border-gray-500 rounded-l"
+              className="text-sm md:text-xl text-gray-700 border border-gray-500 rounded-l"
               placeholder="Email"
               style={{
                 padding: "0.25rem 0.5rem",
@@ -64,7 +64,7 @@ const Hero = () => {
             <button
               type="submit"
               value="Get Savi"
-              className="beta-submit text-xl
+              className="beta-submit text-sm md:text-xl
               fredoka cursor-pointer rounded-r lowercase whitespace-no-wrap flex"
               style={{
                 padding: "0.25rem 0.5rem",
@@ -73,7 +73,7 @@ const Hero = () => {
               Get Savi <FaAngleRight className="self-center" />
             </button>
           </form>
-          <small className="text-gray-500">
+          <small className="text-xs md:text-sm text-gray-500">
             <em>Launching Spring 2020</em>
           </small>
         </div>

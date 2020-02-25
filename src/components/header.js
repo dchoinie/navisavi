@@ -57,33 +57,34 @@ export default class Header extends Component {
           <div className="teal absolute" style={{ right: "0" }}>
             {navOpen && (
               <ul className="text-right">
-                <li className="whitespace-no-wrap">
+                <li className="whitespace-no-wrap my-1 cursor-pointer">
                   <ScrollLink
                     to="learn"
                     smooth={true}
                     duration={500}
+                    className="fredoka teal"
                     offset={96}
                   >
                     Learn More
                   </ScrollLink>
                 </li>
-                <li className="whitespace-no-wrap">
+                <li className="whitespace-no-wrap my-1 cursor-pointer">
                   <ScrollLink
                     to="earn"
                     smooth={true}
                     duration={500}
-                    className="fredoka cursor-pointer"
+                    className="fredoka teal"
                     offset={96}
                   >
                     Earn Rewards
                   </ScrollLink>
                 </li>
-                <li className="whitespace-no-wrap">
+                <li className="whitespace-no-wrap my-1 cursor-pointer">
                   <ScrollLink
                     to="talk"
                     smooth={true}
                     duration={500}
-                    className="fredoka cursor-pointer"
+                    className="fredoka teal"
                     offset={96}
                   >
                     Talk To Us
