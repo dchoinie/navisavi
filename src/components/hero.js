@@ -51,7 +51,12 @@ const Hero = () => {
             Get on the list now to be the first to test our Beta App &amp; Earn
             Rewards.
           </p>
-          <form name="beta-signup" method="POST" className="flex self-center">
+          <form
+            name="beta-signup"
+            method="POST"
+            data-netlify="true"
+            className="flex self-center"
+          >
             <input
               type="email"
               name="email"

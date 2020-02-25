@@ -20,9 +20,7 @@ const Contact = () => {
           name="howdy"
           method="POST"
           data-netlify="true"
-          //   data-netlify-recaptcha="true"
           className="flex flex-col md:w-1/2 mb-4 md:p-4 md:mb-0"
-          //   style={{ border: "1px solid red" }}
         >
           <input
             type="text"
