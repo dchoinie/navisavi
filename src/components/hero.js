@@ -59,7 +59,7 @@ const Hero = () => {
           >
             <input
               type="email"
-              name="email"
+              name="beta-email"
               className="text-sm md:text-xl text-gray-700 border border-gray-500 rounded-l"
               placeholder="Email"
               style={{
