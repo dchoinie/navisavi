@@ -66,6 +66,7 @@ const Hero = () => {
                 padding: "0.25rem 0.5rem",
               }}
             />
+            <input type="hidden" name="form-name" value="beta-signup" />
             <button
               type="submit"
               value="Get Savi"

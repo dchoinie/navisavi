@@ -3,7 +3,10 @@ import { FaEnvelope } from "react-icons/fa"
 
 const Partnership = () => {
   return (
-    <div className="py-24 px-6 flex flex-col justify-center text-center">
+    <div
+      className="py-24 px-6 flex flex-col justify-center text-center"
+      id="partner"
+    >
       <h2 className="teal text-5xl lowercase ">Partnerships</h2>
       <h3 className="text-2xl text-gray-700">
         Do you have a brand that would be right for Navi Savi! Let’s Talk! We

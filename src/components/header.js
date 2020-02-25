@@ -111,6 +111,19 @@ export default class Header extends Component {
             </li>
             <li className="lowercase fredoka teal mx-2">
               <ScrollLink
+                to="features"
+                smooth={true}
+                duration={500}
+                className="fredoka cursor-pointer"
+                offset={96}
+              >
+                <span className="text-xl">App</span>
+                <br />
+                <span className="text-base">Features</span>
+              </ScrollLink>
+            </li>
+            <li className="lowercase fredoka teal mx-2">
+              <ScrollLink
                 to="earn"
                 smooth={true}
                 duration={500}
@@ -123,6 +136,19 @@ export default class Header extends Component {
               </ScrollLink>
             </li>
             <li className="lowercase fredoka teal ml-2">
+              <ScrollLink
+                to="partner"
+                smooth={true}
+                duration={500}
+                className="fredoka cursor-pointer"
+                offset={96}
+              >
+                <span className="text-xl">Partner</span>
+                <br />
+                <span className="text-base">Up</span>
+              </ScrollLink>
+            </li>
+            <li className="lowercase fredoka teal mx-2">
               <ScrollLink
                 to="talk"
                 smooth={true}
