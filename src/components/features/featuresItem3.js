@@ -41,8 +41,7 @@ const FeaturesItem3 = () => {
           Learn More About An Experience
         </h3>
         <p className="self-center text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-          porro?
+          Location information is verified by Navi Savi or the business.
         </p>
       </div>
     </div>

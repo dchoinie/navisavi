@@ -32,8 +32,7 @@ const FeaturesItem4 = () => {
           Save Clips &amp; Plan Trips
         </h3>
         <p className="self-center text-gray-600 mb-4 lg:mb-0">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-          porro?
+          Build and share a video itinerary of your next vacation.
         </p>
       </div>
       <div

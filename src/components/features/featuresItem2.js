@@ -32,8 +32,8 @@ const FeaturesItem2 = () => {
           Browse Videos By Other Travellers
         </h3>
         <p className="self-center text-gray-600 mb-4 lg:mb-0">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-          porro?
+          Watch short clips of friends, influencers, or other travelers
+          vacations.
         </p>
       </div>
       <div

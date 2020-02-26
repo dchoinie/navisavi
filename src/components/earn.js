@@ -18,10 +18,19 @@ const Earn = () => {
   `)
   return (
     <div className="py-24" id="earn">
-      <h2 className="text-center text-5xl teal pb-12 lowercase">Earn</h2>
+      <h2 className="text-center text-5xl teal lowercase">Rewards</h2>
+      <div
+        className="flex justify-center text-2xl"
+        style={{ paddingBottom: "calc(24px + 1.5rem)" }}
+      >
+        <h5 className="text-gray-700">Cash in on Us! Seriously.</h5>
+      </div>
       <div className="flex flex-col lg:flex-row lg:px-24 justify-between">
         <div className="hidden w-1/2 lg:flex justify-center max-w-xl">
-          <Img fluid={data.mosaic.childImageSharp.fluid} className="w-full" />
+          <Img
+            fluid={data.mosaic.childImageSharp.fluid}
+            className="w-full rounded"
+          />
         </div>
         <div className="lg:w-1/2 lg:self-center px-6 lg:px-0">
           <div className="flex flex-col">
@@ -80,6 +89,9 @@ const Earn = () => {
                   city, create itineraries of your favorite “hot spots” and
                   promote Navi Savi to tourists visiting your town.
                 </p>
+                <em className="text-gray-700 mt-6">
+                  Hit us up below in our contact form!
+                </em>
               </div>
             </div>
           </div>

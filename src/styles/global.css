@@ -37,6 +37,10 @@ div {
   color: var(--main-teal);
 }
 
+.nav-item-hover:hover {
+  color: var(--teal3);
+}
+
 .hero {
   height: calc(100vh - 85.55px);
 }

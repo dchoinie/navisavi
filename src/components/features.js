@@ -9,7 +9,13 @@ import { Carousel } from "react-responsive-carousel"
 const Features = () => {
   return (
     <div className="py-24 lg:mx-56" id="features">
-      <h2 className="text-center text-5xl teal pb-12 lowercase">Features</h2>
+      <h2 className="text-center text-5xl teal lowercase">Features</h2>
+      <div
+        className="flex justify-center text-2xl"
+        style={{ paddingBottom: "calc(24px + 1.5rem)" }}
+      >
+        <h5 className="text-gray-700">One Is Not Enough.</h5>
+      </div>
       <div className="px-6 lg:px-0">
         <Carousel
           showThumbs={false}
@@ -17,6 +23,7 @@ const Features = () => {
           infiniteLoop={true}
           autoPlay={true}
           swipeable={true}
+          showArrows={true}
         >
           <FeaturesItem1 />
           <FeaturesItem2 />

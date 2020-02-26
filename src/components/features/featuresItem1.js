@@ -41,8 +41,7 @@ const FeaturesItem1 = () => {
           Search &amp; Filter Destinations
         </h3>
         <p className="self-center text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-          porro?
+          Narrow down by cities, tags, distance and price.
         </p>
       </div>
     </div>

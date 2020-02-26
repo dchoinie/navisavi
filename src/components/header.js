@@ -20,7 +20,7 @@ export const Logo = () => {
   `)
   return (
     <Link to="/" className="flex">
-      <Img fluid={data.logo.childImageSharp.fluid} style={{ width: "175px" }} />
+      <Img fluid={data.logo.childImageSharp.fluid} style={{ width: "185px" }} />
     </Link>
   )
 }
@@ -57,7 +57,7 @@ export default class Header extends Component {
           <div className="teal absolute" style={{ right: "0" }}>
             {navOpen && (
               <ul className="text-right">
-                <li className="whitespace-no-wrap my-1 cursor-pointer">
+                <li className="whitespace-no-wrap my-1 cursor-pointer nav-item-hover">
                   <ScrollLink
                     to="learn"
                     smooth={true}
@@ -65,10 +65,21 @@ export default class Header extends Component {
                     className="fredoka teal"
                     offset={96}
                   >
-                    Learn More
+                    Learn
                   </ScrollLink>
                 </li>
-                <li className="whitespace-no-wrap my-1 cursor-pointer">
+                <li className="whitespace-no-wrap my-1 cursor-pointer nav-item-hover">
+                  <ScrollLink
+                    to="features"
+                    smooth={true}
+                    duration={500}
+                    className="fredoka teal"
+                    offset={96}
+                  >
+                    Features
+                  </ScrollLink>
+                </li>
+                <li className="whitespace-no-wrap my-1 cursor-pointer nav-item-hover">
                   <ScrollLink
                     to="earn"
                     smooth={true}
@@ -76,10 +87,21 @@ export default class Header extends Component {
                     className="fredoka teal"
                     offset={96}
                   >
-                    Earn Rewards
+                    Rewards
                   </ScrollLink>
                 </li>
-                <li className="whitespace-no-wrap my-1 cursor-pointer">
+                <li className="whitespace-no-wrap my-1 cursor-pointer nav-item-hover">
+                  <ScrollLink
+                    to="partner"
+                    smooth={true}
+                    duration={500}
+                    className="fredoka teal"
+                    offset={96}
+                  >
+                    Partner
+                  </ScrollLink>
+                </li>
+                <li className="whitespace-no-wrap my-1 cursor-pointer nav-item-hover">
                   <ScrollLink
                     to="talk"
                     smooth={true}
@@ -95,8 +117,8 @@ export default class Header extends Component {
           </div>
         </div>
         <div className="hidden lg:flex">
-          <ul className="flex self-center text-center">
-            <li className="lowercase fredoka teal mr-2">
+          <ul className="flex self-center text-center text-xl">
+            <li className="lowercase fredoka teal mr-2 nav-item-hover">
               <ScrollLink
                 to="learn"
                 smooth={true}
@@ -104,12 +126,10 @@ export default class Header extends Component {
                 className="fredoka cursor-pointer"
                 offset={96}
               >
-                <span className="text-xl">Learn</span>
-                <br />
-                <span className="text-base">More</span>
+                Learn
               </ScrollLink>
             </li>
-            <li className="lowercase fredoka teal mx-2">
+            <li className="lowercase fredoka teal mx-2 nav-item-hover">
               <ScrollLink
                 to="features"
                 smooth={true}
@@ -117,12 +137,10 @@ export default class Header extends Component {
                 className="fredoka cursor-pointer"
                 offset={96}
               >
-                <span className="text-xl">App</span>
-                <br />
-                <span className="text-base">Features</span>
+                Features
               </ScrollLink>
             </li>
-            <li className="lowercase fredoka teal mx-2">
+            <li className="lowercase fredoka teal mx-2 nav-item-hover">
               <ScrollLink
                 to="earn"
                 smooth={true}
@@ -130,12 +148,10 @@ export default class Header extends Component {
                 className="fredoka cursor-pointer"
                 offset={96}
               >
-                <span className="text-xl">Earn</span>
-                <br />
-                <span className="text-base">Rewards</span>
+                Rewards
               </ScrollLink>
             </li>
-            <li className="lowercase fredoka teal ml-2">
+            <li className="lowercase fredoka teal mx-2 nav-item-hover">
               <ScrollLink
                 to="partner"
                 smooth={true}
@@ -143,12 +159,10 @@ export default class Header extends Component {
                 className="fredoka cursor-pointer"
                 offset={96}
               >
-                <span className="text-xl">Partner</span>
-                <br />
-                <span className="text-base">Up</span>
+                Partner
               </ScrollLink>
             </li>
-            <li className="lowercase fredoka teal mx-2">
+            <li className="lowercase fredoka teal ml-2 nav-item-hover">
               <ScrollLink
                 to="talk"
                 smooth={true}
@@ -156,9 +170,7 @@ export default class Header extends Component {
                 className="fredoka cursor-pointer"
                 offset={96}
               >
-                <span className="text-xl">Talk</span>
-                <br />
-                <span className="text-base">To Us</span>
+                Talk
               </ScrollLink>
             </li>
           </ul>

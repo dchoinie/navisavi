@@ -8,12 +8,6 @@ import HomeVideoWEBM from "../videos/Navi_Savi_Homepage_Video.webm"
 // import HomeVideoOGG from "../videos/Navi_Savi_Homepage_Video.ogg"
 
 const Hero = () => {
-  const fade = useSpring({
-    opacity: 1,
-    from: {
-      opacity: 0,
-    },
-  })
   const data = useStaticQuery(graphql`
     {
       site {
@@ -22,7 +16,7 @@ const Hero = () => {
           title
         }
       }
-      phone: file(relativePath: { eq: "phone.png" }) {
+      apple: file(relativePath: { eq: "downloads/apple1.png" }) {
         childImageSharp {
           fluid {
             src
@@ -30,7 +24,7 @@ const Hero = () => {
           }
         }
       }
-      phone2: file(relativePath: { eq: "phones/iPhone4.png" }) {
+      google: file(relativePath: { eq: "downloads/google1.png" }) {
         childImageSharp {
           fluid {
             src
@@ -82,6 +76,17 @@ const Hero = () => {
           <small className="text-xs md:text-sm text-gray-500">
             <em>Launching Spring 2020</em>
           </small>
+          <div className="flex my-2">
+            <Img
+              fluid={data.apple.childImageSharp.fluid}
+              className="mr-2 rounded w-24 lg:w-32"
+            />
+            <Img
+              fluid={data.google.childImageSharp.fluid}
+              className="rounded w-24 lg:w-32"
+              objectFit="cover"
+            />
+          </div>
         </div>
       </div>
       <div className="self-center lg:flex lg:justify-start lg:ml-6 lg:w-1/2">
