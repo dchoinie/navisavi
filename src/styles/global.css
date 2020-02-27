@@ -57,6 +57,25 @@ div {
   background: var(--main-teal) !important;
 }
 
+.carousel.carousel-slider .control-arrow {
+  background: var(--main-teal) !important;
+  top: 50% !important;
+  opacity: 1 !important;
+  border-radius: 0.25rem !important;
+}
+
+.carousel .control-prev.control-arrow {
+  max-height: 50px;
+}
+
+.carousel .control-next.control-arrow {
+  max-height: 50px;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: var(--teal3) !important;
+}
+
 .insta-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -159,6 +178,19 @@ textarea:focus {
 .terms-list p,
 ul {
   color: #718096;
+}
+
+.apply-btn {
+  background-color: var(--accent);
+  color: #fff;
+  font-family: "Fredoka One", sans-serif;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  text-transform: lowercase;
+}
+
+.apply-btn:hover {
+  background-color: var(--accentDark);
 }
 
 @media screen and (max-width: 1280px) {

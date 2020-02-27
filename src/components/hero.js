@@ -73,9 +73,6 @@ const Hero = () => {
               Get Savi <FaAngleRight className="self-center" />
             </button>
           </form>
-          <small className="text-xs md:text-sm text-gray-500">
-            <em>Launching Spring 2020</em>
-          </small>
           <div className="flex my-2">
             <Img
               fluid={data.apple.childImageSharp.fluid}
@@ -87,6 +84,9 @@ const Hero = () => {
               objectFit="cover"
             />
           </div>
+          <small className="text-xs md:text-sm text-gray-500">
+            <em>Launching Spring 2020</em>
+          </small>
         </div>
       </div>
       <div className="self-center lg:flex lg:justify-start lg:ml-6 lg:w-1/2">

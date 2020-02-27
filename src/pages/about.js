@@ -14,7 +14,7 @@ const About = () => {
         >
           Well, what about us.
         </p>
-        <div className="max-w-2xl mx-auto text-gray-600">
+        <div className="max-w-3xl mx-auto text-gray-600">
           <p className="py-2">
             Born in 2013, Navi Savi was originally a TV show idea. We showed you
             a city in the episode, you go online to watch short, more in depth

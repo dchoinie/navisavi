@@ -24,6 +24,7 @@ const Features = () => {
           autoPlay={true}
           swipeable={true}
           showArrows={true}
+          showIndicators={true}
         >
           <FeaturesItem1 />
           <FeaturesItem2 />

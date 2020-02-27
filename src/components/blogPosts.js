@@ -7,17 +7,20 @@ const getBlogPosts = graphql`
     blogPosts: allContentfulBlog(sort: { fields: date, order: ASC }) {
       edges {
         node {
+          childContentfulBlogContentRichTextNode {
+            json
+          }
           author
-          date(formatString: "DD MMM, YYYY")
-          id
           title
+          slug
           images {
             fluid {
               src
               ...GatsbyContentfulFluid
             }
           }
-          slug
+          date(formatString: "DD MMM, YYYY")
+          id
         }
       }
     }

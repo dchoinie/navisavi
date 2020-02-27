@@ -11,9 +11,8 @@ const Contact = () => {
   return (
     <div className="py-24 px-6 md:mx-0 flex flex-col" id="talk">
       <div className="flex flex-col justify-center pb-12">
-        <h2 className="text-center text-5xl teal lowercase">Howdy</h2>
-        <h3 className="text-center text-2xl text-gray-700">Talk To Us</h3>
-        <p className="text-center text-md text-gray-600">Don't Be Shy.</p>
+        <h2 className="text-center text-5xl teal lowercase">Talk</h2>
+        <h3 className="text-center text-2xl text-gray-700">Don't Be Shy.</h3>
       </div>
       <div className="flex flex-col md:flex-row justify-center self-center md:border md:border-gray-200 md:rounded contact-section-width">
         <form
