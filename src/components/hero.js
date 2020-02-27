@@ -3,9 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FaAngleRight } from "react-icons/fa"
 import { useSpring, animated } from "react-spring"
-import HomeVideoMP4 from "../videos/Navi_Savi_Homepage_Video.mp4"
-import HomeVideoWEBM from "../videos/Navi_Savi_Homepage_Video.webm"
-// import HomeVideoOGG from "../videos/Navi_Savi_Homepage_Video.ogg"
+import HomeVideoMP4 from "../videos/final.mp4"
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
@@ -92,8 +90,6 @@ const Hero = () => {
       <div className="self-center lg:flex lg:justify-start lg:ml-6 lg:w-1/2">
         <video className="home-video" autoPlay={true} loop={true} muted={true}>
           <source src={HomeVideoMP4} type="video/mp4" />
-          <source src={HomeVideoWEBM} type="video/mp4" />
-          {/* <source src={HomeVideoOGG} type="video/ogg" /> */}
         </video>
       </div>
     </div>
