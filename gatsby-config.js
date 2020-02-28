@@ -11,6 +11,18 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: "gatsby-plugin-preconnect",
+      options: {
+        domains: [
+          "https://googleads.g.doubleclick.net",
+          "https://fonts.googleapis.com",
+          "https://static.doubleclick.net",
+          "https://yt3.ggpht.com",
+          "https://i.ytimg.com",
+        ],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
