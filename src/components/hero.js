@@ -39,10 +39,10 @@ const Hero = () => {
           <h1 className="text-xl md:text-4xl teal lowercase">
             Savi Travelers Start Here
           </h1>
-          <p className="text-sm md:text-base text-gray-700 pb-2">
+          <h5 className="text-sm md:text-base text-gray-700 pb-2 lato">
             Get on the list now to be the first to test our Beta App &amp; Earn
             Rewards.
-          </p>
+          </h5>
           <form
             name="beta-signup"
             method="POST"
@@ -87,7 +87,7 @@ const Hero = () => {
           </small>
         </div>
       </div>
-      <div className="self-center lg:flex lg:justify-start lg:ml-6 lg:w-1/2">
+      <div className="hidden self-center lg:flex lg:justify-start lg:ml-6 lg:w-1/2">
         <video className="home-video" autoPlay={true} loop={true} muted={true}>
           <source src={HomeVideoMP4} type="video/mp4" />
         </video>

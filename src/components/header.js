@@ -101,7 +101,7 @@ export default class Header extends Component {
                     Partner
                   </ScrollLink>
                 </li>
-                <li className="whitespace-no-wrap my-1 cursor-pointer nav-item-hover">
+                <li className="whitespace-no-wrap mt-1 cursor-pointer nav-item-hover">
                   <ScrollLink
                     to="talk"
                     smooth={true}

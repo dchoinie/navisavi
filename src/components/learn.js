@@ -22,7 +22,7 @@ const Learn = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center">
-        <div className="flex self-center text-2xl">
+        <div className="flex flex-col lg:flex-row self-center text-2xl">
           <FaBan className="self-center accent mx-2" />
           <h5 className="text-gray-700">No Photos.</h5>
           <FaBan className="self-center accent mx-2" />
