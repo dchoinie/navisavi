@@ -36,7 +36,7 @@ const Hero = () => {
     <div className="flex flex-col lg:flex-row justify-center px-6 hero">
       <div className="flex flex-col justify-center lg:w-1/2 mb-6 lg:mb-0">
         <div className="self-center lg:self-end lg:mr-6">
-          <h1 className="text-xl md:text-4xl teal lowercase">
+          <h1 className="text-2xl md:text-4xl teal lowercase">
             Savi Travelers Start Here
           </h1>
           <h5 className="text-sm md:text-base text-gray-700 pb-2 lato">
