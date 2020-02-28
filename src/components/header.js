@@ -13,7 +13,7 @@ export const Logo = () => {
           fluid {
             src
             srcSet
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
