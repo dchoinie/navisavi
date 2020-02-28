@@ -154,9 +154,13 @@ textarea:focus {
 }
 
 .terms-list > p,
+.privacy > p,
 .terms-list > ul,
+.privary > ul,
 .terms-list > li,
-.terms-list > ol {
+.privacy > li,
+.terms-list > ol,
+.privacy > ol {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -176,8 +180,16 @@ textarea:focus {
 }
 
 .terms-list p,
-ul {
+.terms-list ul,
+.privacy p,
+.privacy ul {
   color: #718096;
+}
+
+.privacy-table th,
+.privacy-table td {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .apply-btn {
