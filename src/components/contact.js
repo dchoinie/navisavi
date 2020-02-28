@@ -88,18 +88,18 @@ const Contact = () => {
               <FaInstagram className="mx-1" />
             </a>
             <a
-              href="https://www.linkedin.com/company/navi-savi/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin className="mx-1" />
-            </a>
-            <a
               href="https://twitter.com/navisaviapp"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaTwitter className="ml-1" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/navi-savi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="mx-1" />
             </a>
           </div>
         </div>
