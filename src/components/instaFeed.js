@@ -31,10 +31,34 @@ const InstaFeed = () => {
           Follow
         </h2>
         <div className="flex text-2xl justify-center pb-12">
-          <FaInstagram className="self-center accent mr-1" />
-          <FaFacebook className="self-center accent mx-1" />
-          <FaTwitter className="self-center accent mx-1" />
-          <FaLinkedin className="self-center accent ml-1" />
+          <a
+            href="https://www.facebook.com/navisaviapp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebook className="self-center accent mr-1" />
+          </a>
+          <a
+            href="https://www.instagram.com/navisavi_official/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="self-center accent mx-1" />
+          </a>
+          <a
+            href="https://twitter.com/navisaviapp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter className="self-center accent mx-1" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/navi-savi/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="self-center accent ml-1" />
+          </a>
         </div>
       </div>
       <div className="insta-grid">

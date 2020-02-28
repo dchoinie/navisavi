@@ -42,7 +42,11 @@ const Footer = () => {
             >
               <FaInstagram className="mx-1 accent" />
             </a>
-            <a href="/">
+            <a
+              href="https://twitter.com/navisaviapp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaTwitter className="mx-1 accent" />
             </a>
             <a
