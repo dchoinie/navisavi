@@ -69,6 +69,7 @@ const InstaFeed = () => {
                 href="https://www.instagram.com/navisavi_official/"
                 className="flex w-full"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Img
                   fluid={insta.localFile.childImageSharp.fluid}
