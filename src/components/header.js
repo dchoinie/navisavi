@@ -12,6 +12,7 @@ export const Logo = () => {
         childImageSharp {
           fluid {
             src
+            srcSet
             ...GatsbyImageSharpFluid
           }
         }
