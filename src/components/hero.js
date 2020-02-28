@@ -49,7 +49,11 @@ const Hero = () => {
             data-netlify="true"
             className="flex"
           >
+            <label htmlFor="beta-email" className="hidden">
+              Email
+            </label>
             <input
+              id="beta-email"
               type="email"
               name="beta-email"
               className="text-sm md:text-xl text-gray-700 border border-gray-500 rounded-l"

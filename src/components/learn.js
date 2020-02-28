@@ -11,6 +11,7 @@ const Learn = () => {
       <div className="max-w-2xl mx-auto py-6">
         <div className="iframe-container">
           <iframe
+            title="Navi Savi Promo"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/rbK4jrWYEPc"
