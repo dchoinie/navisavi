@@ -211,357 +211,556 @@ const termsOfService = () => {
                 Jeopardize or attempt to jeopardize the correct functioning of
                 the Platform;
               </li>
+              <li>
+                Attempt to gain access to secured portions of the Platform to
+                which you do not possess access rights
+              </li>
+              <li>
+                Upload or transmit any form of virus, worm, Trojan horse, or
+                other malicious code
+              </li>
+              <li>
+                Use the Platform to generate unsolicited email advertisements or
+                spam
+              </li>
+              <li>
+                Use any automatic or manual process to search or harvest
+                information from the Platform, or to interfere in any way with
+                the proper functioning of the Platform; or
+              </li>
+              <li>Impersonate another user.</li>
+            </ul>
+            <p>
+              In addition, you waive any right you may have to reverse engineer
+              or otherwise attempt to derive the source code of the software
+              (including any tools, methods, processes, and infrastructure) that
+              enables or underlies the Platform, except insofar as such rights
+              are not waivable under United States law.
+            </p>
+            <p>
+              We reserve the right, but have no obligation, to monitor, or take
+              any action we deem appropriate regarding disputes that you may
+              have with other users or Listed Businesses.
+            </p>
+            <li className="main-list">PAYMENT</li>
+            <p>
+              We strive to make the logistics of your transactions on the
+              Platform as streamlined and efficient as possible, including the
+              payment process. When you engage in any Transaction on the
+              Platform, you:
+            </p>
+            <ul className="list-disc list-inside">
+              <li>
+                Agree to provide valid credit card, debit card, or bank account
+                information through our Payment Management Vendors (your
+                “Payment Information”) before each Transaction, or sufficiently
+                soon thereafter to meet your payment obligations arising out of
+                each Transaction;
+              </li>
+              <li>
+                Represent and warrant that the credit limit or account balance
+                (as applicable) for your Payment Information is and will remain
+                sufficient in order to consummate each Transaction;
+              </li>
+              <li>
+                Authorize us to run a credit check, contact your card provider
+                or bank, or perform other due diligence that we determine to be
+                reasonably necessary in order to verify a sufficient credit
+                limit or balance for your Payment Information;
+              </li>
+              <li>
+                Authorize us to charge the credit, debit, or bank account
+                associated with your Payment Information when the Transaction
+                has been completed, and
+              </li>
+              <li>
+                Authorize us to charge the credit, debit, or bank account
+                associated with your Payment Information for any future
+                transactions that you purchase through the Platform, unless you
+                remove the Payment Information from your profile.
+              </li>
+            </ul>
+            <p>
+              If all or part of your payment cannot be processed using the
+              Payment Information you provide for a given Transaction, we will
+              submit an invoice to you. In that case, you:
+            </p>
+            <ul className="list-disc list-inside">
+              <li>
+                Agree to pay the amount indicated on the invoice within thirty
+                (30) days from the date of the invoice;
+              </li>
+              <li>
+                Authorize us to contact you by email, telephone, text message,
+                or mail regarding your outstanding balance;
+              </li>
+              <li>
+                Agree that we may sell your outstanding debt to a third party or
+                hire a collection agency to collect it;
+              </li>
+              <li>
+                Agree to pay interest on any overdue payments at the highest
+                rate allowed by applicable law or as agreed by you and us in
+                writing, whichever is lower; and
+              </li>
+              <li>
+                Agree to indemnify us for the costs of any third-party
+                collections agencies or attorney’s fees we incur in order to
+                collect your outstanding balance.
+              </li>
+            </ul>
+            <li className="main-list">SECURITY</li>
+            <p>
+              Navi Savi will use reasonable efforts to maintain the security and
+              integrity of information you provide to us. However, you
+              acknowledge and agree that Navi Savi cannot fully eliminate
+              security risks and cannot guarantee that unauthorized access to
+              your information will never occur. You agree that you will keep
+              your user ID and password for your Navi Savi account confidential
+              and secure, that you will never share them with another person,
+              and that you will not use a password on Navi Savi that you have
+              used on another website.
+            </p>
+            <li className="main-list">PRIVACY</li>
+            <p>
+              We believe that personal privacy issues are important, so we
+              developed a Privacy Notice to explain how we collect, use and
+              disclose information and Content. The Privacy Notice forms part of
+              our agreement with you and is incorporated in these Terms of Use
+              by reference. For full details, please refer to our Privacy
+              Notice.
+            </p>
+            <li className="main-list">THIRD PARTIES</li>
+            <p>
+              We may also allow access to, or advertise, certain third parties
+              from which you may purchase certain goods or services. You
+              acknowledge that we do not operate or control the products or
+              services offered by those third parties. They are responsible for
+              all aspects of order processing, fulfillment, billing and customer
+              service related to the products and services they offer. We are
+              not a party to any transactions entered into between you and those
+              third parties. Those third parties are also responsible for
+              ensuring that advertisements and other materials submitted for
+              inclusion on the Platform are accurate and comply with applicable
+              laws.
+            </p>
+            <li className="main-list">CHANGES TO THESE TERMS OF USE</li>
+            <p>
+              We may change the terms of these Terms of Use from time to time on
+              a going- forward basis. Any modifications will become effective
+              immediately upon being posted to the Website. If there are any
+              substantial changes to Members’ rights under these Terms of Use as
+              the result of a revision, we will notify all Members for whom we
+              have an email address of the revision by email. It is your sole
+              responsibility to check the Website from time to time to view any
+              such changes in our Terms of Use. If you do not agree to all of
+              the changes, if and when such changes may be made to our Terms of
+              Use, you must cease use of the Platform. Your use of the Platform
+              after any modifications to our Terms of Use indicates that you
+              agree to the modified Terms of Use.
+            </p>
+            <li className="main-list">TERMINATION</li>
+            <p>
+              We may change or discontinue all or any portion of the Platform at
+              any time without prior notice. We reserve the right to terminate
+              these Terms of Use at our election and for any reason, without
+              prior notice. In the event of any termination, you agree that you
+              will immediately cease access to the Platform.
+            </p>
+            <li className="main-list">DISCLAIMERS OF WARRANTY</li>
+            <p>
+              You agree that your use of the Platform shall be at your sole
+              risk. TO THE FULLEST EXTENT PERMITTED BY LAW, NAVI SAVI AND THE
+              NAVI SAVI AFFILIATES DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED,
+              IN CONNECTION WITH THE WEBSITE AND YOUR USE THEREOF. ACCESS TO
+              THIS SITE IS PROVIDED ON AN “AS IS” BASIS. NEITHER NAVI SAVI NOR
+              ANY OF THE NAVI SAVI AFFILIATES MAKES ANY WARRANTIES OR
+              REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE
+              PLATFORM’S CONTENT OR THE CONTENT OF ANY SITES LINKED TO THE
+              WEBSITE AND ASSUMES NO LIABILITY OR RESPONSIBILITY FOR ANY ( i )
+              ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, PERSONAL INJURY OR
+              PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR
+              ACCESS TO AND USE OF OUR WEBSITE, ( ii ) ANY UNAUTHORIZED ACCESS
+              TO OR USE OF OUR SECURE SERVERS OR ANY AND ALL PERSONAL
+              INFORMATION OR FINANCIAL INFORMATION STORED THEREIN, ( iii ) ANY
+              INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM OUR PLATFORM,
+              ( iv ) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE
+              TRANSMITTED TO OR THROUGH OUR WEBSITE BY ANY THIRD PARTY, OR ( v )
+              ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE
+              OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED,
+              EMAILED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE
+              PLATFORM. NAVI SAVI DOES NOT WARRANT, ENDORSE, GUARANTEE, OR
+              ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR
+              OFFERED BY A THIRD PARTY THROUGH THE PLATFORM OR ANY HYPERLINKED
+              WEBSITE OR FEATURED IN ANY BANNER OR OTHER ADVERTISING. NAVI SAVI
+              WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING
+              ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS
+              OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH
+              ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST
+              JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE. WE WILL NOT BE
+              LIABLE FOR ANY DAMAGES ARISING FROM THE TRANSACTIONS BETWEEN YOU
+              AND USERS, LISTED BUSINESSES, OR SERVICE PROVIDERS FOR ANY
+              INFORMATION APPEARING ON PARTNER SITES OR ANY OTHER SITE LINKED TO
+              OUR SITE. IN NO EVENT WILL NAVI SAVI OR ANY NAVI SAVI AFFILIATE BE
+              LIABLE TO YOU OR ANY THIRD PARTY IN CONNECTION WITH ANY ACT OR
+              OMISSION OF SUCH A THIRD PARTY. THE FOREGOING DISCLAIMERS SHALL
+              APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE
+              JURISDICTION
+            </p>
+            <li className="main-list">LIMITATIONS OF LIABILITY</li>
+            <p>
+              YOU ACKNOWLEDGE AND AGREE THAT WE ARE ONLY WILLING TO PROVIDE
+              ACCESS TO THE SITE AND TO PROVIDE THE SERVICES IF YOU AGREE TO
+              CERTAIN LIMITATIONS OF OUR LIABILITY TO YOU AND TO THIRD PARTIES.
+              IN NO EVENT SHALL NAVI SAVI OR ANY NAVI SAVI AFFILIATE BE LIABLE
+              TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR
+              CONSEQUENTIAL DAMAGES WHATSOEVER RESULTING FROM ANY ( i ) ERRORS,
+              MISTAKES, OR INACCURACIES OF CONTENT, ( ii ) PERSONAL INJURY OR
+              PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR
+              ACCESS TO AND USE OF THE PLATFORM, ( iii ) ANY UNAUTHORIZED ACCESS
+              TO OR USE OF OUR SECURE SERVERS OR ANY AND ALL PERSONAL
+              INFORMATION OR FINANCIAL INFORMATION STORED THEREIN, ( iv ) ANY
+              INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM OUR WEBSITE,
+              ( v ) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE, WHICH MAY BE
+              TRANSMITTED TO OR THROUGH THE PLATFORM BY ANY THIRD PARTY, OR ( vi
+              ) ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE
+              OF ANY KIND INCURRED AS A RESULT OF YOUR USE OF ANY CONTENT
+              POSTED, EMAILED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE
+              PLATFORM, WHETHER BASED ON WARRANTY, CONTRACT, TORT, OR ANY OTHER
+              LEGAL THEORY, AND WHETHER OR NOT NAVI SAVI OR THE APPLICABLE NAVI
+              SAVI AFFILIATE IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE
+              FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST
+              EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION. YOU
+              SPECIFICALLY ACKNOWLEDGE THAT NEITHER NAVI SAVI NOR ANY NAVI SAVI
+              AFFILIATE SHALL BE LIABLE FOR USER SUBMISSIONS OR THE DEFAMATORY,
+              OFFENSIVE, OR ILLEGAL CONDUCT OF ANY THIRD PARTY AND THAT THE RISK
+              OF HARM OR DAMAGE FROM THE FOREGOING RESTS ENTIRELY WITH YOU.
+            </p>
+            <p>
+              TO THE EXTENT THE LAW PERMITS, YOU RELEASE NAVI SAVI AND ALL NAVI
+              SAVI AFFILIATES FROM ANY CLAIMS OR LIABILITY RELATED TO ANY
+              CONTENT POSTED ON THE PLATFORM AND FROM CLAIMS RELATED TO THE
+              CONDUCT OF ANY OTHER CUSTOMERS OF OURS. YOU HEREBY WAIVE
+              CALIFORNIA CIVIL CODE SECTION 1542 (AND ANY SIMILAR PROVISION IN
+              ANY OTHER JURISDICTION) WHICH STATE THAT: “A GENERAL RELEASE DOES
+              NOT EXTEND TO CLAIMS WHICH THE CREDITOR DOES NOT KNOW OR SUSPECT
+              TO EXIST IN HIS FAVOR AT THE TIME OF EXECUTING THE RELEASE, WHICH,
+              IF KNOWN BY HIM, MUST HAVE MATERIALLY AFFECTED HIS SETTLEMENT WITH
+              THE DEBTOR.
+            </p>
+            <p>
+              YOU AGREE THAT YOUR SOLE REMEDY FOR ANY CLAIMS ARISING IN
+              CONNECTION WITH THIS AGREEMENT IS TO DISCONTINUE USING THE SITE
+              AND SERVICES. IN THE EVENT THAT A COURT DETERMINES THAT THE
+              PRECEDING SENTENCE IS UNENFORCEABLE, THE AGGREGATE LIABILITY OF
+              NAVI SAVI OR ANY NAVI SAVI AFFILIATE TO YOU FOR ALL CLAIMS ARISING
+              IN CONNECTION WITH THIS AGREEMENT WILL NOT EXCEED THE GREATER OF
+              (A) ALL AMOUNTS PAID BY YOU UNDER THIS AGREEMENT WITHIN THE LAST
+              TWELVE (12) MONTHS, AND (B) ONE HUNDRED DOLLARS (U.S. $100.00).
+              THESE LIMITATIONS OF LIABILITY APPLY REGARDLESS OF THE NATURE OF
+              ANY CLAIM, WHETHER BASED ON WARRANTY, CONTRACT, TORT, OR ANY OTHER
+              LEGAL OR EQUITABLE THEORY, AND WHETHER OR NOT NAVI SAVI OR THE
+              APPLICABLE NAVI SAVI AFFILIATE IS ADVISED OF THE POSSIBILITY OF
+              SUCH DAMAGES.
+            </p>
+            <li className="main-list">YOUR INDEMNIFICATION OF NAVI SAVI</li>
+            <p>
+              You agree to defend, indemnify and hold harmless Navi Savi and all
+              Navi Savi Affiliates from and against any and all claims, damages,
+              obligations, losses, liabilities, costs or debt, and expenses
+              (including but not limited to attorney’s fees) arising from: (i)
+              your use of and access to the Platform; (ii) your violation of any
+              term of these Terms of Use; (iii) your violation of any third
+              party right, including without limitation any copyright, property,
+              or privacy right; or (iv) any claim that Your Content caused
+              damage to a third party. This defense and indemnification
+              obligation will survive these Terms of Use and your use of the
+              Platform.
+            </p>
+            <li className="main-list">INTELLECTUAL PROPERTY ISSUES</li>
+            <p>
+              You acknowledge and agree that we and our licensors retain
+              ownership of all intellectual property rights of any kind related
+              to the Platform, including applicable copyrights, trademarks and
+              other proprietary rights. “Navi Savi” is our trademark. Other
+              product and company names that are mentioned on the Platform may
+              be trademarks of their respective owners. We do not grant any
+              license to you relating any of those intellectual property rights
+              by virtue of these Terms of Use. We reserve all rights that are
+              not expressly granted to you in these Terms of Use.
+            </p>
+            <p>
+              Except for user-generated content and LB content, the Content on
+              Navi Savi, excluding all intellectual property of other sites
+              obtained by way of API and linking, are owned by Navi Savi. This
+              includes, without limitation, the text, software, scripts,
+              graphics, photos, sounds, interactive features and the trademarks,
+              service marks and logos contained therein (“Marks”). These are
+              owned by or licensed to Navi Savi, subject to copyright and other
+              intellectual property rights under United States and foreign laws
+              and international conventions. All Content is provided to you AS
+              IS for your information and personal use only and may not be used,
+              copied, reproduced, distributed, transmitted, broadcast,
+              displayed, sold, licensed, or otherwise exploited for any other
+              purposes whatsoever without the prior written consent of the
+              respective owners, except as permitted through Navi Savi’s
+              functionality and under these Terms of Use. We reserve all rights
+              not expressly granted in and to Navi Savi and the Content.
+            </p>
+            <p>
+              As between you and us, you retain ownership of any intellectual
+              property in any copyrighted materials and trademarks that are
+              contained in Your Content, but you grant us an irrevocable,
+              perpetual, non-exclusive, royalty-free, fully paid, worldwide
+              license, with rights to sublicense through multiple levels of
+              sublicensees, to reproduce, make derivative works of, translate,
+              distribute, publicly perform and publicly display in any form or
+              medium, whether now known or later developed, make, use, sell,
+              import, offer for sale, otherwise commercially exploit and
+              exercise any and all such rights, under any and all of your
+              intellectual property rights related to Your Content in any manner
+              we choose. If you have any rights to Your Content that cannot be
+              licensed to us (such as moral rights in some countries), you
+              unconditionally and irrevocably waive the enforcement of such
+              rights, and all claims and causes of action of any kind against us
+              or related to our customers and partners anywhere in the world,
+              with respect to such rights in Your Content. With respect to other
+              users, you grant each Navi Savi user, whether using Navi Savi or
+              an application developed via a third-party developer, a
+              non-exclusive license to access Your Content through Navi Savi and
+              to use, reproduce, distribute, prepare derivative works of,
+              display and perform such submissions as permitted through Navi
+              Savi’s functionality and under these Terms of Use.
+            </p>
+            <p>
+              We respect the intellectual property of others, and we ask you to
+              do the same.
+            </p>
+            <li className="main-list">COPYRIGHT ISSUES</li>
+            <p>
+              If you are a copyright owner or an owner’s agent, and you find
+              content that infringes upon your copyrights on our Platform, you
+              may submit a notification according to the Digital Millennium
+              Copyright Act (“DMCA”). To do so, please provide our Copyright
+              Agent with the following information (see 17 U.S.C 512(c)(3) for
+              further detail) in writing: (1) A physical or electronic signature
+              of a person authorized to act on behalf of the owner of an
+              exclusive right that is allegedly infringed; (2) Identification of
+              the copyrighted work claimed to have been infringed, or, if
+              multiple copyrighted works at a single online site are covered by
+              a single notification, a representative list of such works at that
+              site; (3) Identification of the material that is claimed to be
+              infringing or to be the subject of infringing activity and that is
+              to be removed or access to which is to be disabled and information
+              reasonably sufficient to permit Navi Savi or its service provider
+              to locate the material; (4) Information reasonably sufficient to
+              permit Navi Savi or its service provider to contact you, such as
+              an address, telephone number, and, if available, an electronic
+              mail; (5) A statement that you have a good faith belief that use
+              of the material in the manner complained of is not authorized by
+              the copyright owner, its agent, or the law; and (6) A statement
+              that the information in the notification is accurate, and under
+              penalty of perjury, that you are authorized to act on behalf of
+              the owner of an exclusive right that is allegedly infringed.
+            </p>
+            <p>
+              Navi Savi’s designated Copyright Agent to receive notifications of
+              claimed infringement can be reached by sending an email to
+              contact@navi-savi.com or a letter to:
+            </p>
+            <p style={{ padding: "0" }}>VoyagerHQ</p>
+            <p style={{ padding: "0" }}>c/o Navi Savi, LLC.</p>
+            <p style={{ padding: "0" }}>Attn: Legal Department</p>
+            <p style={{ padding: "0" }}>137 W 25th St. 11th floor,</p>
+            <p style={{ padding: "0" }}>New York, NY 10001</p>
+            <p>
+              You acknowledge that if you fail to comply with all of the
+              requirements of this Section, your DMCA notice may not be valid or
+              may create civil liability for you under the DMCA.
+            </p>
+            <li className="main-list">ELECTRONIC COMMUNICATIONS</li>
+            <p>
+              You and we agree to use electronic means to communicate with one
+              another, whether you visit the Platform or send us emails, or
+              whether Navi Savi posts notices on the Service or communicates
+              with you via email. For contractual purposes, you (1) consent to
+              receive communications from Navi Savi in an electronic form; and
+              (2) agree that all terms and conditions, agreements, notices,
+              disclosures, and other communications that Navi Savi provides to
+              you electronically satisfy any legal requirement that such
+              communications would satisfy if it were in writing. The foregoing
+              does not affect any non-waivable rights.
+            </p>
+            <li className="main-list">PROMOTIONS</li>
+            <p>
+              Navi Savi sometimes offers Promotions that allow users to receive
+              free or discounted Services. Eligibility, duration, discount or
+              reimbursement amount, and other terms for each Promotion are
+              specified in its Promotion Terms, but those Promotion Terms shall
+              yield to the terms of these Terms and Conditions in case of any
+              conflict between them. We reserve the right to revoke any
+              Promotion, at any time and for any reason at our sole discretion
+              without notice. It is a violation of these Terms and Conditions to
+              sell or otherwise share the code(s) associated with any Promotion
+              except as expressly authorized in the Promotion Terms.
+            </p>
+            <li className="main-list">GENERAL TERMS</li>
+            <p>
+              To the extent that you perform any work of any kind on behalf of
+              us, you and we are independent contractors, and nothing in these
+              Terms of Use creates a partnership, employment relationship or
+              agency. There are no third-party beneficiaries of these Terms of
+              Use. You may not assign these Terms of Use, in whole or in part,
+              to any third party without our prior, written consent, and any
+              attempt by you to do so will be invalid. Should any part of these
+              Terms of Use be held invalid or unenforceable, that portion will
+              be construed consistently with applicable law and the remaining
+              portions will remain in full force and effect. Our failure to
+              enforce any provision of these Terms of Use will not be considered
+              a waiver of the right to enforce such provision. Our rights under
+              these Terms of Use will survive any termination of these Terms of
+              Use.
+            </p>
+            <p>
+              These Terms of Use is governed by the laws of the State of
+              Nebraska, regardless of its conflicts of law rules. At Navi Savi’s
+              sole discretion, it may require you to submit any disputes arising
+              from these Terms of Use or your use of the Platform, including
+              disputes arising from or concerning their interpretation,
+              violation, invalidity, non-performance, or termination, to final
+              and binding arbitration under the Rules of Arbitration of the
+              American Arbitration Association applying Nebraska law.
+            </p>
+            <p>
+              These Terms of Use, together with the Privacy Notice and any other
+              legal notices published by Navi Savi on the Website, shall
+              constitute the entire agreement between you and Navi Savi
+              concerning the Platform except to the extent that any other
+              agreement is signed by both you and Navi Savi.
+            </p>
+            <p>
+              YOU AND WE AGREE THAT ANY CAUSE OF ACTION ARISING OUT OF OR
+              RELATED TO THE PLATFORM MUST COMMENCE WITHIN ONE (1) YEAR AFTER
+              THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS
+              PERMANENTLY BARRED.
+            </p>
+            <p>
+              You represent that you are legally able to accept these Terms of
+              Use. you affirm that you are either more than 18 years of age, or
+              an emancipated minor, or possess legal parental or guardian
+              consent, and are fully able and competent to enter into the terms,
+              conditions, obligations, affirmations, representations, and
+              warranties set forth in these Terms of Use, and to abide by and
+              comply with these Terms of Use.
+            </p>
+            <li className="main-list">DEFINITIONS</li>
+            <ul className="sub-list">
+              <li>
+                19.1. “Content” means all content available on the Platform,
+                including but not limited to any of Your Content and all LB
+                Content.
+              </li>
+              <li>
+                19.2. “Content Guidelines” means the terms within the Terms of
+                Use that restrict what Content that may be uploaded to the
+                Platform.
+              </li>
+              <li>
+                19.3. “Joint Marketing Partner” means any third party with whom
+                we have a joint marketing agreement.
+              </li>
+              <li>19.4. “Member” means a registered user of the Platform.</li>
+              <li>
+                19.5. “Messaging” includes written communication within, and
+                telephone calls initiated using the Platform.
+              </li>
+              <li>
+                19.6. “Navi Savi Affiliates” means any of our affiliates or
+                subsidiaries, or any of their or our respective owners,
+                managers, officers, employees, agents or representatives.
+              </li>
+              <li>
+                19.7. “Payment Management Vendor” means any third party
+                contracted by Navi Savi to process payments on the Platform.
+                Stripe or Plaid Technologies.
+              </li>
+              <li>
+                19.8. “Platform” means the Website, our iOS application, and our
+                Android application.
+              </li>
+              <li>
+                19.9. “Privacy Notice” means our disclosure of our privacy
+                practices, which is located at
+                www.navisaviapp.com/privacy-policy.
+              </li>
+              <li>
+                19.10. “Promotion” means an offer from Navi Savi to discount or
+                reimburse a user for the cost of certain Services.
+              </li>
+              <li>
+                19.11. “Promotion Terms” means any terms and conditions set
+                forth in a Promotion pertaining to that Promotion.
+              </li>
+              <li>
+                19.12. “LB Content” means any offers, responses, writings, and
+                other content that a Listed Business generates when it uses the
+                Platform.
+              </li>
+              <li>
+                19.13. “LB Tools” means certain tools that we offer exclusively
+                to Listed Businesses including, without limitation, the ability
+                to review user Content pertaining to your Listed Business, the
+                ability to submit responses to user Content, the ability to
+                update and maintain profile information on your Listed Business,
+                the ability to utilize the dispute resolution process offered
+                through the Website and facilitated by Navi Savi, and any of the
+                other services that we may offer to Listed Businesses from time
+                to time.
+              </li>
+              <li>
+                19.14. “Listed Business Affiliates” means individuals affiliated
+                with a Listed Business, including without limitation any current
+                or former owners, current or former employees or officers,
+                family members, or current or former partners, investors,
+                managers or directors.
+              </li>
+              <li>
+                19.15. “Services” means services offered to a user by a Listed
+                Business.
+              </li>
+              <li>
+                19.16. “Technical Issues” means limitations, delays and other
+                problems inherent to the use of the internet and electronic
+                communications.
+              </li>
+              <li>
+                19.17. “Term” means the period of time beginning on the
+                Effective Date and ending upon the termination of these Terms of
+                Use.
+              </li>
+              <li>
+                19.18. “Terms of Use” means our terms and conditions for users
+                and Listed Businesses’ use of the Platform, which are located at
+                Navi Savi.com/tos.
+              </li>
+              <li>
+                19.19. “Transaction” means each time that a Listed Business or
+                Service Provider collects payment through the Platform.
+              </li>
+              <li>
+                19.20. “User ID” means a unique account number issued to each
+                Member.
+              </li>
+              <li>19.21. “Website” means www.navisaviapp.com.</li>
+              <li>
+                19.22. “Your Content” means content submissions, including
+                discussion posts, profile information and links, pictures,
+                reviews, and other such content that you submit via the
+                Platform. If you are a Listed Business, this term includes your
+                LB content.
+              </li>
             </ul>
           </ol>
-          ● ● ● ● Attempt to gain access to secured portions of the Platform to
-          which you do not possess access rights ● Upload or transmit any form
-          of virus, worm, Trojan horse, or other malicious code; ● Use the
-          Platform to generate unsolicited email advertisements or spam; ● Use
-          any automatic or manual process to search or harvest information from
-          the Platform, or to interfere in any way with the proper functioning
-          of the Platform; or ● Impersonate another user. In addition, you waive
-          any right you may have to reverse engineer or otherwise attempt to
-          derive the source code of the software (including any tools, methods,
-          processes, and infrastructure) that enables or underlies the Platform,
-          except insofar as such rights are not waivable under United States
-          law. We reserve the right, but have no obligation, to monitor, or take
-          any action we deem appropriate regarding disputes that you may have
-          with other users or Listed Businesses. 5. PAYMENT We strive to make
-          the logistics of your transactions on the Platform as streamlined and
-          efficient as possible, including the payment process. When you engage
-          in any Transaction on the Platform, you: ● Agree to provide valid
-          credit card, debit card, or bank account information through our
-          Payment Management Vendors (your “Payment Information”) before each
-          Transaction, or sufficiently soon thereafter to meet your payment
-          obligations arising out of each Transaction; ● Represent and warrant
-          that the credit limit or account balance (as applicable) for your
-          Payment Information is and will remain sufficient in order to
-          consummate each Transaction; ● Authorize us to run a credit check,
-          contact your card provider or bank, or perform other due diligence
-          that we determine to be reasonably necessary in order to verify a
-          sufficient credit limit or balance for your Payment Information; ●
-          Authorize us to charge the credit, debit, or bank account associated
-          with your Payment Information when the Transaction has been completed,
-          and ● Authorize us to charge the credit, debit, or bank account
-          associated with your Payment Information for any future transactions
-          that you purchase through the Platform, unless you remove the Payment
-          Information from your profile. If all or part of your payment cannot
-          be processed using the Payment Information you provide for a given
-          Transaction, we will submit an invoice to you. In that case, you: ●
-          Agree to pay the amount indicated on the invoice within thirty (30)
-          days from the date of the invoice; ● Authorize us to contact you by
-          email, telephone, text message, or mail regarding your outstanding
-          balance; ● Agree that we may sell your outstanding debt to a third
-          party or hire a collection agency to collect it; ● Agree to pay
-          interest on any overdue payments at the highest rate allowed by
-          applicable law or as agreed by you and us in writing, whichever is
-          lower; and ● Agree to indemnify us for the costs of any third-party
-          collections agencies or attorney’s fees we incur in order to collect
-          your outstanding balance. 6. SECURITY Navi Savi will use reasonable
-          efforts to maintain the security and integrity of information you
-          provide to us. However, you acknowledge and agree that Navi Savi
-          cannot fully eliminate security risks and cannot guarantee that
-          unauthorized access to your information will never occur. You agree
-          that you will keep your user ID and password for your Navi Savi
-          account confidential and secure, that you will never share them with
-          another person, and that you will not use a password on Navi Savi that
-          you have used on another website. 7. PRIVACY We believe that personal
-          privacy issues are important, so we developed a Privacy Notice to
-          explain how we collect, use and disclose information and Content. The
-          Privacy Notice forms part of our agreement with you and is
-          incorporated in these Terms of Use by reference. For full details,
-          please refer to our Privacy Notice. 8. THIRD PARTIES We may also allow
-          access to, or advertise, certain third parties from which you may
-          purchase certain goods or services. You acknowledge that we do not
-          operate or control the products or services offered by those third
-          parties. They are responsible for all aspects of order processing,
-          fulfillment, billing and customer service related to the products and
-          services they offer. We are not a party to any transactions entered
-          into between you and those third parties. Those third parties are also
-          responsible for ensuring that advertisements and other materials
-          submitted for inclusion on the Platform are accurate and comply with
-          applicable laws. 9. CHANGES TO THESE TERMS OF USE We may change the
-          terms of these Terms of Use from time to time on a going- forward
-          basis. Any modifications will become effective immediately upon being
-          posted to the Website. If there are any substantial changes to
-          Members’ rights under these Terms of Use as the result of a revision,
-          we will notify all Members for whom we have an email address of the
-          revision by email. It is your sole responsibility to check the Website
-          from time to time to view any such changes in our Terms of Use. If you
-          do not agree to all of the changes, if and when such changes may be
-          made to our Terms of Use, you must cease use of the Platform. Your use
-          of the Platform after any modifications to our Terms of Use indicates
-          that you agree to the modified Terms of Use. 10. TERMINATION We may
-          change or discontinue all or any portion of the Platform at any time
-          without prior notice. We reserve the right to terminate these Terms of
-          Use at our election and for any reason, without prior notice. In the
-          event of any termination, you agree that you will immediately cease
-          access to the Platform. 11. DISCLAIMERS OF WARRANTY You agree that
-          your use of the Platform shall be at your sole risk. TO THE FULLEST
-          EXTENT PERMITTED BY LAW, NAVI SAVI AND THE NAVI SAVI AFFILIATES
-          DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE
-          WEBSITE AND YOUR USE THEREOF. ACCESS TO THIS SITE IS PROVIDED ON AN
-          “AS IS” BASIS. NEITHER NAVI SAVI NOR ANY OF THE NAVI SAVI AFFILIATES
-          MAKES ANY WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR
-          COMPLETENESS OF THE PLATFORM’S CONTENT OR THE CONTENT OF ANY SITES
-          LINKED TO THE WEBSITE AND ASSUMES NO LIABILITY OR RESPONSIBILITY FOR
-          ANY ( i ) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT, PERSONAL
-          INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM
-          YOUR ACCESS TO AND USE OF OUR WEBSITE, ( ii ) ANY UNAUTHORIZED ACCESS
-          TO OR USE OF OUR SECURE SERVERS OR ANY AND ALL PERSONAL INFORMATION OR
-          FINANCIAL INFORMATION STORED THEREIN, ( iii ) ANY INTERRUPTION OR
-          CESSATION OF TRANSMISSION TO OR FROM OUR PLATFORM, ( iv ) ANY BUGS,
-          VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR
-          THROUGH OUR WEBSITE BY ANY THIRD PARTY, OR ( v ) ANY ERRORS OR
-          OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND
-          INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, EMAILED,
-          TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE PLATFORM. NAVI SAVI
-          DOES NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY
-          PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE
-          PLATFORM OR ANY HYPERLINKED WEBSITE OR FEATURED IN ANY BANNER OR OTHER
-          ADVERTISING. NAVI SAVI WILL NOT BE A PARTY TO OR IN ANY WAY BE
-          RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY
-          PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT
-          OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE
-          YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE. WE WILL NOT
-          BE LIABLE FOR ANY DAMAGES ARISING FROM THE TRANSACTIONS BETWEEN YOU
-          AND USERS, LISTED BUSINESSES, OR SERVICE PROVIDERS FOR ANY INFORMATION
-          APPEARING ON PARTNER SITES OR ANY OTHER SITE LINKED TO OUR SITE. IN NO
-          EVENT WILL NAVI SAVI OR ANY NAVI SAVI AFFILIATE BE LIABLE TO YOU OR
-          ANY THIRD PARTY IN CONNECTION WITH ANY ACT OR OMISSION OF SUCH A THIRD
-          PARTY. THE FOREGOING DISCLAIMERS SHALL APPLY TO THE FULLEST EXTENT
-          PERMITTED BY LAW IN THE APPLICABLE JURISDICTION 12. LIMITATIONS OF
-          LIABILITY YOU ACKNOWLEDGE AND AGREE THAT WE ARE ONLY WILLING TO
-          PROVIDE ACCESS TO THE SITE AND TO PROVIDE THE SERVICES IF YOU AGREE TO
-          CERTAIN LIMITATIONS OF OUR LIABILITY TO YOU AND TO THIRD PARTIES. IN
-          NO EVENT SHALL NAVI SAVI OR ANY NAVI SAVI AFFILIATE BE LIABLE TO YOU
-          FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR
-          CONSEQUENTIAL DAMAGES WHATSOEVER RESULTING FROM ANY ( i ) ERRORS,
-          MISTAKES, OR INACCURACIES OF CONTENT, ( ii ) PERSONAL INJURY OR
-          PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS
-          TO AND USE OF THE PLATFORM, ( iii ) ANY UNAUTHORIZED ACCESS TO OR USE
-          OF OUR SECURE SERVERS OR ANY AND ALL PERSONAL INFORMATION OR FINANCIAL
-          INFORMATION STORED THEREIN, ( iv ) ANY INTERRUPTION OR CESSATION OF
-          TRANSMISSION TO OR FROM OUR WEBSITE, ( v ) ANY BUGS, VIRUSES, TROJAN
-          HORSES, OR THE LIKE, WHICH MAY BE TRANSMITTED TO OR THROUGH THE
-          PLATFORM BY ANY THIRD PARTY, OR ( vi ) ANY ERRORS OR OMISSIONS IN ANY
-          CONTENT OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF
-          YOUR USE OF ANY CONTENT POSTED, EMAILED, TRANSMITTED, OR OTHERWISE
-          MADE AVAILABLE VIA THE PLATFORM, WHETHER BASED ON WARRANTY, CONTRACT,
-          TORT, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT NAVI SAVI OR THE
-          APPLICABLE NAVI SAVI AFFILIATE IS ADVISED OF THE POSSIBILITY OF SUCH
-          DAMAGES. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE
-          FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION. YOU
-          SPECIFICALLY ACKNOWLEDGE THAT NEITHER NAVI SAVI NOR ANY NAVI SAVI
-          AFFILIATE SHALL BE LIABLE FOR USER SUBMISSIONS OR THE DEFAMATORY,
-          OFFENSIVE, OR ILLEGAL CONDUCT OF ANY THIRD PARTY AND THAT THE RISK OF
-          HARM OR DAMAGE FROM THE FOREGOING RESTS ENTIRELY WITH YOU. TO THE
-          EXTENT THE LAW PERMITS, YOU RELEASE NAVI SAVI AND ALL NAVI SAVI
-          AFFILIATES FROM ANY CLAIMS OR LIABILITY RELATED TO ANY CONTENT POSTED
-          ON THE PLATFORM AND FROM CLAIMS RELATED TO THE CONDUCT OF ANY OTHER
-          CUSTOMERS OF OURS. YOU HEREBY WAIVE CALIFORNIA CIVIL CODE SECTION 1542
-          (AND ANY SIMILAR PROVISION IN ANY OTHER JURISDICTION) WHICH STATE
-          THAT: “A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR
-          DOES NOT KNOW OR SUSPECT TO EXIST IN HIS FAVOR AT THE TIME OF
-          EXECUTING THE RELEASE, WHICH, IF KNOWN BY HIM, MUST HAVE MATERIALLY
-          AFFECTED HIS SETTLEMENT WITH THE DEBTOR. YOU AGREE THAT YOUR SOLE
-          REMEDY FOR ANY CLAIMS ARISING IN CONNECTION WITH THIS AGREEMENT IS TO
-          DISCONTINUE USING THE SITE AND SERVICES. IN THE EVENT THAT A COURT
-          DETERMINES THAT THE PRECEDING SENTENCE IS UNENFORCEABLE, THE AGGREGATE
-          LIABILITY OF NAVI SAVI OR ANY NAVI SAVI AFFILIATE TO YOU FOR ALL
-          CLAIMS ARISING IN CONNECTION WITH THIS AGREEMENT WILL NOT EXCEED THE
-          GREATER OF (A) ALL AMOUNTS PAID BY YOU UNDER THIS AGREEMENT WITHIN THE
-          LAST TWELVE (12) MONTHS, AND (B) ONE HUNDRED DOLLARS (U.S. $100.00).
-          THESE LIMITATIONS OF LIABILITY APPLY REGARDLESS OF THE NATURE OF ANY
-          CLAIM, WHETHER BASED ON WARRANTY, CONTRACT, TORT, OR ANY OTHER LEGAL
-          OR EQUITABLE THEORY, AND WHETHER OR NOT NAVI SAVI OR THE APPLICABLE
-          NAVI SAVI AFFILIATE IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 13.
-          YOUR INDEMNIFICATION OF NAVI SAVI You agree to defend, indemnify and
-          hold harmless Navi Savi and all Navi Savi Affiliates from and against
-          any and all claims, damages, obligations, losses, liabilities, costs
-          or debt, and expenses (including but not limited to attorney’s fees)
-          arising from: (i) your use of and access to the Platform; (ii) your
-          violation of any term of these Terms of Use; (iii) your violation of
-          any third party right, including without limitation any copyright,
-          property, or privacy right; or (iv) any claim that Your Content caused
-          damage to a third party. This defense and indemnification obligation
-          will survive these Terms of Use and your use of the Platform. 14.
-          INTELLECTUAL PROPERTY ISSUES You acknowledge and agree that we and our
-          licensors retain ownership of all intellectual property rights of any
-          kind related to the Platform, including applicable copyrights,
-          trademarks and other proprietary rights. “Navi Savi” is our trademark.
-          Other product and company names that are mentioned on the Platform may
-          be trademarks of their respective owners. We do not grant any license
-          to you relating any of those intellectual property rights by virtue of
-          these Terms of Use. We reserve all rights that are not expressly
-          granted to you in these Terms of Use. Except for user-generated
-          content and LB content, the Content on Navi Savi, excluding all
-          intellectual property of other sites obtained by way of API and
-          linking, are owned by Navi Savi. This includes, without limitation,
-          the text, software, scripts, graphics, photos, sounds, interactive
-          features and the trademarks, service marks and logos contained therein
-          (“Marks”). These are owned by or licensed to Navi Savi, subject to
-          copyright and other intellectual property rights under United States
-          and foreign laws and international conventions. All Content is
-          provided to you AS IS for your information and personal use only and
-          may not be used, copied, reproduced, distributed, transmitted,
-          broadcast, displayed, sold, licensed, or otherwise exploited for any
-          other purposes whatsoever without the prior written consent of the
-          respective owners, except as permitted through Navi Savi’s
-          functionality and under these Terms of Use. We reserve all rights not
-          expressly granted in and to Navi Savi and the Content. As between you
-          and us, you retain ownership of any intellectual property in any
-          copyrighted materials and trademarks that are contained in Your
-          Content, but you grant us an irrevocable, perpetual, non-exclusive,
-          royalty-free, fully paid, worldwide license, with rights to sublicense
-          through multiple levels of sublicensees, to reproduce, make derivative
-          works of, translate, distribute, publicly perform and publicly display
-          in any form or medium, whether now known or later developed, make,
-          use, sell, import, offer for sale, otherwise commercially exploit and
-          exercise any and all such rights, under any and all of your
-          intellectual property rights related to Your Content in any manner we
-          choose. If you have any rights to Your Content that cannot be licensed
-          to us (such as moral rights in some countries), you unconditionally
-          and irrevocably waive the enforcement of such rights, and all claims
-          and causes of action of any kind against us or related to our
-          customers and partners anywhere in the world, with respect to such
-          rights in Your Content. With respect to other users, you grant each
-          Navi Savi user, whether using Navi Savi or an application developed
-          via a third-party developer, a non-exclusive license to access Your
-          Content through Navi Savi and to use, reproduce, distribute, prepare
-          derivative works of, display and perform such submissions as permitted
-          through Navi Savi’s functionality and under these Terms of Use. We
-          respect the intellectual property of others, and we ask you to do the
-          same. 15. COPYRIGHT ISSUES If you are a copyright owner or an owner’s
-          agent, and you find content that infringes upon your copyrights on our
-          Platform, you may submit a notification according to the Digital
-          Millennium Copyright Act (“DMCA”). To do so, please provide our
-          Copyright Agent with the following information (see 17 U.S.C 512(c)(3)
-          for further detail) in writing: (1) A physical or electronic signature
-          of a person authorized to act on behalf of the owner of an exclusive
-          right that is allegedly infringed; (2) Identification of the
-          copyrighted work claimed to have been infringed, or, if multiple
-          copyrighted works at a single online site are covered by a single
-          notification, a representative list of such works at that site; (3)
-          Identification of the material that is claimed to be infringing or to
-          be the subject of infringing activity and that is to be removed or
-          access to which is to be disabled and information reasonably
-          sufficient to permit Navi Savi or its service provider to locate the
-          material; (4) Information reasonably sufficient to permit Navi Savi or
-          its service provider to contact you, such as an address, telephone
-          number, and, if available, an electronic mail; (5) A statement that
-          you have a good faith belief that use of the material in the manner
-          complained of is not authorized by the copyright owner, its agent, or
-          the law; and (6) A statement that the information in the notification
-          is accurate, and under penalty of perjury, that you are authorized to
-          act on behalf of the owner of an exclusive right that is allegedly
-          infringed. Navi Savi’s designated Copyright Agent to receive
-          notifications of claimed infringement can be reached by sending an
-          email to contact@navi-savi.com or a letter to: VoyagerHQ c/o Navi
-          Savi, LLC. Attn: Legal Department 137 W 25th St. 11th floor, New York,
-          NY 10001 You acknowledge that if you fail to comply with all of the
-          requirements of this Section, your DMCA notice may not be valid or may
-          create civil liability for you under the DMCA. 16. ELECTRONIC
-          COMMUNICATIONS You and we agree to use electronic means to communicate
-          with one another, whether you visit the Platform or send us emails, or
-          whether Navi Savi posts notices on the Service or communicates with
-          you via email. For contractual purposes, you (1) consent to receive
-          communications from Navi Savi in an electronic form; and (2) agree
-          that all terms and conditions, agreements, notices, disclosures, and
-          other communications that Navi Savi provides to you electronically
-          satisfy any legal requirement that such communications would satisfy
-          if it were in writing. The foregoing does not affect any non-waivable
-          rights. 17. PROMOTIONS Navi Savi sometimes offers Promotions that
-          allow users to receive free or discounted Services. Eligibility,
-          duration, discount or reimbursement amount, and other terms for each
-          Promotion are specified in its Promotion Terms, but those Promotion
-          Terms shall yield to the terms of these Terms and Conditions in case
-          of any conflict between them. We reserve the right to revoke any
-          Promotion, at any time and for any reason at our sole discretion
-          without notice. It is a violation of these Terms and Conditions to
-          sell or otherwise share the code(s) associated with any Promotion
-          except as expressly authorized in the Promotion Terms. 18. GENERAL
-          TERMS To the extent that you perform any work of any kind on behalf of
-          us, you and we are independent contractors, and nothing in these Terms
-          of Use creates a partnership, employment relationship or agency. There
-          are no third-party beneficiaries of these Terms of Use. You may not
-          assign these Terms of Use, in whole or in part, to any third party
-          without our prior, written consent, and any attempt by you to do so
-          will be invalid. Should any part of these Terms of Use be held invalid
-          or unenforceable, that portion will be construed consistently with
-          applicable law and the remaining portions will remain in full force
-          and effect. Our failure to enforce any provision of these Terms of Use
-          will not be considered a waiver of the right to enforce such
-          provision. Our rights under these Terms of Use will survive any
-          termination of these Terms of Use. These Terms of Use is governed by
-          the laws of the State of Nebraska, regardless of its conflicts of law
-          rules. At Navi Savi’s sole discretion, it may require you to submit
-          any disputes arising from these Terms of Use or your use of the
-          Platform, including disputes arising from or concerning their
-          interpretation, violation, invalidity, non-performance, or
-          termination, to final and binding arbitration under the Rules of
-          Arbitration of the American Arbitration Association applying Nebraska
-          law. These Terms of Use, together with the Privacy Notice and any
-          other legal notices published by Navi Savi on the Website, shall
-          constitute the entire agreement between you and Navi Savi concerning
-          the Platform except to the extent that any other agreement is signed
-          by both you and Navi Savi. YOU AND WE AGREE THAT ANY CAUSE OF ACTION
-          ARISING OUT OF OR RELATED TO THE PLATFORM MUST COMMENCE WITHIN ONE (1)
-          YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF
-          ACTION IS PERMANENTLY BARRED. You represent that you are legally able
-          to accept these Terms of Use. you affirm that you are either more than
-          18 years of age, or an emancipated minor, or possess legal parental or
-          guardian consent, and are fully able and competent to enter into the
-          terms, conditions, obligations, affirmations, representations, and
-          warranties set forth in these Terms of Use, and to abide by and comply
-          with these Terms of Use. 19. DEFINITIONS 19.1. “Content” means all
-          content available on the Platform, including but not limited to any of
-          Your Content and all LB Content. 19.2. “Content Guidelines” means the
-          terms within the Terms of Use that restrict what Content that may be
-          uploaded to the Platform. 19.3. “Joint Marketing Partner” means any
-          third party with whom we have a joint marketing agreement. 19.4.
-          “Member” means a registered user of the Platform. 19.5. “Messaging”
-          includes written communication within, and telephone calls initiated
-          using the Platform. 19.6. “Navi Savi Affiliates” means any of our
-          affiliates or subsidiaries, or any of their or our respective owners,
-          managers, officers, employees, agents or representatives. 19.7.
-          “Payment Management Vendor” means any third party contracted by Navi
-          Savi to process payments on the Platform. Stripe or Plaid
-          Technologies. 19.8. “Platform” means the Website, our iOS application,
-          and our Android application. 19.9. “Privacy Notice” means our
-          disclosure of our privacy practices, which is located at
-          www.navisaviapp.com/privacy-policy. 19.10. “Promotion” means an offer
-          from Navi Savi to discount or reimburse a user for the cost of certain
-          Services. 19.11. “Promotion Terms” means any terms and conditions set
-          forth in a Promotion pertaining to that Promotion. 19.12. “LB Content”
-          means any offers, responses, writings, and other content that a Listed
-          Business generates when it uses the Platform. 19.13. “LB Tools” means
-          certain tools that we offer exclusively to Listed Businesses
-          including, without limitation, the ability to review user Content
-          pertaining to your Listed Business, the ability to submit responses to
-          user Content, the ability to update and maintain profile information
-          on your Listed Business, the ability to utilize the dispute resolution
-          process offered through the Website and facilitated by Navi Savi, and
-          any of the other services that we may offer to Listed Businesses from
-          time to time. 19.14. “Listed Business Affiliates” means individuals
-          affiliated with a Listed Business, including without limitation any
-          current or former owners, current or former employees or officers,
-          family members, or current or former partners, investors, managers or
-          directors. 19.15. “Services” means services offered to a user by a
-          Listed Business. 19.16. “Technical Issues” means limitations, delays
-          and other problems inherent to the use of the internet and electronic
-          communications. 19.17. “Term” means the period of time beginning on
-          the Effective Date and ending upon the termination of these Terms of
-          Use. 19.18. “Terms of Use” means our terms and conditions for users
-          and Listed Businesses’ use of the Platform, which are located at Navi
-          Savi.com/tos. 19.19. “Transaction” means each time that a Listed
-          Business or Service Provider collects payment through the Platform.
-          19.20. “User ID” means a unique account number issued to each Member.
-          19.21. “Website” means www.navisaviapp.com. 19.22. “Your Content”
-          means content submissions, including discussion posts, profile
-          information and links, pictures, reviews, and other such content that
-          you submit via the Platform. If you are a Listed Business, this term
-          includes your LB content.
         </div>
       </div>
     </Layout>
