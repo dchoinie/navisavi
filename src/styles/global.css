@@ -123,6 +123,23 @@ div {
   font-family: "Fredoka One", sans-serif;
 }
 
+.footer-icon {
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  padding: 0.5rem;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+.footer-icon:hover {
+  background-color: var(--accentDark);
+  color: #fff;
+  border: 1px solid var(--accentDark);
+}
+
 .beta-submit,
 .contact-submit,
 .partnerships-btn {
