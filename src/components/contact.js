@@ -21,9 +21,6 @@ const Contact = () => {
           data-netlify="true"
           className="flex flex-col md:w-1/2 mb-4 md:p-4 md:mb-0"
         >
-          <label htmlFor="contactName" className="hidden">
-            Name
-          </label>
           <input
             id="contactName"
             type="text"
@@ -32,9 +29,7 @@ const Contact = () => {
             className="p-1 text-lg text-gray-700 mb-1 border border-gray-200 rounded"
             required
           />
-          <label htmlFor="contactEmail" className="hidden">
-            Email
-          </label>
+
           <input
             id="contactEmail"
             type="email"
@@ -43,9 +38,7 @@ const Contact = () => {
             className="p-1 text-lg text-gray-700 my-1 border border-gray-200 rounded"
             required
           />
-          <label htmlFor="contactPhone" className="hidden">
-            Phone
-          </label>
+
           <input
             id="contactPhone"
             type="tel"
@@ -53,9 +46,7 @@ const Contact = () => {
             placeholder="Phone"
             className="p-1 text-lg text-gray-700 my-1 border border-gray-200 rounded"
           />
-          <label htmlFor="contactMessage" className="hidden">
-            Message
-          </label>
+
           <textarea
             id="contactMessage"
             name="contactMessage"
