@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
       <div className="flex flex-col md:flex-row justify-center self-center md:border md:border-gray-200 md:rounded contact-section-width">
         <form
-          action=""
+          action="POST"
           name="howdy"
           method="POST"
           data-netlify="true"
