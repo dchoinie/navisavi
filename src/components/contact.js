@@ -21,44 +21,44 @@ const Contact = () => {
           data-netlify="true"
           className="flex flex-col md:w-1/2 mb-4 md:p-4 md:mb-0"
         >
-          <label htmlFor="contact-name" className="hidden">
+          <label htmlFor="contactName" className="hidden">
             Name
           </label>
           <input
-            id="contact-name"
+            id="contactName"
             type="text"
-            name="contact-name"
+            name="contactName"
             placeholder="Name"
             className="p-1 text-lg text-gray-700 mb-1 border border-gray-200 rounded"
             required
           />
-          <label htmlFor="contact-email" className="hidden">
+          <label htmlFor="contactEmail" className="hidden">
             Email
           </label>
           <input
-            id="contact-email"
+            id="contactEmail"
             type="email"
-            name="contact-email"
+            name="contactEmail"
             placeholder="Email"
             className="p-1 text-lg text-gray-700 my-1 border border-gray-200 rounded"
             required
           />
-          <label htmlFor="contact-phone" className="hidden">
+          <label htmlFor="contactPhone" className="hidden">
             Phone
           </label>
           <input
-            id="contact-phone"
+            id="contactPhone"
             type="tel"
-            name="contact-phone"
+            name="contactPhone"
             placeholder="Phone"
             className="p-1 text-lg text-gray-700 my-1 border border-gray-200 rounded"
           />
-          <label htmlFor="contact-message" className="hidden">
+          <label htmlFor="contactMessage" className="hidden">
             Message
           </label>
           <textarea
-            id="contact-message"
-            name="contact-message"
+            id="contactMessage"
+            name="contactMessage"
             cols="30"
             rows="5"
             className="text-gray-700 text-lg p-1 my-1 border border-gray-200 rounded"
