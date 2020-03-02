@@ -446,7 +446,7 @@ const PrivacyPolicy = () => {
               exercise any of the other rights). However, we may (a) charge a
               reasonable fee, or (b) refuse to comply with your request, if your
               request is clearly unfounded, repetitive or excessive, to the
-              extent permitted by law.{" "}
+              extent permitted by law.
             </p>
             <p className="sub-list">9.3. What we may need from you.</p>
             <p>
@@ -463,17 +463,17 @@ const PrivacyPolicy = () => {
               We try to respond to all legitimate requests within one month.
               Occasionally it could take us longer than a month if your request
               is particularly complex or you have made a number of requests. In
-              this case, we will notify you and keep you updated.{" "}
+              this case, we will notify you and keep you updated.
             </p>
             <p className="sub-list">
-              9.5. Your California or Nevada Privacy Rights.{" "}
+              9.5. Your California or Nevada Privacy Rights.
             </p>
             <p>
               If you are a California or Nevada resident, California or Nevada
               law may provide you with additional rights regarding our use of
               your personal information. To learn more about your California or
               Nevada privacy rights, visit our Privacy Notice for California and
-              Nevada Residents.{" "}
+              Nevada Residents.
             </p>
             <li className="main-list">INTERNATIONAL TRANSFERS </li>
             <p>
@@ -484,7 +484,7 @@ const PrivacyPolicy = () => {
               your personal data outside the European Economic Area, we will do
               so in accordance with applicable law and we will ensure a similar
               degree of protection is afforded to it by implementing appropriate
-              safeguards. We may transfer data from the European Economic Area:{" "}
+              safeguards. We may transfer data from the European Economic Area:
             </p>
             <ul className="list-disc list-inside">
               <li>
@@ -494,80 +494,78 @@ const PrivacyPolicy = () => {
               <li>
                 to a country which does not offer adequate protection but whose
                 transfer has been governed by the standard contractual clauses
-                promulgated by the European Commission; or{" "}
+                promulgated by the European Commission; or
               </li>
               <li>
                 to any country provided that we have implemented other
                 appropriate cross-border transfer solutions to provide adequate
-                protection under applicable law.{" "}
+                protection under applicable law.
               </li>
             </ul>
             <li className="main-list">CONTACT INFORMATION</li>
             <p>
               To ask questions about Privacy Notice or our privacy practices, or
               to exercise your rights under applicable data protection laws, you
-              may contact us at{" "}
+              may contact us at
             </p>
             <p style={{ padding: "0" }}>
               Navi Savi, Attn: Data Privacy Manager
             </p>
+            <p style={{ padding: "0" }}>Email address: contact@navi-savi.com</p>
             <p style={{ padding: "0" }}>
-              Email address: contact@navi-savi.com{" "}
-            </p>
-            <p style={{ padding: "0" }}>
-              Postal address: 137 W 25th St. 11th floor, New York, NY 10001{" "}
+              Postal address: 137 W 25th St. 11th floor, New York, NY 10001
             </p>
             <p style={{ padding: "0" }}>Telephone number: 1-332-333-2822 </p>
             <li className="main-list">DEFINITIONS</li>
             <p className="sub-list">
               12.1. “Content” means all content available on the Platform,
               including but not limited to any of Your Content and all LB
-              Content.{" "}
+              Content.
             </p>
             <p className="sub-list">
               12.2. “Content Guidelines” means the terms within the Terms of Use
-              that restrict what Content that may be uploaded to the Platform.{" "}
+              that restrict what Content that may be uploaded to the Platform.
             </p>
             <p className="sub-list">
               12.3. “Joint Marketing Partner” means any third party with whom we
-              have a joint marketing agreement.{" "}
+              have a joint marketing agreement.
             </p>
             <p className="sub-list">
               12.4. “Member” means a registered user of the Platform.
             </p>
             <p className="sub-list">
               12.5. “Messaging” includes written communication within, and
-              telephone calls initiated using the Platform.{" "}
+              telephone calls initiated using the Platform.
             </p>
             <p className="sub-list">
               12.6. “Navi Savi Affiliates” means any of our affiliates or
               subsidiaries, or any of their or our respective owners, managers,
-              officers, employees, agents or representatives.{" "}
+              officers, employees, agents or representatives.
             </p>
             <p className="sub-list">
               12.7. “Payment Management Vendor” means any third party contracted
-              by Navi Savi to process payments on the Platform.{" "}
+              by Navi Savi to process payments on the Platform.
             </p>
             <p className="sub-list">
               12.8. “Platform” means the Website, our iOS application, and our
-              Android application.{" "}
+              Android application.
             </p>
             <p className="sub-list">
               12.9. “Privacy Notice” means our disclosure of our privacy
-              practices, which is located at navisaviapp.com/privacy-notice.{" "}
+              practices, which is located at navisaviapp.com/privacy-notice.
             </p>
             <p className="sub-list">
               12.10. “Promotion” means an offer from Navi Savi to discount or
-              reimburse a user for the cost of certain Services.{" "}
+              reimburse a user for the cost of certain Services.
             </p>
             <p className="sub-list">
               12.11. “Promotion Terms” means any terms and conditions set forth
-              in a Promotion pertaining to that Promotion.{" "}
+              in a Promotion pertaining to that Promotion.
             </p>
             <p className="sub-list">
               12.12. “LB Content” means any offers, responses, writings, and
               other content that a Listed Business generates when it uses the
-              Platform.{" "}
+              Platform.
             </p>
             <p className="sub-list">
               12.13. “LB Tools” means certain tools that we offer exclusively to
@@ -577,27 +575,27 @@ const PrivacyPolicy = () => {
               and maintain profile information on your Listed Business, the
               ability to utilize the dispute resolution process offered through
               the Website and facilitated by Navi Savi, and any of the other
-              services that we may offer to Listed Businesses from time to time.{" "}
+              services that we may offer to Listed Businesses from time to time.
             </p>
             <p className="sub-list">
               12.14. “Listed Business Affiliates” means individuals affiliated
               with a Listed Business, including without limitation any current
               or former owners, current or former employees or officers, family
               members, or current or former partners, investors, managers or
-              directors.{" "}
+              directors.
             </p>
             <p className="sub-list">
               12.15. “Services” means services offered to a user by a Listed
-              Business.{" "}
+              Business.
             </p>
             <p className="sub-list">
               12.16. “Technical Issues” means limitations, delays and other
               problems inherent to the use of the internet and electronic
-              communications.{" "}
+              communications.
             </p>
             <p className="sub-list">
               12.17. “Term” means the period of time beginning on the Effective
-              Date and ending upon the termination of these Terms of Use.{" "}
+              Date and ending upon the termination of these Terms of Use.
             </p>
             <p className="sub-list">
               12.18. “Terms of Use” means our terms and conditions for users and
@@ -610,10 +608,10 @@ const PrivacyPolicy = () => {
             </p>
             <p className="sub-list">
               12.20. “User ID” means a unique account number issued to each
-              Member.{" "}
+              Member.
             </p>
             <p className="sub-list">
-              12.21. “Website” means www.navisaviapp.com.{" "}
+              12.21. “Website” means www.navisaviapp.com.
             </p>
             <p className="sub-list">
               12.22. “Your Content” means content submissions, including
@@ -650,7 +648,7 @@ const PrivacyPolicy = () => {
                 our service providers in connection with our provision of the
                 (disclosed), and transferred for other reasons (sold) the
                 following categories of personal information from its consumers
-                within the last twelve (12) months:{" "}
+                within the last twelve (12) months:
               </p>
               <table className="table-auto privacy-table my-12 text-center">
                 <thead>
@@ -670,7 +668,7 @@ const PrivacyPolicy = () => {
                       identifier, online identifier, Internet Protocol address,
                       email address, account name, Social Security number,
                       driver’s license number, passport number, or other similar
-                      identifiers.{" "}
+                      identifiers.
                     </td>
                     <td>Yes</td>
                     <td>Yes</td>
@@ -680,7 +678,7 @@ const PrivacyPolicy = () => {
                     <td>
                       B. Personal information categories listed in the
                       California Customer Records statute (Cal. Civ. Code §
-                      1798.80(e)).{" "}
+                      1798.80(e)).
                     </td>
                     <td>
                       A name, signature, Social Security number, physical
@@ -811,6 +809,339 @@ const PrivacyPolicy = () => {
                   </tr>
                 </tbody>
               </table>
+              <p>Personal information does not include:</p>
+              <ul className="list-disc list-inside">
+                <li>Publicly available information from government records.</li>
+                <li>
+                  Non-identifiable, de-identified, or aggregated consumer
+                  information.
+                </li>
+                <li>
+                  Information excluded from the CCPA’s scope, like certain
+                  health or medical information and other categories of
+                  information protected by different laws.
+                </li>
+              </ul>
+              <p>
+                We obtain the categories of personal information listed above
+                from the following categories of sources:
+              </p>
+              <ul className="list-disc list-inside">
+                <li>
+                  Directly from you. For example, we collect information that
+                  you provide in online forms or provide in order to fulfill a
+                  purchase.
+                </li>
+                <li>
+                  Indirectly from you. For example, we collect data generated
+                  from your actions on our Platform.
+                </li>
+              </ul>
+              <li className="main-list">USE OF PERSONAL INFORMATION</li>
+              <p>
+                We may use or disclose the personal information we collect for
+                one or more of the following business purposes:
+              </p>
+              <ul className="list-disc list-inside">
+                <li>
+                  To fulfill or meet the reason you provided the information.
+                  For example, if you share your name and contact information to
+                  request a price quote or ask a question about our services, we
+                  will use that personal information to respond to your inquiry.
+                  If you provide your personal information to purchase a product
+                  or service, we will use that information to process your
+                  payment and facilitate delivery. We may also save your
+                  information to facilitate new product orders or process
+                  returns.
+                </li>
+                <li>
+                  To advertise products or services in which we think you may be
+                  interested.
+                </li>
+                <li>
+                  To process your requests, purchases, transactions, and
+                  payments and prevent transactional fraud.
+                </li>
+                <li>
+                  To provide you with support and to respond to your inquiries,
+                  including to investigate and address your concerns and monitor
+                  and improve our responses.
+                </li>
+                <li>
+                  To respond to law enforcement requests and as required by
+                  applicable law, court order, or governmental regulations.
+                </li>
+                <li>
+                  As described to you when collecting your personal information
+                  or as otherwise set forth in the CCPA.
+                </li>
+                <li>
+                  To evaluate or conduct a merger, divestiture, restructuring,
+                  reorganization, dissolution, or other sale or transfer of some
+                  or all of our or our affiliates’ assets in which personal
+                  information held by us or our affiliates about our website
+                  users is among the assets transferred.
+                </li>
+              </ul>
+              <p>
+                We will not collect additional categories of personal
+                information or use the personal information we collect for
+                materially different, unrelated, or incompatible purposes
+                without providing you notice.
+              </p>
+              <li className="main-list">SHARING PERSONAL INFORMATION</li>
+              <p>
+                We may disclose your personal information to service providers
+                for a business purpose. When we disclose personal information
+                for a business purpose, we enter a contract that describes the
+                purpose and requires the recipient to both keep that personal
+                information confidential and not use it for any purpose except
+                performing the contract.
+              </p>
+              <p>
+                We sell your personal information with the following categories
+                of third parties:
+              </p>
+              <ul className="list-disc list-inside">
+                <li>Listed Businesses</li>
+                <li>Data Aggregators.</li>
+              </ul>
+              <p>You may limit these sales as described below.</p>
+              <li className="main-list">YOUR RIGHTS AND CHOICES</li>
+              <p>
+                The CCPA and NRS § 603A provide California and Nevada residents
+                with specific rights regarding their personal information. This
+                section describes your CCPA and NRS § 603A rights and explains
+                how to exercise those rights.
+              </p>
+              <p className="sub-list">4.1. Opt-Out Rights. </p>
+              <p>
+                You can opt out of our sales of your personal information by
+                contacting us as provided below, by visiting
+                www.navisaviapp.com/optout with the title “Do Not Sell My
+                Personal Information”, or by using any opt-out mechanism we make
+                available within the Platform. Please note that, even if you
+                have opted out of sharing with third parties, your Personal
+                Information may still be disclosed to third parties to the
+                extent that you provide it to the general public.
+              </p>
+              <p className="sub-list">
+                4.2. Access to Specific Information and Data Portability Rights.
+              </p>
+              <p>
+                You have the right to request that we disclose certain
+                information to you about our collection and use of your personal
+                information over the past 12 months. If we receive and confirm
+                your verifiable consumer request
+                <em>
+                  (see Exercising Access, Data Portability, and Deletion
+                  Rights),
+                </em>
+                we will disclose to you:
+              </p>
+              <ul className="list-disc list-inside">
+                <li>
+                  The categories of personal information we’ve collected about
+                  you.
+                </li>
+                <li>
+                  The categories of sources for the personal information we’ve
+                  collected about you.
+                </li>
+                <li>
+                  Our business or commercial purpose for collecting or selling
+                  that personal information.
+                </li>
+                <li>
+                  The categories of third parties with whom we share that
+                  personal information.
+                </li>
+                <li>
+                  The specific pieces of personal information we’ve collected
+                  about you (also called a data portability request).
+                </li>
+                <li>
+                  If we sold or disclosed your personal information for a
+                  business purpose, two separate lists disclosing:
+                </li>
+                <ul className="list-disc list-inside ml-6">
+                  <li>
+                    sales, identifying the personal information categories that
+                    each category of recipient purchased; and
+                  </li>
+                  <li>
+                    disclosures for a business purpose, identifying the personal
+                    information categories that each category of recipient
+                    obtained.
+                  </li>
+                </ul>
+              </ul>
+              <p className="sub-list">4.3. Deletion Request Rights. </p>
+              <p>
+                You have the right to request that we delete any of your
+                personal information that we collected from you and retained,
+                subject to certain exceptions. Once we receive and confirm your
+                verifiable consumer request (see Exercising Access, Data
+                Portability, and Deletion Rights below), we will delete (and
+                direct our service providers to delete) your personal
+                information from our records, unless an exception applies.
+              </p>
+              <p>
+                We may deny your deletion request if retaining the information
+                is necessary for us or our service provider(s) to:
+              </p>
+              <ul className="list-disc list-inside">
+                <li>
+                  Complete the transaction for which we collected the personal
+                  information, provide a good or service that you requested,
+                  take actions reasonably anticipated within the context of our
+                  ongoing business relationship with you, or otherwise perform
+                  our contract with you.
+                </li>
+                <li>
+                  Detect security incidents, protect against malicious,
+                  deceptive, fraudulent, or illegal activity, or prosecute those
+                  responsible for such activities.
+                </li>
+                <li>
+                  Debug products to identify and repair errors that impair
+                  existing intended functionality.
+                </li>
+                <li>
+                  Comply with the California Electronic Communications Privacy
+                  Act (Cal. Penal Code § 1546 seq.).
+                </li>
+                <li>
+                  Enable solely internal uses that are reasonably aligned with
+                  consumer expectations based on your relationship with us.
+                </li>
+                <li>Comply with a legal obligation. </li>
+                <li>
+                  Make other internal and lawful uses of that information that
+                  are compatible with the context in which you provided it.
+                </li>
+              </ul>
+              <p className="sub-list">
+                4.4. Exercising Access, Data Portability, and Deletion Rights.
+              </p>
+              <p>
+                To exercise the access, data portability, and deletion rights
+                described above, please submit a verifiable consumer request to
+                us using the contact information below.
+              </p>
+              <p>
+                Only you, or a person registered with the California or Nevada
+                Secretary of State that you authorize to act on your behalf, may
+                make a verifiable consumer request related to your personal
+                information. You may also make a verifiable consumer request on
+                behalf of your minor child. You may only make a verifiable
+                consumer request for access or data portability twice within a
+                12-month period. The verifiable consumer request must:
+              </p>
+              <ul className="list-disc list-inside">
+                <li>
+                  Provide sufficient information that allows us to reasonably
+                  verify you are the person about whom we’ve collected personal
+                  information or an authorized representative.
+                </li>
+                <li>
+                  Describe your request with sufficient detail that allows us to
+                  properly understand, evaluate, and respond to it.
+                </li>
+              </ul>
+              <p>
+                We cannot respond to your request or provide you with personal
+                information if we cannot verify your identity or authority to
+                make the request and confirm the personal information relates to
+                you. Making a verifiable consumer request does not require you
+                to create an account with us. We will only use personal
+                information provided in a verifiable consumer request to verify
+                the requestor’s identity or authority to make the request.
+              </p>
+              <p className="sub-list">4.5. Response Timing and Format. </p>
+              <p>
+                We endeavor to respond to a verifiable consumer request within
+                forty-five (45) days of its receipt. If we require more time, we
+                will inform you of the reason and extension period in writing.
+                We will deliver our written response by mail or electronically,
+                at your option.
+              </p>
+              <p>
+                Any disclosures we provide will only cover the 12-month period
+                preceding the verifiable consumer request’s receipt. The
+                response we provide will also explain the reasons we cannot
+                comply with a request, if applicable. For data portability
+                requests, we will select a format to provide your personal
+                information that is readily useable and should allow you to
+                transmit the information from one entity to another entity
+                without hindrance.
+              </p>
+              <p>
+                We do not charge a fee to process or respond to your verifiable
+                consumer request unless it is excessive, repetitive, or
+                manifestly unfounded. If we determine that the request warrants
+                a fee, we will tell you why we made that decision and provide
+                you with a cost estimate before completing your request.
+              </p>
+              <li className="main-list">NON-DISCRIMINATION</li>
+              <p>
+                We will not discriminate against you for exercising any of your
+                CCPA rights. Unless permitted by the CCPA, we will not:
+              </p>
+              <ul className="list-disc list-inside">
+                <li>Deny you goods or services. </li>
+                <li>
+                  Charge you different prices or rates for goods or services,
+                  including through granting discounts or other benefits, or
+                  imposing penalties.
+                </li>
+                <li>
+                  Provide you a different level or quality of goods or services.
+                </li>
+                <li>
+                  Suggest that you may receive a different price or rate for
+                  goods or services or a different level or quality of goods or
+                  services.
+                </li>
+              </ul>
+              <li className="main-list">OTHER CALIFORNIA PRIVACY RIGHTS</li>
+              <p>
+                California’s “Shine the Light” law (Civil Code Section §
+                1798.83) permits users of our website that are California
+                residents to request certain information regarding our
+                disclosure of personal information to third parties for their
+                direct marketing purposes. To make such a request, please
+                contact us as provided below.
+              </p>
+              <li className="main-list">CHANGES TO OUR PRIVACY NOTICE</li>
+              <p>
+                We reserve the right to amend this privacy notice at our
+                discretion and at any time. When we make changes to this privacy
+                notice, we will post the updated notice on our website and
+                update the notice’s effective date.
+                <strong>
+                  Your continued use of our website following the posting of
+                  changes constitutes your acknowledgment of such changes.
+                </strong>
+              </p>
+              <li className="main-list">CONTACT INFORMATION</li>
+              <p>
+                If you have any questions or comments about this notice, the
+                ways in which we collect and use your information described
+                below and in our Privacy Notice, your choices and rights
+                regarding such use, or wish to exercise your rights under
+                California law, please do not hesitate to contact us at:
+              </p>
+              <p style={{ padding: "0" }}>
+                <strong>Phone:</strong> 1-332-333-2822
+              </p>
+              <p style={{ padding: "0" }}>
+                <strong>Website:</strong> www.navisaviapp.com
+              </p>
+              <p style={{ padding: "0" }}>
+                <strong>Email:</strong>{" "}
+                <a href="mailto:contact@navisavi.com">contact@navisavi.com</a>
+              </p>
             </ol>
           </div>
         </div>

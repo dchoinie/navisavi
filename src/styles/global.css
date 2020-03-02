@@ -153,16 +153,20 @@ textarea:focus {
   width: 66.66vw;
 }
 
-.terms-list > p,
-.privacy > p,
-.terms-list > ul,
-.privary > ul,
-.terms-list > li,
-.privacy > li,
-.terms-list > ol,
-.privacy > ol {
+.terms-list p,
+.privacy p,
+.terms-list ul,
+.privary ul,
+.terms-list li,
+/* .privacy li, */
+.terms-list ol,
+.privacy ol {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.privacy ul li {
+  padding-left: 0.75rem;
 }
 
 .main-list {
@@ -170,6 +174,8 @@ textarea:focus {
   color: var(--main-teal);
   text-transform: lowercase;
   font-size: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .sub-list {
