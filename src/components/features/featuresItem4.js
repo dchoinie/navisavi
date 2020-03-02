@@ -22,7 +22,7 @@ const FeaturesItem4 = () => {
       // style={{ border: "1px solid red" }}
     >
       <div
-        className="flex flex-col justify-center w-full lg:w-1/2"
+        className="flex flex-col justify-center w-full lg:w-1/2 lg:p-12"
         //   style={{ border: "1px solid red" }}
       >
         <div className="self-center text-3xl lg:text-5xl teal my-2">

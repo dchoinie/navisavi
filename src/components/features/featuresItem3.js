@@ -31,7 +31,7 @@ const FeaturesItem3 = () => {
         />
       </div>
       <div
-        className="flex flex-col justify-center w-full lg:w-1/2"
+        className="flex flex-col justify-center w-full lg:w-1/2 pb-6 lg:p-12"
         //   style={{ border: "1px solid red" }}
       >
         <div className="self-center text-3xl lg:text-5xl teal mt-4 lg:my-2">

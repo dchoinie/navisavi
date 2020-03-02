@@ -17,14 +17,8 @@ const FeaturesItem2 = () => {
     }
   `)
   return (
-    <div
-      className="flex flex-col lg:flex-row justify-between w-full"
-      // style={{ border: "1px solid red" }}
-    >
-      <div
-        className="flex flex-col justify-center w-full lg:w-1/2"
-        //   style={{ border: "1px solid red" }}
-      >
+    <div className="flex flex-col lg:flex-row justify-between w-full">
+      <div className="flex flex-col justify-center w-full lg:w-1/2 lg:p-12">
         <div className="self-center text-3xl lg:text-5xl teal my-2 ">
           <FaVideo className="accent" />
         </div>
@@ -36,10 +30,7 @@ const FeaturesItem2 = () => {
           vacations.
         </p>
       </div>
-      <div
-        className="flex justify-center w-full lg:w-1/2"
-        //   style={{ border: "1px solid red" }}
-      >
+      <div className="flex justify-center w-full lg:w-1/2 pb-6">
         <Img
           fluid={data.phone2.childImageSharp.fluid}
           style={{ width: "50%" }}
