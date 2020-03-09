@@ -21,10 +21,12 @@ const Footer = () => {
     <div className="bg-gray-900 py-6">
       <div className="flex flex-col lg:flex-row justify-between container mx-auto">
         <div className="flex justify-center lg:justify-start">
-          <Img
-            fluid={data.logoTransparent.childImageSharp.fluid}
-            className="w-40"
-          />
+          <Link to="/">
+            <Img
+              fluid={data.logoTransparent.childImageSharp.fluid}
+              className="w-40"
+            />
+          </Link>
         </div>
         <div className="flex flex-col self-center pb-2">
           <ul className="flex flex-col lg:flex-row lg:text-center">

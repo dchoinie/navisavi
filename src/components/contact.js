@@ -29,7 +29,6 @@ const Contact = () => {
             className="p-1 text-lg text-gray-700 mb-1 border border-gray-200 rounded"
             required
           />
-
           <input
             id="contactEmail"
             type="email"
@@ -38,7 +37,6 @@ const Contact = () => {
             className="p-1 text-lg text-gray-700 my-1 border border-gray-200 rounded"
             required
           />
-
           <input
             id="contactPhone"
             type="tel"
