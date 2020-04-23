@@ -87,7 +87,7 @@ const Hero = () => {
             />
           </div>
           <small className="text-xs md:text-sm text-gray-500">
-            <em>Launching Spring 2020</em>
+            <em>Launching Summer 2020</em>
           </small>
         </div>
       </div>
