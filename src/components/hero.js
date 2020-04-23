@@ -93,7 +93,10 @@ const Hero = () => {
       </div>
       <div className="hidden self-center lg:flex lg:justify-start lg:ml-6 lg:w-1/2">
         <video className="home-video" autoPlay={true} loop={true} muted={true}>
-          <source src={HomeVideoMP4} type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dchoinie/video/upload/v1587669212/NaviSavi/final_pns69e.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
     </div>

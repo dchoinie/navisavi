@@ -8,8 +8,9 @@ const Earn = () => {
     {
       mosaic: file(relativePath: { eq: "mosaic.jpg" }) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 800) {
             src
+            srcSet
             ...GatsbyImageSharpFluid
           }
         }

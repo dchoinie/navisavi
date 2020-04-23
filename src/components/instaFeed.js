@@ -11,8 +11,9 @@ const InstaFeed = () => {
           node {
             localFile {
               childImageSharp {
-                fluid {
+                fluid(maxWidth: 500) {
                   src
+                  srcSet
                   ...GatsbyImageSharpFluid
                 }
               }

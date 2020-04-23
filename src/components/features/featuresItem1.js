@@ -8,8 +8,9 @@ const FeaturesItem1 = () => {
     {
       phone1: file(relativePath: { eq: "phones/iPhone1.png" }) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 800) {
             src
+            srcSet
             ...GatsbyImageSharpFluid
           }
         }
