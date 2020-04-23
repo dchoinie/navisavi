@@ -19,6 +19,7 @@ module.exports = {
           "https://static.doubleclick.net",
           "https://yt3.ggpht.com",
           "https://i.ytimg.com",
+          "https://www.youtube.com",
         ],
       },
     },
@@ -74,6 +75,20 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/favicon.png`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [
+          `/404/`,
+          `/about/`,
+          `/blog/`,
+          `/careers/`,
+          `/index/`,
+          `/privacy-policy/`,
+          `/terms-of-service/`,
+        ],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
