@@ -69,11 +69,9 @@ const Contact = () => {
         <div className="flex flex-col md:w-1/2 bg-gray-200 p-6 rounded-tr rounded-br">
           <h3 className="text-2xl lowercase accent">Contact Info</h3>
           <h5 className="text-gray-700">Address</h5>
-          <p className="text-gray-600">
-            137 W 25th St. 11th floor, New York, NY 10001
-          </p>
+          <p className="text-gray-600">P.O. Box 151, Oxford, NE 68967</p>
           <h5 className="text-gray-700">Phone</h5>
-          <p className="text-gray-600">1-332-333-2822</p>
+          <p className="text-gray-600">1-801-557-7985</p>
           <h5 className="text-gray-700">Email</h5>
           <p className="text-gray-600">contact@navisaviapp.com</p>
           <div className="social-icons flex text-2xl text-gray-700 py-2">

@@ -30,6 +30,13 @@ div {
   font-family: "Lato", sans-serif;
 }
 
+.blog p,
+.blog h1,
+.blog h2,
+.blog h3 {
+  margin-bottom: 1em;
+}
+
 @tailwind components;
 
 #nav {

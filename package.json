@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.4.0",
+    "@contentful/rich-text-types": "^14.1.0",
     "dotenv": "^8.2.0",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.41",
@@ -21,6 +22,7 @@
     "gatsby-source-contentful": "^2.1.87",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-source-instagram": "^0.6.1",
+    "gatsby-transformer-remark": "^2.8.7",
     "gatsby-transformer-sharp": "^2.3.13",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",

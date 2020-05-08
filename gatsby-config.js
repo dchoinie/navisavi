@@ -34,6 +34,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-favicon`,
+    `gatsby-transformer-remark`,
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {

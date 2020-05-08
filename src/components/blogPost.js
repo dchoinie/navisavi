@@ -13,8 +13,8 @@ export default ({ blogPost }) => {
         <p className="self-center">{blogPost.date}</p>
         <div className="flex justify-center py-2">
           <Img
-            fluid={blogPost.images[0].fluid}
-            className="self-center w-48 rounded"
+            fluid={blogPost.image.fluid}
+            className="self-center w-1/2 rounded"
           />
         </div>
       </div>

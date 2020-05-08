@@ -7,20 +7,24 @@ const getBlogPosts = graphql`
     blogPosts: allContentfulBlog(sort: { fields: date, order: ASC }) {
       edges {
         node {
-          childContentfulBlogContentRichTextNode {
-            json
+          body {
+            body
+            childMarkdownRemark {
+              html
+            }
           }
           author
-          title
+          id
+          date(formatString: "DD MMM, YYYY")
           slug
-          images {
+          title
+          image {
             fluid {
               src
+              srcSet
               ...GatsbyContentfulFluid
             }
           }
-          date(formatString: "DD MMM, YYYY")
-          id
         }
       }
     }
@@ -34,7 +38,7 @@ export default () => {
         query={getBlogPosts}
         render={data => {
           return (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <div className="px-24 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
               {data.blogPosts.edges.map(({ node: blogPost }) => {
                 return <BlogPost key={blogPost.id} blogPost={blogPost} />
               })}

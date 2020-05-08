@@ -10,16 +10,23 @@ exports.createPages = ({ graphql, actions }) => {
           allContentfulBlog(sort: { fields: date, order: ASC }) {
             edges {
               node {
-                author
-                date(formatString: "DD MMM, YYYY")
-                id
-                title
-                images {
-                  fluid {
-                    src
+                body {
+                  body
+                  childMarkdownRemark {
+                    html
                   }
                 }
+                author
+                id
+                date(formatString: "DD MMM, YYYY")
                 slug
+                title
+                image {
+                  fluid {
+                    src
+                    srcSet
+                  }
+                }
               }
             }
           }
