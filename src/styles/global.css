@@ -37,6 +37,18 @@ div {
   margin-bottom: 1em;
 }
 
+.blog h1 {
+  font-size: 2rem;
+}
+
+.blog h2 {
+  font-size: 1.5rem;
+}
+
+.blog h3 {
+  font-size: 1.125rem;
+}
+
 @tailwind components;
 
 #nav {

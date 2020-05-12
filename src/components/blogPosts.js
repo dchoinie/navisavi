@@ -4,7 +4,7 @@ import BlogPost from "./blogPost"
 
 const getBlogPosts = graphql`
   {
-    blogPosts: allContentfulBlog(sort: { fields: date, order: ASC }) {
+    blogPosts: allContentfulBlog(sort: { fields: date, order: DESC }) {
       edges {
         node {
           body {
