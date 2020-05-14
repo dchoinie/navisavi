@@ -38,7 +38,7 @@ export default () => {
         query={getBlogPosts}
         render={data => {
           return (
-            <div className="px-24 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 my-12">
               {data.blogPosts.edges.map(({ node: blogPost }) => {
                 return <BlogPost key={blogPost.id} blogPost={blogPost} />
               })}

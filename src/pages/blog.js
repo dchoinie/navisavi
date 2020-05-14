@@ -7,7 +7,7 @@ const Blog = () => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <div className="flex justify-center py-24">
+      <div className="flex justify-center pt-24">
         <h2 className="text-center text-5xl teal pb-12 lowercase">Blog</h2>
       </div>
       <BlogPosts />
