@@ -2,7 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FaAngleRight } from "react-icons/fa"
-import { useSpring, animated } from "react-spring"
 import HomeVideoMP4 from "../videos/final.mp4"
 
 const Hero = () => {
@@ -93,10 +92,7 @@ const Hero = () => {
       </div>
       <div className="hidden self-center lg:flex lg:justify-start lg:ml-6 lg:w-1/2">
         <video className="home-video" autoPlay={true} loop={true} muted={true}>
-          <source
-            src="https://res.cloudinary.com/dchoinie/video/upload/v1587669212/NaviSavi/final_pns69e.mp4"
-            type="video/mp4"
-          />
+          <source src={HomeVideoMP4} type="video/mp4" />
         </video>
       </div>
     </div>
