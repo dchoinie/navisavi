@@ -66,7 +66,6 @@ const InstaFeed = () => {
         {data.allInstaNode.edges.map(({ node: insta }) => {
           return (
             <div key={insta.id} className="insta-container flex">
-              {console.log(data)}
               <a
                 href="https://www.instagram.com/navisavi_official/"
                 className="flex w-full"
