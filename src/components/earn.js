@@ -11,6 +11,7 @@ const Earn = () => {
           fluid(maxWidth: 800) {
             src
             srcSet
+            srcSetWebp
             ...GatsbyImageSharpFluid
           }
         }

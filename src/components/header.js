@@ -10,7 +10,7 @@ export const Logo = () => {
     {
       logo: file(relativePath: { eq: "logo-teal.png" }) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 300) {
             src
             srcSet
             ...GatsbyImageSharpFluid_noBase64
