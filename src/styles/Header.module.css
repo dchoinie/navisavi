@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 28px 0;
+}
+
+.navLeft {
+    padding: 0px 32px;
+}
+
+.hamburger {
+    display: inline;
+}
+
+.navRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 14px;
+}
+
+.navRight > div {
+    padding: 0 22px;
+}
+
+@media screen and (min-width: 1024px) {
+    .hamburger {
+        display: none;
+    }
+}
+

@@ -4,11 +4,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll"
 import { FaBars } from "react-icons/fa"
 import { Link } from "gatsby"
+import styles from "../styles/Header.module.css"
 
 export const Logo = () => {
   const data = useStaticQuery(graphql`
     {
-      logo: file(relativePath: { eq: "logo-teal.png" }) {
+      logo: file(relativePath: { eq: "new-logo.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             src
@@ -20,7 +21,7 @@ export const Logo = () => {
     }
   `)
   return (
-    <Link to="/" className="flex">
+    <Link to="/" className="">
       <Img fluid={data.logo.childImageSharp.fluid} style={{ width: "185px" }} />
     </Link>
   )
@@ -45,69 +46,72 @@ export default class Header extends Component {
       navOpen: !prevState.navOpen,
     }))
   }
+
   render() {
     const { navOpen } = this.state
     return (
-      <div className="flex justify-between px-6 lg:px-24">
-        <Logo />
+      <div className={styles.nav}>
+        <div className={styles.navLeft}>
+          <Logo />
+        </div>
         <div
-          className="lg:hidden teal self-center relative cursor-pointer"
+          className={styles.hamburger}
           onClick={() => this.toggleNav()}
         >
           <FaBars className="cursor-pointer" />
-          <div className="teal absolute" style={{ right: "0" }}>
+          <div className="">
             {navOpen && (
-              <ul className="text-right">
-                <li className="whitespace-no-wrap my-1 cursor-pointer nav-item-hover">
+              <ul className="">
+                <li className="">
                   <ScrollLink
                     to="learn"
                     smooth={true}
                     duration={500}
-                    className="fredoka teal"
+                    className=""
                     offset={96}
                   >
                     Learn
                   </ScrollLink>
                 </li>
-                <li className="whitespace-no-wrap my-1 cursor-pointer nav-item-hover">
+                <li className="">
                   <ScrollLink
                     to="features"
                     smooth={true}
                     duration={500}
-                    className="fredoka teal"
+                    className=""
                     offset={96}
                   >
                     Features
                   </ScrollLink>
                 </li>
-                <li className="whitespace-no-wrap my-1 cursor-pointer nav-item-hover">
+                <li className="">
                   <ScrollLink
                     to="earn"
                     smooth={true}
                     duration={500}
-                    className="fredoka teal"
+                    className=""
                     offset={96}
                   >
                     Rewards
                   </ScrollLink>
                 </li>
-                <li className="whitespace-no-wrap my-1 cursor-pointer nav-item-hover">
+                <li className="">
                   <ScrollLink
                     to="partner"
                     smooth={true}
                     duration={500}
-                    className="fredoka teal"
+                    className=""
                     offset={96}
                   >
                     Partner
                   </ScrollLink>
                 </li>
-                <li className="whitespace-no-wrap mt-1 cursor-pointer nav-item-hover">
+                <li className="">
                   <ScrollLink
                     to="talk"
                     smooth={true}
                     duration={500}
-                    className="fredoka teal"
+                    className=""
                     offset={96}
                   >
                     Talk To Us
@@ -117,64 +121,62 @@ export default class Header extends Component {
             )}
           </div>
         </div>
-        <div className="hidden lg:flex">
-          <ul className="flex self-center text-center text-xl">
-            <li className="lowercase fredoka teal mr-2 nav-item-hover">
-              <ScrollLink
-                to="learn"
-                smooth={true}
-                duration={500}
-                className="fredoka cursor-pointer"
-                offset={96}
-              >
-                Learn
-              </ScrollLink>
-            </li>
-            <li className="lowercase fredoka teal mx-2 nav-item-hover">
-              <ScrollLink
-                to="features"
-                smooth={true}
-                duration={500}
-                className="fredoka cursor-pointer"
-                offset={96}
-              >
-                Features
-              </ScrollLink>
-            </li>
-            <li className="lowercase fredoka teal mx-2 nav-item-hover">
-              <ScrollLink
-                to="earn"
-                smooth={true}
-                duration={500}
-                className="fredoka cursor-pointer"
-                offset={96}
-              >
-                Rewards
-              </ScrollLink>
-            </li>
-            <li className="lowercase fredoka teal mx-2 nav-item-hover">
-              <ScrollLink
-                to="partner"
-                smooth={true}
-                duration={500}
-                className="fredoka cursor-pointer"
-                offset={96}
-              >
-                Partner
-              </ScrollLink>
-            </li>
-            <li className="lowercase fredoka teal ml-2 nav-item-hover">
-              <ScrollLink
-                to="talk"
-                smooth={true}
-                duration={500}
-                className="fredoka cursor-pointer"
-                offset={96}
-              >
-                Talk
-              </ScrollLink>
-            </li>
-          </ul>
+        <div className={styles.navRight}>
+          <div className="">
+            <ScrollLink
+              to="learn"
+              smooth={true}
+              duration={500}
+              className=""
+              offset={96}
+            >
+              Learn
+            </ScrollLink>
+          </div>
+          <div className="">
+            <ScrollLink
+              to="features"
+              smooth={true}
+              duration={500}
+              className=""
+              offset={96}
+            >
+              Features
+            </ScrollLink>
+          </div>
+          <div className="">
+            <ScrollLink
+              to="earn"
+              smooth={true}
+              duration={500}
+              className=""
+              offset={96}
+            >
+              Rewards
+            </ScrollLink>
+          </div>
+          <div className="">
+            <ScrollLink
+              to="partner"
+              smooth={true}
+              duration={500}
+              className=""
+              offset={96}
+            >
+              Partner
+            </ScrollLink>
+          </div>
+          <div className="">
+            <ScrollLink
+              to="talk"
+              smooth={true}
+              duration={500}
+              className=""
+              offset={96}
+            >
+              Talk
+            </ScrollLink>
+          </div>
         </div>
       </div>
     )
