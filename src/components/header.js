@@ -22,7 +22,7 @@ export const Logo = () => {
   `)
   return (
     <Link to="/" className="">
-      <Img fluid={data.logo.childImageSharp.fluid} style={{ width: "185px" }} />
+      <Img fluid={data.logo.childImageSharp.fluid} style={{ width: "200px" }} />
     </Link>
   )
 }
@@ -52,7 +52,7 @@ export default class Header extends Component {
     return (
       <div className={styles.nav}>
         <div className={styles.navLeft}>
-          <Logo />
+          <Logo className={styles.logo}/>
         </div>
         <div
           className={styles.hamburger}

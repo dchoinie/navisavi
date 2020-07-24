@@ -1,9 +1,10 @@
 :root {
-    --main-purple: #6977ff;
-    --main-pink: #c801bd;
-    --main-yellow: #bdc801;
-    --accent: #fe2c55;
-    --accentDark: #cb0022;
+    --purple: #6977ff;
+    --teal: #00fcde;
+    --pink: #ff236b;
+
+    --dark-grey: #484848;
+    --light-grey: #f6fafd;
 }
 
 * {

@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    color: white;
+    color: #484848;
     position: absolute;
     top: 0;
     left: 0;
@@ -13,6 +13,10 @@
 
 .navLeft {
     padding: 0px 32px;
+}
+
+.logo {
+    padding: 10px;
 }
 
 .hamburger {

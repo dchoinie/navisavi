@@ -6,83 +6,88 @@ import HomeVideoMP4 from "../videos/final.mp4"
 import styles from "../styles/Hero.module.css"
 
 const Hero = () => {
-  const data = useStaticQuery(graphql`
-    {
-      site {
-        siteMetadata {
-          description
-          title
+    const data = useStaticQuery(graphql`
+      {
+        site {
+          siteMetadata {
+            description
+            title
+          }
         }
-      }
-      apple: file(relativePath: { eq: "downloads/apple1.png" }) {
-        childImageSharp {
-          fluid {
-            src
-            ...GatsbyImageSharpFluid
+        apple: file(relativePath: { eq: "downloads/apple1.png" }) {
+          childImageSharp {
+            fluid {
+              src
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        google: file(relativePath: { eq: "downloads/google1.png" }) {
+          childImageSharp {
+            fluid {
+              src
+              ...GatsbyImageSharpFluid
+            }
           }
         }
       }
-      google: file(relativePath: { eq: "downloads/google1.png" }) {
-        childImageSharp {
-          fluid {
-            src
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-  return (
-    <div className={styles.container}>
-      <div className={styles.content}>
-      <div className={styles.tagline}>
-        <div>We're Ready. Are You?</div>
-      </div>
-      <div className={styles.signUpContainer}>
-        <div className={styles.callToAction}>
-          Get on the list now to be the first to test our Beta App &amp; Earn
-          Rewards.
-        </div>
-        <div className={styles.inputContainer}>
-          <form
-            name="beta-signup"
-            method="POST"
-            data-netlify="true"
-            className={styles.form}
-          >
-            <input
-              id="beta-email"
-              type="email"
-              name="beta-email"
-              className=""
-              placeholder="Email"
-              className={styles.mainInput}
-            />
-            <div className={styles.buttonContainer}>
-              <input type="submit" value="Join"/>
+    `)
+    return (
+        <div>
+            <div className={styles.container}>
+                <div className={`${styles.leftContainer} ${styles.mainElements}`}>
+                    <div className={styles.content}>
+                        <div className={styles.tagline}>
+                            <div>We're Ready. Are You?</div>
+                        </div>
+                        <div className={styles.signUpContainer}>
+                            <div className={styles.callToAction}>
+                                Get on the list now to be the first to test our Beta App &amp; Earn rewards.
+                            </div>
+                            <div className={styles.inputContainer}>
+                                <form
+                                    name="beta-signup"
+                                    method="POST"
+                                    data-netlify="true"
+                                    className={styles.form}
+                                >
+                                <input
+                                    id="beta-email"
+                                    type="email"
+                                    name="beta-email"
+                                    className=""
+                                    placeholder="Email"
+                                    className={styles.mainInput}
+                                />
+                                <div className={styles.buttonContainer}>
+                                    <input type="submit" value="Join"/>
+                                </div>
+                              </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={`${styles.sizzleContainer} ${styles.mainElements}`}>
+                    <video className={styles.sizzleVideo} autoPlay={true} loop={true} muted={true}>
+                        <source src={HomeVideoMP4} type="video/mp4" />
+                    </video>
+                </div>
             </div>
-          </form>
+            <div className={styles.downloadContainer}>
+                <div className={styles.downloadText}>Download now</div>
+                <div className={styles.appDownloadContainer}>
+                    <Img
+                        fluid={data.apple.childImageSharp.fluid}
+                        className={styles.appDownload}
+                    />
+                    <Img
+                        fluid={data.google.childImageSharp.fluid}
+                        className={styles.appDownload}
+                    />
+                </div>
+            </div>
         </div>
-        <div className="">
-          <Img
-            fluid={data.apple.childImageSharp.fluid}
-            className=""
-          />
-          <Img
-            fluid={data.google.childImageSharp.fluid}
-            className=""
-            objectFit=""
-          />
-        </div>
-      </div>
-      <div className="" style={{display: "none"}}>
-        <video className="" autoPlay={true} loop={true} muted={true}>
-          <source src={HomeVideoMP4} type="video/mp4" />
-        </video>
-      </div>
-      </div>
-    </div>
-  )
+    )
 }
 
 export default Hero
