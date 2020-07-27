@@ -31,7 +31,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 100%;
-    padding-top: 178px;
+    padding-top: 281px;
 }
 
 .tagline {
@@ -192,4 +192,10 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 80%);
+}
+
+@media screen and (max-width: 1706px) {
+    .content {
+        padding-top: 178px;
+    }
 }
