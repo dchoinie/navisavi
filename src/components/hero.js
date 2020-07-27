@@ -1,7 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import { FaAngleRight } from "react-icons/fa"
 import HomeVideoMP4 from "../videos/final.mp4"
 import styles from "../styles/Hero.module.css"
 
@@ -60,6 +59,7 @@ const Hero = () => {
                                     className={styles.mainInput}
                                 />
                                 <div className={styles.buttonContainer}>
+                                    <div className={styles.buttonShadow} />
                                     <input type="submit" value="Join"/>
                                 </div>
                               </form>
@@ -74,7 +74,6 @@ const Hero = () => {
                 </div>
             </div>
             <div className={styles.downloadContainer}>
-                <div className={styles.downloadText}>Download now</div>
                 <div className={styles.appDownloadContainer}>
                     <Img
                         fluid={data.apple.childImageSharp.fluid}
@@ -84,6 +83,9 @@ const Hero = () => {
                         fluid={data.google.childImageSharp.fluid}
                         className={styles.appDownload}
                     />
+                </div>
+                <div className={styles.comingSoonContainer}>
+                    <div className={styles.comingSoonText}>Coming soon!</div>
                 </div>
             </div>
         </div>

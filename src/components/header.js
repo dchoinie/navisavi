@@ -122,56 +122,56 @@ export default class Header extends Component {
           </div>
         </div>
         <div className={styles.navRight}>
-          <div className="">
+          <div className={styles.navItem}>
             <ScrollLink
               to="learn"
               smooth={true}
               duration={500}
-              className=""
+              className={styles.navLink}
               offset={96}
             >
               Learn
             </ScrollLink>
           </div>
-          <div className="">
+          <div className={styles.navItem}>
             <ScrollLink
               to="features"
               smooth={true}
               duration={500}
-              className=""
+              className={styles.navLink}
               offset={96}
             >
               Features
             </ScrollLink>
           </div>
-          <div className="">
+          <div className={styles.navItem}>
             <ScrollLink
               to="earn"
               smooth={true}
               duration={500}
-              className=""
+              className={styles.navLink}
               offset={96}
             >
               Rewards
             </ScrollLink>
           </div>
-          <div className="">
+          <div className={styles.navItem}>
             <ScrollLink
               to="partner"
               smooth={true}
               duration={500}
-              className=""
+              className={styles.navLink}
               offset={96}
             >
               Partner
             </ScrollLink>
           </div>
-          <div className="">
+          <div className={styles.navItem}>
             <ScrollLink
               to="talk"
               smooth={true}
               duration={500}
-              className=""
+              className={styles.navLink}
               offset={96}
             >
               Talk
