@@ -67,8 +67,8 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className={`${styles.sizzleContainer} ${styles.mainElements}`}>
-                    <video className={styles.sizzleVideo} autoPlay={true} loop={true} muted={true}>
+                <div className={`${styles.videoContainer} ${styles.mainElements}`}>
+                    <video className={styles.video} autoPlay={true} loop={true} muted={true}>
                         <source src={HomeVideoMP4} type="video/mp4" />
                     </video>
                 </div>
