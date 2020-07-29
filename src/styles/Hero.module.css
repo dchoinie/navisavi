@@ -38,7 +38,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .tagline > div {
@@ -146,11 +147,12 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 360px;
     padding-top: 20px;
 }
 
 .video {
-    height: 75%;
+    width: 100%;
 }
 
 .downloadContainer {
@@ -197,5 +199,94 @@
 @media screen and (max-width: 1706px) {
     .content {
         padding-top: 178px;
+    }
+}
+
+@media screen and (max-width: 1127px) {
+    .mainElements {
+        
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .mainElements {
+        margin: 0;
+    }
+
+    .leftContainer {
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 0;
+        padding-top: 150px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .videoContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex: 1;
+        padding-top: 68px;
+    }
+
+    .video {
+        width: auto;
+        height: 42%;
+    }
+}
+
+@media screen and (max-height: 900px) and (max-width: 1024px) {
+    .container {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 944px) {
+    .tagline > div {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 811px) {
+    .tagline > div {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .tagline > div {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 608px) {
+    .videoContainer {
+        padding-top: 52px;
+    }
+}
+
+@media screen and (max-width: 397px) {
+    .videoContainer {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 383px) {
+    .videoContainer {
+        padding-top: 20px;
     }
 }

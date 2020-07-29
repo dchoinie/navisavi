@@ -36,9 +36,7 @@ const Hero = () => {
             <div className={styles.container}>
                 <div className={`${styles.leftContainer} ${styles.mainElements}`}>
                     <div className={styles.content}>
-                        <div className={styles.tagline}>
-                            <div>We're Ready. Are You?</div>
-                        </div>
+                        <div className={styles.tagline}><div>We're Ready. Are You?</div></div>
                         <div className={styles.signUpContainer}>
                             <div className={styles.callToAction}>
                                 Get on the list now to be the first to test our Beta App &amp; Earn rewards.

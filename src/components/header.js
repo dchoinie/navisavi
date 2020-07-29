@@ -2,7 +2,8 @@ import React, { Component } from "react"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll"
-import { FaBars } from "react-icons/fa"
+import { GrClose } from "react-icons/gr"
+import { FaBars, FaRegWindowClose, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 import { Link } from "gatsby"
 import styles from "../styles/Header.module.css"
 
@@ -48,6 +49,7 @@ export default class Header extends Component {
   }
 
   render() {
+    document.body.style.overflow = this.state.navOpen ? "hidden" : "scroll";
     const { navOpen } = this.state
     return (
       <div className={styles.nav}>
@@ -55,70 +57,109 @@ export default class Header extends Component {
           <Logo className={styles.logo}/>
         </div>
         <div
-          className={styles.hamburger}
-          onClick={() => this.toggleNav()}
+          className={styles.hamburgerContainer}
         >
-          <FaBars className="cursor-pointer" />
-          <div className="">
-            {navOpen && (
-              <ul className="">
-                <li className="">
-                  <ScrollLink
-                    to="learn"
-                    smooth={true}
-                    duration={500}
-                    className=""
-                    offset={96}
-                  >
-                    Learn
-                  </ScrollLink>
-                </li>
-                <li className="">
-                  <ScrollLink
-                    to="features"
-                    smooth={true}
-                    duration={500}
-                    className=""
-                    offset={96}
-                  >
-                    Features
-                  </ScrollLink>
-                </li>
-                <li className="">
-                  <ScrollLink
-                    to="earn"
-                    smooth={true}
-                    duration={500}
-                    className=""
-                    offset={96}
-                  >
-                    Rewards
-                  </ScrollLink>
-                </li>
-                <li className="">
-                  <ScrollLink
-                    to="partner"
-                    smooth={true}
-                    duration={500}
-                    className=""
-                    offset={96}
-                  >
-                    Partner
-                  </ScrollLink>
-                </li>
-                <li className="">
-                  <ScrollLink
-                    to="talk"
-                    smooth={true}
-                    duration={500}
-                    className=""
-                    offset={96}
-                  >
-                    Talk To Us
-                  </ScrollLink>
-                </li>
-              </ul>
-            )}
+          <FaBars className={styles.hamburger} style={ navOpen ? { display: "none" } : {} } onClick={() => this.toggleNav()} />
+          <FaRegWindowClose className={styles.hamburgerClose} style={ navOpen ? {} : { display: "none" } } onClick={() => this.toggleNav()} />
+          <div className={styles.darkenBackground} style={ navOpen ? {} : { display: "none" } } />
+          <div className={styles.hamburgerMenu} style={ navOpen ? {} : { display: "none" } } >
+            <div className={styles.hamburgerMenuItemContainer}>
+              <ScrollLink
+                to="learn"
+                smooth={true}
+                duration={500}
+                className={styles.hamburgerMenuItem}
+                offset={96}
+                onClick={() => this.toggleNav()}
+              >
+                Learn
+              </ScrollLink>
+            </div>
+            <div className={styles.hamburgerMenuItemContainer}>
+              <ScrollLink
+                to="features"
+                smooth={true}
+                duration={500}
+                className={styles.hamburgerMenuItem}
+                offset={96}
+                onClick={() => this.toggleNav()}
+              >
+                Features
+              </ScrollLink>
+            </div>
+            <div className={styles.hamburgerMenuItemContainer}>
+              <ScrollLink
+                to="earn"
+                smooth={true}
+                duration={500}
+                className={styles.hamburgerMenuItem}
+                offset={96}
+                onClick={() => this.toggleNav()}
+              >
+                Rewards
+              </ScrollLink>
+            </div>
+            <div className={styles.hamburgerMenuItemContainer}>
+              <ScrollLink
+                to="partner"
+                smooth={true}
+                duration={500}
+                className={styles.hamburgerMenuItem}
+                offset={96}
+                onClick={() => this.toggleNav()}
+              >
+                Partner
+              </ScrollLink>
+            </div>
+            <div className={styles.hamburgerMenuItemContainer}>
+              <ScrollLink
+                to="talk"
+                smooth={true}
+                duration={500}
+                className={styles.hamburgerMenuItem}
+                offset={96}
+                onClick={() => this.toggleNav()}
+              >
+                Talk To Us
+              </ScrollLink>
+            </div>
+            <div className={`${styles.hamburgerMenuItemContainer} ${styles.followUsContainer}`}>
+              <div className={styles.hamburgerMenuItem}>Follow Us</div>
+              <div className={styles.socialLinksContainer}>
+                <a
+                  href="https://www.facebook.com/navisaviapp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                >
+                  <FaFacebook className={styles.socialLinkIcon} />
+                </a>
+                <a
+                  href="https://www.instagram.com/navisavi_official/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                >
+                  <FaInstagram className={styles.socialLinkIcon} />
+                </a>
+                <a
+                  href="https://twitter.com/navisaviapp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                >
+                  <FaTwitter className={styles.socialLinkIcon} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/navi-savi/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                >
+                  <FaLinkedin className={styles.socialLinkIcon} />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div className={styles.navRight}>
