@@ -31,7 +31,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 100%;
-    padding-top: 281px;
+    padding-top: 265px;
 }
 
 .tagline {
@@ -47,6 +47,23 @@
     font-family: "SofiaPro-Bold", sans-serif;
 }
 
+.subTagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.subTagline > div {
+    font-size: 28px;
+    font-family: "SofiaPro-Regular", sans-serif;
+}
+
+.lastSubLine {
+    margin-bottom: 50px;
+}
+
 .signUpContainer {
     display: flex;
     flex-direction: column;
@@ -56,13 +73,22 @@
 }
 
 .callToAction {
+    font-size: 20px;
+}
+
+.callToAction > span {
+    font-size: 20px;
+    font-family: "SofiaPro-Bold", sans-serif;
+}
+
+.callToAction {
     margin-top: 5px;
     margin-bottom: 2px;
 }
 
 .inputContainer {
     width: 100%;
-    margin-top: -30px;
+    margin-top: -24px;
 }
 
 .form {
@@ -166,6 +192,12 @@
     padding: 30px 0;
 }
 
+.downloadTagline {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 4px;
+}
+
 .appDownloadContainer {
     display: flex;
     flex-direction: row;
@@ -176,14 +208,8 @@
 
 .appDownload {
     max-height: 100%;
-    min-width: 14%;
+    min-width: 12%;
     margin: 4px;
-}
-
-.comingSoonText {
-    color: white;
-    font-size: 28px;
-    margin-bottom: -4px;
 }
 
 .comingSoonContainer {
@@ -193,7 +219,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 80%);
+    background-color: rgba(0, 0, 0, 86%);
+}
+
+.comingSoonText {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 3px;
 }
 
 @media screen and (max-width: 1706px) {
