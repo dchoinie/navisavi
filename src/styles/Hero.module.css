@@ -58,6 +58,7 @@
 .subTagline > div {
     font-size: 28px;
     font-family: "SofiaPro-Regular", sans-serif;
+    color: var(--light-grey);
 }
 
 .lastSubLine {
