@@ -37,8 +37,7 @@ const Hero = () => {
                 <div className={`${styles.leftContainer} ${styles.mainElements}`}>
                     <div className={styles.content}>
                         <div className={styles.tagline}><div>We're Ready. Are You?</div></div>
-                        <div className={styles.subTagline}><div>Videos uploaded by travelers, locals, and friends for travel rewards.</div></div>
-                        <div className={styles.subTagline}><div className={styles.lastSubLine}>Search, save, and share, all in one app.</div></div>
+                        <div className={styles.subTagline}><div>Videos uploaded by travelers, locals, and friends for travel rewards. Search, save, and share, all in one app.</div></div>
                         <div className={styles.signUpContainer}>
                             <div className={styles.callToAction}>
                                 Sign up now and get <span className={styles.bold}>paid</span> to test our app before release.

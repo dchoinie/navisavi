@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainText {
+    font-size: 83px;
+    font-family: "SofiaPro-Bold", sans-serif;
+    color: var(--dark-grey);
+}
+
+.buttonContainer {
+    margin-top: 75px;
+    margin-bottom: -75px;
+}
+
+.button {
+    position: relative;
+    border-radius: 4px;
+    background-color: var(--pink);
+    padding: 22px 26px;
+    transition: all 0.10s ease;
+    z-index: 1;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+.button:active {
+    transform: translateY(0px);
+    background-color: var(--dark-pink);
+}
+
+.buttonShadow {
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 10px;
+    background-color: var(--dark-pink);
+    border-radius: 4px;
+}
+
+.buttonText {
+    font-size: 24px;
+    color: white;
+    margin-bottom: -2px;
+}

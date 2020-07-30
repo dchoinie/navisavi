@@ -21,11 +21,11 @@ const Learn = () => {
             <div className={styles.infoContainer}>
                 <div className={styles.shortPointsContainer}>
                     <FaBan className={styles.faBan}/>
-                    <div className={styles.shortPoinText}>No Photos.</div>
+                    <div className={styles.shortPointText}>No Photos.</div>
                     <FaBan className={styles.faBan} />
-                    <div className={styles.shortPoinText}>No Reviews.</div>
+                    <div className={styles.shortPointText}>No Reviews.</div>
                     <FaCheck className={styles.faBan} />
-                    <div className={styles.shortPoinText}>Just Videos.</div>
+                    <div className={styles.shortPointText}>Just Videos.</div>
                 </div>
                 <div className="">
                     Videos uploaded by travelers, locals, and friends for travel rewards.
