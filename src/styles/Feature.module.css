@@ -43,13 +43,14 @@
 }
 
 .mainText {
-    font-size: 34px;
+    font-size: 50px;
+    font-family: "SofiaPro-Bold", sans-serif;
     color: white;
     margin-bottom: 2px;
 }
 
 .subText {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
-    margin-left: 2px;
+    margin-left: 3px;
 }

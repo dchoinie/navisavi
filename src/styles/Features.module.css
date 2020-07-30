@@ -9,8 +9,8 @@
 
 .icon {
     position: absolute;
-    top: -3px;
-    left: -50px;
-    font-size: 34px;
+    top: 8px;
+    left: -76px;
+    font-size: 52px;
     color: var(--pink);
 }

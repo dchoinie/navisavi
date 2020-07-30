@@ -25,7 +25,7 @@ const Features = () => {
             />
             <FeatureRightImage
                 icon={<FaPlaneDeparture className={styles.icon} />}
-                mainText="Save Clips Plan Trips"
+                mainText="Save Clips, Plan Trips"
                 subText="Build and share a video itinerary of your next vacation."
             />
         </div>
