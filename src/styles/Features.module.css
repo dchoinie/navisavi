@@ -14,3 +14,19 @@
     font-size: 52px;
     color: var(--pink);
 }
+
+@media screen and (max-width: 1300px) {
+    .container {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .icon {
+        top: 6px;
+        left: -62px;
+        font-size: 42px;
+    }
+}

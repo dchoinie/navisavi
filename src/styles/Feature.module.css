@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
@@ -22,6 +22,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.spacer {
+    height: 100%;
+    width: 5%;
 }
 
 .textContainer {
@@ -52,4 +57,66 @@
     font-size: 20px;
     color: white;
     margin-left: 3px;
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        height: auto;
+        justify-content: flex-start;
+        padding: 30px 75px 30px 175px;
+        width: auto;
+    }
+
+    .imageContainer {
+        display: none;
+    }
+
+    .spacer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .container {
+        padding-left: 130px;
+    }
+
+    .mainText {
+        font-size: 40px;
+    }
+
+    .subText {
+        font-size: 18px;
+        margin-left: 2px;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .container {
+        padding-left: 120px;
+    }
+
+    .mainText {
+        font-size: 30px;
+    }
+
+    .subText {
+        font-size: 16px;
+        margin-left: 1px;
+    }
+}
+
+@media screen and (max-width: 462px) {
+    .container {
+        padding-left: 115px;
+    }
+
+    .mainText {
+        font-size: 24px;
+    }
+
+    .subText {
+        font-size: 15px;
+        margin-left: 1px;
+    }
 }

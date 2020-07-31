@@ -7,6 +7,12 @@
     height: 100vh;
 }
 
+.mainTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .mainText {
     font-size: 83px;
     font-family: "SofiaPro-Bold", sans-serif;
@@ -49,4 +55,43 @@
     font-size: 24px;
     color: white;
     margin-bottom: -2px;
+}
+
+@media screen and (max-width: 1128px) {
+    .mainText {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mainText {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .mainText {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .mainText {
+        padding: 0 100px;
+        text-align: center;
+        font-size: 82px;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .mainText {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    .mainText {
+        font-size: 60px;
+        padding: 0 50px;
+    }
 }
