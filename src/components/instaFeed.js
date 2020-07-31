@@ -25,24 +25,26 @@ const InstaFeed = () => {
             }
         }
     `)
+    let size = 6;
+    let captionLength = 4*size;
+    let dim = ""+(window.innerWidth/size)+"px";
+    let dimCaption = ""+(window.innerWidth/size - 20)+"px";
     return (
         <div className={styles.container}>
-            {data.allInstaNode.edges.map(({ node: insta }) => {
+            {data.allInstaNode.edges.slice(0, size).map(({ node: insta }) => {
                 return (
-                    <div className="" key={insta.id}>
+                    <div className={styles.postContainer} key={insta.id} style={{ width: dim, height: dim }} >
                         <a
                             href="https://www.instagram.com/navisavi_official/"
-                            className=""
+                            className={styles.link}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <Img
                                 fluid={insta.localFile.childImageSharp.fluid}
-                                className=""
+                                className={styles.image}
                             />
-                            <div className="">
-                                <div className="">{insta.caption}</div>
-                            </div>
+                            <div className={styles.caption} style={{ width: dim, height: dim }}>{insta.caption.slice(0, captionLength).concat("...")}</div>
                         </a>
                     </div>
                 )
