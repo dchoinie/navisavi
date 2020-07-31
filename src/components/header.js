@@ -64,6 +64,7 @@ export default class Header extends Component {
           <div className={styles.darkenBackground} style={ navOpen ? {} : { display: "none" } } />
           <div className={styles.hamburgerMenu} style={ navOpen ? {} : { display: "none" } } >
             <div className={styles.hamburgerMenuItemContainer}>
+            { window.location.pathname === "/" ?
               <ScrollLink
                 to="features"
                 smooth={true}
@@ -74,21 +75,19 @@ export default class Header extends Component {
               >
                 Features
               </ScrollLink>
-            </div>
-            <div className={styles.hamburgerMenuItemContainer}>
-              <ScrollLink
-                to="earnLink"
-                smooth={true}
-                duration={500}
-                className={styles.hamburgerMenuItem}
-                offset={96}
-                onClick={() => this.toggleNav()}
-              >
+            :
+              <Link to="/" className={styles.hamburgerMenuItem}>
                 Rewards
-              </ScrollLink>
+              </Link>
+            }
             </div>
             <div className={styles.hamburgerMenuItemContainer}>
-              <Link to="contact" className={styles.hamburgerMenuItem}>
+              <Link to="/earn" className={styles.hamburgerMenuItem}>
+                Rewards
+              </Link>
+            </div>
+            <div className={styles.hamburgerMenuItemContainer}>
+              <Link to="/contact" className={styles.hamburgerMenuItem}>
                 Contact
               </Link>
             </div>
@@ -144,18 +143,12 @@ export default class Header extends Component {
             </ScrollLink>
           </div>
           <div className={styles.navItem}>
-            <ScrollLink
-              to="earnLink"
-              smooth={true}
-              duration={500}
-              className={styles.navLink}
-              offset={96}
-            >
+            <Link to="/earn" className={styles.navLink}>
               Rewards
-            </ScrollLink>
+            </Link>
           </div>
           <div className={styles.navItem}>
-            <Link to="contact" className={styles.navLink}>
+            <Link to="/contact" className={styles.navLink}>
               Contact
             </Link>
           </div>

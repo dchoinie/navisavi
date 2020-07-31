@@ -86,6 +86,7 @@ module.exports = {
           `/about/`,
           `/contact/`,
           `/careers/`,
+          `/earn/`,
           `/privacy-policy/`,
           `/terms-of-service/`,
         ],
