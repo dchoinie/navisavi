@@ -65,18 +65,6 @@ export default class Header extends Component {
           <div className={styles.hamburgerMenu} style={ navOpen ? {} : { display: "none" } } >
             <div className={styles.hamburgerMenuItemContainer}>
               <ScrollLink
-                to="learn"
-                smooth={true}
-                duration={500}
-                className={styles.hamburgerMenuItem}
-                offset={96}
-                onClick={() => this.toggleNav()}
-              >
-                Learn
-              </ScrollLink>
-            </div>
-            <div className={styles.hamburgerMenuItemContainer}>
-              <ScrollLink
                 to="features"
                 smooth={true}
                 duration={500}
@@ -89,7 +77,7 @@ export default class Header extends Component {
             </div>
             <div className={styles.hamburgerMenuItemContainer}>
               <ScrollLink
-                to="earn"
+                to="earnLink"
                 smooth={true}
                 duration={500}
                 className={styles.hamburgerMenuItem}
@@ -101,18 +89,6 @@ export default class Header extends Component {
             </div>
             <div className={styles.hamburgerMenuItemContainer}>
               <ScrollLink
-                to="partner"
-                smooth={true}
-                duration={500}
-                className={styles.hamburgerMenuItem}
-                offset={96}
-                onClick={() => this.toggleNav()}
-              >
-                Partner
-              </ScrollLink>
-            </div>
-            <div className={styles.hamburgerMenuItemContainer}>
-              <ScrollLink
                 to="talk"
                 smooth={true}
                 duration={500}
@@ -120,7 +96,7 @@ export default class Header extends Component {
                 offset={96}
                 onClick={() => this.toggleNav()}
               >
-                Talk To Us
+                Contact
               </ScrollLink>
             </div>
             <div className={`${styles.hamburgerMenuItemContainer} ${styles.followUsContainer}`}>
@@ -165,17 +141,6 @@ export default class Header extends Component {
         <div className={styles.navRight}>
           <div className={styles.navItem}>
             <ScrollLink
-              to="learn"
-              smooth={true}
-              duration={500}
-              className={styles.navLink}
-              offset={96}
-            >
-              Learn
-            </ScrollLink>
-          </div>
-          <div className={styles.navItem}>
-            <ScrollLink
               to="features"
               smooth={true}
               duration={500}
@@ -187,7 +152,7 @@ export default class Header extends Component {
           </div>
           <div className={styles.navItem}>
             <ScrollLink
-              to="earn"
+              to="earnLink"
               smooth={true}
               duration={500}
               className={styles.navLink}
@@ -198,24 +163,13 @@ export default class Header extends Component {
           </div>
           <div className={styles.navItem}>
             <ScrollLink
-              to="partner"
-              smooth={true}
-              duration={500}
-              className={styles.navLink}
-              offset={96}
-            >
-              Partner
-            </ScrollLink>
-          </div>
-          <div className={styles.navItem}>
-            <ScrollLink
               to="talk"
               smooth={true}
               duration={500}
               className={styles.navLink}
               offset={96}
             >
-              Talk
+              Contact
             </ScrollLink>
           </div>
         </div>

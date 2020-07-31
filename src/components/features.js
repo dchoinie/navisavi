@@ -7,7 +7,7 @@ import styles from "../styles/Features.module.css"
 
 const Features = () => {
     return (
-        <div className={styles.container} id="learn">
+        <div className={styles.container} id="features">
             <FeatureLeftImage
                 imageNum={1}
                 icon={<FaSearch className={styles.icon} />}

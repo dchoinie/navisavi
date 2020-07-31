@@ -3,7 +3,7 @@ import styles from "../styles/EarnLink.module.css"
 
 const EarnLink = () => {
     return (
-        <div className={styles.container} id="learn">
+        <div className={styles.container} id="earnLink">
             <div className={styles.mainText}>Want to get paid to travel?</div>
             <div className={styles.buttonContainer}>
                 <div className={styles.button}>
