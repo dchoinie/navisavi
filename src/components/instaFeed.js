@@ -1,9 +1,34 @@
-import React from "react"
+import React, { useLayoutEffect, useState } from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styles from "../styles/InstaFeed.module.css"
 
+const useWindowSize = () => {
+    const [size, setSize] = useState([0, 0]);
+
+    useLayoutEffect(() => {
+        function updateSize() {
+            setSize([window.innerWidth, window.innerHeight]);
+        }
+        window.addEventListener('resize', updateSize);
+        updateSize();
+        return () => window.removeEventListener('resize', updateSize);
+    }, []);
+    return size;
+}
+
 const InstaFeed = () => {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+
+    useLayoutEffect(() => {
+        const updateWidth = () => {
+            setWindowWidth(window.innerWidth)
+        }
+        window.addEventListener('resize', updateWidth)
+        updateWidth()
+        return () => window.removeEventListener('resize', updateWidth)
+    }, []);
+
     const data = useStaticQuery(graphql`
         {
             allInstaNode(sort: { fields: timestamp, order: DESC }, limit: 6) {
@@ -25,10 +50,10 @@ const InstaFeed = () => {
             }
         }
     `)
-    let size = 6;
-    let captionLength = 4*size;
-    let dim = ""+(window.innerWidth/size)+"px";
-    let dimCaption = ""+(window.innerWidth/size - 20)+"px";
+    let size = Math.min(6, Math.round(windowWidth/200))
+    let captionLength = 4*size
+    let dim = ""+(window.innerWidth/size)+"px"
+    let dimCaption = ""+(window.innerWidth/size - 20)+"px"
     return (
         <div className={styles.container}>
             {data.allInstaNode.edges.slice(0, size).map(({ node: insta }) => {

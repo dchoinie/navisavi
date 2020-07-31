@@ -8,16 +8,13 @@
     padding: 24px 0;
 }
 
-.container > div {
-    padding: 50px;
-}
-
 .logoContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: -40px;
+    padding: 50px;
 }
 
 .logo {
@@ -42,6 +39,18 @@
     font-size: 16px;
 }
 
+.footerAllLinksContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.footerAllLinksContainer > div {
+    padding: 50px;
+}
+
 .footerLinkContainer {
     margin-bottom: 7px;
 }
@@ -55,9 +64,14 @@
     text-decoration: underline;
 }
 
+.followUsContainer {
+    padding: 50px;
+}
+
 .followUsText {
     color: white;
     margin-bottom: 8px;
+    font-family: "SofiaPro-Bold", sans-serif;
 }
 
 .socialLinksContainer {
@@ -83,4 +97,38 @@
 
 .socialLinkIcon:hover {
     border-color: white;
+}
+
+@media screen and (max-width: 1045px) {
+    .footerAllLinksContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 50px;
+    }
+
+    .footerAllLinksContainer > div {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: var(--dark-blue);
+        padding: 50px 0 28px 0;
+    }
+
+    .container > div {
+        padding: 25px 40px;
+    }
+
+    .logoContainer {
+        margin-left: -6px;
+    }
 }

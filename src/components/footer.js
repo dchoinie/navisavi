@@ -16,38 +16,40 @@ const Footer = () => {
                         <div>All Rights Reserved{" "}</div>
                     </div>
                 </div>
-                <div>
-                    <div className={styles.footerLinkContainer}>
-                        <Link to="/about" className={styles.footerLink}>
-                            About
-                        </Link>
+                <div className={styles.footerAllLinksContainer}>
+                    <div>
+                        <div className={styles.footerLinkContainer}>
+                            <Link to="/about" className={styles.footerLink}>
+                                About
+                            </Link>
+                        </div>
+                        <div className={styles.footerLinkContainer}>
+                            <Link to="/blog" className={styles.footerLink}>
+                                Blog
+                            </Link>
+                        </div>
+                        <div className={styles.footerLinkContainer}>
+                            <Link to="/careers" className={styles.footerLink}>
+                                Careers
+                            </Link>
+                        </div>
                     </div>
-                    <div className={styles.footerLinkContainer}>
-                        <Link to="/blog" className={styles.footerLink}>
-                            Blog
-                        </Link>
-                    </div>
-                    <div className={styles.footerLinkContainer}>
-                        <Link to="/careers" className={styles.footerLink}>
-                            Careers
-                        </Link>
-                    </div>
-                </div>
-                <div>
-                    <div className={styles.footerLinkContainer}>
-                        <Link to="/privacy-policy" className={styles.footerLink}>
-                            Privacy Policy
-                        </Link>
-                    </div>
-                    <div className={styles.footerLinkContainer}>
-                        <Link to="/terms-of-service" className={styles.footerLink}>
-                            Terms Of Service
-                        </Link>
-                    </div>
-                    <div className={styles.footerLinkContainer}>
-                        <a href="mailto:contact@navisaviapp.com" className={styles.footerLink}>
-                            contact@navisaviapp.com
-                        </a>
+                    <div>
+                        <div className={styles.footerLinkContainer}>
+                            <Link to="/privacy-policy" className={styles.footerLink}>
+                                Privacy Policy
+                            </Link>
+                        </div>
+                        <div className={styles.footerLinkContainer}>
+                            <Link to="/terms-of-service" className={styles.footerLink}>
+                                Terms Of Service
+                            </Link>
+                        </div>
+                        <div className={styles.footerLinkContainer}>
+                            <a href="mailto:contact@navisaviapp.com" className={styles.footerLink}>
+                                contact@navisaviapp.com
+                            </a>
+                        </div>
                     </div>
                 </div>
             <div className={styles.followUsContainer}>
