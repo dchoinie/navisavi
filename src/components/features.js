@@ -18,7 +18,7 @@ const Features = () => {
                 imageNum={2}
                 icon={<FaVideo className={styles.icon} />}
                 mainText="Browse Videos By Other Travellers"
-                subText="Watch short clips of friends, influencers, or other travelers vacations."
+                subText="Watch unedited, short clips of friends, influencers, or other travelers' vacations."
             />
             <FeatureLeftImage
                 imageNum={3}

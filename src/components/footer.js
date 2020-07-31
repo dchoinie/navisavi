@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>
                     <div className={styles.footerLinkContainer}>
                         <a href="mailto:contact@navisaviapp.com" className={styles.footerLink}>
-                            Contact
+                            contact@navisaviapp.com
                         </a>
                     </div>
                 </div>

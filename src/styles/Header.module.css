@@ -71,6 +71,8 @@
     font-size: 24px;
     color: var(--dark-grey);
     cursor: pointer;
+    text-decoration: none;
+    color: var(--dark-grey);
 }
 
 .followUsContainer {
@@ -118,6 +120,8 @@
     display: block;
     position: relative;
     padding: 3px 0;
+    text-decoration: none;
+    color: var(--dark-grey);
 }
 
 .navLink:hover {

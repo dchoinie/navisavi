@@ -51,6 +51,10 @@
     text-decoration: none;
 }
 
+.footerLink:hover {
+    text-decoration: underline;
+}
+
 .followUsText {
     color: white;
     margin-bottom: 8px;

@@ -84,6 +84,7 @@ module.exports = {
         precachePages: [
           `/404/`,
           `/about/`,
+          `/contact/`,
           `/careers/`,
           `/privacy-policy/`,
           `/terms-of-service/`,
