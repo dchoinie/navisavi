@@ -36,7 +36,7 @@ const Hero = () => {
             <div className={styles.container}>
                 <div className={`${styles.leftContainer} ${styles.mainElements}`}>
                     <div className={styles.content}>
-                        <div className={styles.tagline}><div>Find Your Journey.</div></div>
+                        <div className={styles.tagline}><div>We're Ready. Are You?</div></div>
                         <div className={styles.subTagline}><div>Genuine videos uploaded by real people. Search, save, and share, all in one app.</div></div>
                         <div className={styles.signUpContainer}>
                             <div className={styles.callToAction}>
