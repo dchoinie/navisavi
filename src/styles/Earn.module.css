@@ -4,7 +4,6 @@
     justify-content: flex-start;
     align-items: center;
     width: 100vw;
-    height: 100vh;
     margin-bottom: 140px;
 }
 
@@ -29,7 +28,6 @@
 }
 
 .image {
-    background-image: url("../images/mosaic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -42,7 +40,7 @@
 }
 
 .pointContainer {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .firstLine {

@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import styles from "../styles/InstaFeed.module.css"
 
 const InstaFeed = () => {
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+    const [windowWidth, setWindowWidth] = useState(0)
 
     useLayoutEffect(() => {
         const updateWidth = () => {
@@ -38,8 +38,8 @@ const InstaFeed = () => {
     `)
     let size = Math.min(6, Math.round(windowWidth/200))
     let captionLength = 4*size
-    let dim = ""+(window.innerWidth/size)+"px"
-    let dimCaption = ""+(window.innerWidth/size - 20)+"px"
+    let dim = ""+(windowWidth/size)+"px"
+    let dimCaption = ""+(windowWidth/size - 20)+"px"
     return (
         <div className={styles.container}>
             {data.allInstaNode.edges.slice(0, size).map(({ node: insta }) => {

@@ -56,11 +56,16 @@
     position: absolute;
     top: 0;
     right: 0;
+    /*transform: translateX(390px);*/
     height: 100vh;
     width: 330px;
     background-color: white;
     padding: 30px;
     z-index: 12;
+}
+
+.hamburger:active ~ .hamburgerMenu {
+    /*transform: translateX(0px);*/
 }
 
 .hamburgerMenuItemContainer {

@@ -1,17 +1,45 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import BackgroundImage from 'gatsby-background-image'
 import { FaSearch } from "react-icons/fa"
-import iPhone1 from "../../images/phones/iPhone1.png"
-import iPhone3 from "../../images/phones/iPhone3.png"
 import styles from "../../styles/Feature.module.css"
 import stylesLeft from "../../styles/FeatureLeftImage.module.css"
 
 const FeatureLeftImage = ({ imageNum, icon, mainText, subText }) => {
-    let image = imageNum == 1 ? iPhone1 : iPhone3;
+    const data = useStaticQuery(graphql`
+      {
+        phone1: file(relativePath: { eq: "phones/iPhone1.png" }) {
+          childImageSharp {
+            fluid(quality: 70) {
+              src
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        phone3: file(relativePath: { eq: "phones/iPhone3.png" }) {
+          childImageSharp {
+            fluid(quality: 70) {
+              src
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `)
     return (
         <div className={`${styles.container} ${stylesLeft.container}`}>
             <div className={styles.imageContainer} style={{ marginRight: 100 }}>
-                <div className={styles.image} style={{ backgroundImage: "url(" + image + ")" }} />
+                { imageNum == 1 ?
+                    <BackgroundImage
+                        fluid={data.phone1.childImageSharp.fluid}
+                        className={styles.image}
+                    />
+                :
+                    <BackgroundImage
+                        fluid={data.phone3.childImageSharp.fluid}
+                        className={styles.image}
+                    /> 
+                }
             </div>
             <div className={styles.spacer} />
             <div className={styles.textContainer}>

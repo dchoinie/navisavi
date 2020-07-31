@@ -49,8 +49,28 @@ export default class Header extends Component {
   }
 
   render() {
-    document.body.style.overflow = this.state.navOpen ? "hidden" : "scroll";
+    if (typeof document !== "undefined") document.body.style.overflow = this.state.navOpen ? "hidden" : "scroll";
     const { navOpen } = this.state
+    const featuresLink = () => {
+        if (typeof window !== "undefined") {
+            return window.location.pathname === "/" ?
+              <ScrollLink
+                to="features"
+                smooth={true}
+                duration={500}
+                className={styles.hamburgerMenuItem}
+                offset={96}
+                onClick={() => this.toggleNav()}
+              >
+                Features
+              </ScrollLink>
+            :
+              <Link to="/" className={styles.hamburgerMenuItem}>
+                Features
+              </Link>
+        }
+        return
+    }
     return (
       <div className={styles.nav}>
         <div className={styles.navLeft}>
@@ -64,22 +84,7 @@ export default class Header extends Component {
           <div className={styles.darkenBackground} style={ navOpen ? {} : { display: "none" } } />
           <div className={styles.hamburgerMenu} style={ navOpen ? {} : { display: "none" } } >
             <div className={styles.hamburgerMenuItemContainer}>
-            { window.location.pathname === "/" ?
-              <ScrollLink
-                to="features"
-                smooth={true}
-                duration={500}
-                className={styles.hamburgerMenuItem}
-                offset={96}
-                onClick={() => this.toggleNav()}
-              >
-                Features
-              </ScrollLink>
-            :
-              <Link to="/" className={styles.hamburgerMenuItem}>
-                Rewards
-              </Link>
-            }
+            { featuresLink() }
             </div>
             <div className={styles.hamburgerMenuItemContainer}>
               <Link to="/earn" className={styles.hamburgerMenuItem}>

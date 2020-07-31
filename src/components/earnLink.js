@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "../styles/EarnLink.module.css"
+import { Link } from "gatsby"
 
 const EarnLink = () => {
     return (
@@ -11,7 +12,9 @@ const EarnLink = () => {
             </div>
             <div className={styles.buttonContainer}>
                 <div className={styles.button}>
-                    <div className={styles.buttonText}>Show me how!</div>
+                    <Link to="/earn" className={styles.buttonText}>
+                        Show me how!
+                    </Link>
                 </div>
                 <div className={styles.buttonShadow} />
             </div>

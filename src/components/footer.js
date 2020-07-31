@@ -1,15 +1,30 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
-import Img from "gatsby-image"
 import styles from "../styles/Footer.module.css"
+import BackgroundImage from 'gatsby-background-image'
 
 const Footer = () => {
+    const data = useStaticQuery(graphql`
+      {
+        logo: file(relativePath: { eq: "logo.png" }) {
+          childImageSharp {
+            fluid(quality: 70) {
+              src
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `)
     return (
         <div className={styles.container}>
                 <div className={styles.logoContainer}>
                     <Link to="/">
-                        <div className={styles.logo} />
+                        <BackgroundImage
+                            fluid={data.logo.childImageSharp.fluid}
+                            className={styles.logo}
+                        />
                     </Link>
                     <div className={styles.copyright}>
                         <div>&copy; {new Date().getFullYear()} Navi Savi,</div>
