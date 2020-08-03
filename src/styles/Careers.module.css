@@ -25,3 +25,47 @@
 .subtitle {
     color: var(--light-grey);
 }
+
+.tableContainer {
+    width: 38%;
+    padding: 0 60px;
+}
+
+.jobRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+.jobTitleLink {
+    position: relative;
+    text-decoration: none;
+}
+
+.jobTitleLink:hover {
+    text-decoration: underline;
+}
+
+.jobTitleLink::before {
+    content: "Apply ->";
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0);
+    font-family: "SofiaPro-Bold", sans-serif;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: -70px;
+    transition: all 0.1s ease;
+}
+
+.jobTitleLink:hover::before {
+    color: var(--dark-grey);
+    left: -70px;
+}
+
+.subInfoContainer {
+    font-size: 16px;
+    color: var(--dark-grey);
+}
