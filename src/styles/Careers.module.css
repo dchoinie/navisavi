@@ -52,3 +52,16 @@
     font-size: 16px;
     color: var(--dark-grey);
 }
+
+@media screen and (max-width: 860px) {
+    .tableContainer {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tableContainer {
+        width: 70%;
+    }
+}
+
