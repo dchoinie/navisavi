@@ -7,10 +7,31 @@ import { FaBars, FaRegWindowClose, FaFacebook, FaInstagram, FaLinkedin, FaTwitte
 import { Link } from "gatsby"
 import styles from "../styles/Header.module.css"
 
+export const LogoAndName = () => {
+  const data = useStaticQuery(graphql`
+    {
+      logoAndName: file(relativePath: { eq: "logo-and-name.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            src
+            srcSet
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+    }
+  `)
+  return (
+    <Link to="/" className="">
+      <Img fluid={data.logoAndName.childImageSharp.fluid} style={{ width: "200px" }} />
+    </Link>
+  )
+}
+
 export const Logo = () => {
   const data = useStaticQuery(graphql`
     {
-      logo: file(relativePath: { eq: "logo-and-name.png" }) {
+      logo: file(relativePath: { eq: "logo.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             src
@@ -74,7 +95,7 @@ export default class Header extends Component {
     return (
       <div className={styles.nav}>
         <div className={styles.navLeft}>
-          <Logo className={styles.logo}/>
+          <LogoAndName className={styles.logo}/>
         </div>
         <div
           className={styles.hamburgerContainer}
