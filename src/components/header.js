@@ -63,7 +63,12 @@ export default class Header extends Component {
   	updateWidth() {
   		if (typeof window !== "undefined") {
 	  		this.setState({
-	  			hamburger: window.innerWidth <= 1024
+	  			hamburger: window.innerWidth <= 1024 // This is the same width in the CSS file
+	  		})
+	  	}
+	  	if (!this.state.hamburger) {
+	  		this.setState({
+	  			navOpen: false
 	  		})
 	  	}
   	}
@@ -83,45 +88,6 @@ export default class Header extends Component {
   	render() {
 	    if (typeof document !== "undefined") document.body.style.overflow = this.state.navOpen ? "hidden" : "scroll"
 	    const { navOpen } = this.state
-	    const featuresLinkHamburger = () => {
-	        if (typeof window !== "undefined") {
-	            return window.location.pathname === "/" ?
-	              <ScrollLink
-	                to="features"
-	                smooth={true}
-	                duration={500}
-	                className={styles.hamburgerMenuItem}
-	                offset={96}
-	                onClick={() => this.toggleNav()}
-	              >
-	                Features
-	              </ScrollLink>
-	            :
-	              <Link to="/" className={styles.hamburgerMenuItem}>
-	                Features
-	              </Link>
-	        }
-	        return
-	    }
-	    const featuresLink = () => {
-	        if (typeof window !== "undefined") {
-	            return window.location.pathname === "/" ?
-	              <ScrollLink
-	              	to="features"
-	              	smooth={true}
-	              	duration={500}
-	              	className={styles.navLink}
-	              	offset={96}
-	              >
-	              	Features
-	              </ScrollLink>
-	            :
-	              <Link to="/" className={styles.navLink}>
-	                Features
-	              </Link>
-	        }
-	        return
-	    }
 	    return (
 	    	<div className={styles.nav}>
 		    	<div className={styles.navLeft}>
@@ -131,11 +97,9 @@ export default class Header extends Component {
 		    		<div className={styles.middleDownloadButton}>
 						<ScrollLink
 			              	to="signup"
-			              	smooth={true}
 			              	duration={500}
 			              	className={styles.buttonText}
-			              	offset={96}
-			              >
+			            >
 		              		Sign Up
 		              	</ScrollLink>
 	                </div>
@@ -147,15 +111,15 @@ export default class Header extends Component {
 			    	<div className={styles.darkenBackground} style={ navOpen ? {} : { display: "none" } } />
 			    	<div className={styles.hamburgerMenu} style={ navOpen ? {} : { display: "none" } } >
 				    	<div className={styles.hamburgerMenuItemContainer}>
-				    		{ featuresLinkHamburger() }
+				    		<a href="/#features" className={styles.hamburgerMenuItem} onClick={() => this.toggleNav()}>Features</a>
 				    	</div>
 				    	<div className={styles.hamburgerMenuItemContainer}>
-					    	<Link to="/earn" className={styles.hamburgerMenuItem}>
+					    	<Link to="/earn" className={styles.hamburgerMenuItem} onClick={() => this.toggleNav()}>
 					    		Rewards
 					    	</Link>
 				    	</div>
 				    	<div className={styles.hamburgerMenuItemContainer}>
-					    	<Link to="/contact" className={styles.hamburgerMenuItem}>
+					    	<Link to="/contact" className={styles.hamburgerMenuItem} onClick={() => this.toggleNav()}>
 					    		Contact
 					    	</Link>
 				    	</div>
@@ -200,7 +164,7 @@ export default class Header extends Component {
 		    	</div>
 		    	<div className={styles.navRight}>
 			    	<div className={styles.navItem}>
-			    		{ featuresLink() }
+			    		<a href="/#features" className={styles.navLink}>Features</a>
 			    	</div>
 			    	<div className={styles.navItem}>
 				    	<Link to="/earn" className={styles.navLink}>
@@ -216,10 +180,8 @@ export default class Header extends Component {
 			    		<div className={styles.rightDownloadButton}>
 							<ScrollLink
 				              	to="signup"
-				              	smooth={true}
 				              	duration={500}
 				              	className={styles.buttonText}
-				              	offset={96}
 				              >
 			              		Sign Up
 			              	</ScrollLink>
