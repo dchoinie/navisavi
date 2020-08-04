@@ -7,7 +7,7 @@ import { FaBars, FaRegWindowClose, FaFacebook, FaInstagram, FaLinkedin, FaTwitte
 import { Link } from "gatsby"
 import styles from "../styles/Header.module.css"
 
-export const Logo = () => {
+export const Logo = (hamburger) => {
   	const data = useStaticQuery(graphql`
     	{
 	      	logoAndName: file(relativePath: { eq: "logo-and-name.png" }) {
@@ -30,11 +30,14 @@ export const Logo = () => {
 	      	}
     	}
   	`)
-  	return (
+  	return hamburger.hamburger ?
     	<Link to="/" className="">
-      		<Img fluid={data.logoAndName.childImageSharp.fluid} style={{ width: "200px" }} />
+      		<Img fluid={data.logo.childImageSharp.fluid} style={{ width: "62px", marginTop: -7, marginLeft: -4 }} />
     	</Link>
-  	)
+    :
+    	<Link to="/" className="">
+      		<Img fluid={data.logoAndName.childImageSharp.fluid} style={{ width: "200px", marginTop: -26, marginLeft: 2 }} />
+    	</Link>
 }
 
 export default class Header extends Component {
@@ -42,15 +45,27 @@ export default class Header extends Component {
     	super(props)
     	this.state = {
       		navOpen: false,
+      		hamburger: false
     	}
+
+    	this.updateWidth = this.updateWidth.bind(this);
   	}
 
   	componentDidMount() {
     	window.addEventListener('resize', this.updateWidth);
+    	this.updateWidth();
   	}
 
   	componentWillUnmount() {
     	window.removeEventListener('resize', this.updateWidth);
+  	}
+
+  	updateWidth() {
+  		if (typeof window !== "undefined") {
+	  		this.setState({
+	  			hamburger: window.innerWidth <= 1024
+	  		})
+	  	}
   	}
 
   	handleClickOutside() {
@@ -110,7 +125,21 @@ export default class Header extends Component {
 	    return (
 	    	<div className={styles.nav}>
 		    	<div className={styles.navLeft}>
-		    		<Logo className={styles.logo}/>
+		    		<Logo className={styles.logo} hamburger={this.state.hamburger}/>
+		    	</div>
+		    	<div className={styles.middleDownloadButtonContainer} style={ this.state.hamburger ? {} : { display: "none" } }>
+		    		<div className={styles.middleDownloadButton}>
+						<ScrollLink
+			              	to="signup"
+			              	smooth={true}
+			              	duration={500}
+			              	className={styles.buttonText}
+			              	offset={96}
+			              >
+		              		Sign Up
+		              	</ScrollLink>
+	                </div>
+	                <div className={styles.buttonShadow} />
 		    	</div>
 		    	<div className={styles.hamburgerContainer}>
 			    	<FaBars className={styles.hamburger} style={ navOpen ? { display: "none" } : {} } onClick={() => this.toggleNav()} />
@@ -182,6 +211,20 @@ export default class Header extends Component {
 				    	<Link to="/contact" className={styles.navLink}>
 				    		Contact
 				    	</Link>
+			    	</div>
+			    	<div className={styles.rightDownloadButtonContainer} style={ this.state.hamburger ? { display: "none" } : {} }>
+			    		<div className={styles.rightDownloadButton}>
+							<ScrollLink
+				              	to="signup"
+				              	smooth={true}
+				              	duration={500}
+				              	className={styles.buttonText}
+				              	offset={96}
+				              >
+			              		Sign Up
+			              	</ScrollLink>
+		                </div>
+		                <div className={styles.buttonShadow} />
 			    	</div>
 		    	</div>
 	    	</div>
