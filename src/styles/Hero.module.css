@@ -302,16 +302,6 @@
     }
 }
 
-@media screen and (max-height: 900px) and (max-width: 1024px) {
-    .container {
-        height: 900px;
-    }
-
-    .tagline > div {
-        font-size: 70px;
-    }
-}
-
 @media screen and (max-width: 811px) {
     .tagline > div {
         font-size: 60px;
