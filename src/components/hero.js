@@ -37,7 +37,7 @@ const Hero = () => {
                 <div className={`${styles.leftContainer} ${styles.mainElements}`}>
                     <div className={styles.content}>
                         <div className={styles.tagline}><div>Find Your Journey.</div></div>
-                        <div className={styles.subTagline}><div>Genuine travel videos uploaded by real people.</div></div>
+                        <div className={styles.subTagline}><div className={styles.firstSubTagline}>Genuine travel videos uploaded by real people.</div></div>
                         <div className={styles.subTagline}><div className={styles.lastSubTagline}>Discover destinations, plan itineraries, and upload your travel clips for rewards.</div></div>
                         <div className={styles.signUpContainer} id="signup">
                             <div className={styles.callToAction}>

@@ -38,7 +38,7 @@ export const Logo = (props) => {
     	</Link>
     :
     	<Link to="/" className="">
-      		<Img fluid={data.logoAndName.childImageSharp.fluid} style={[{ width: "200px", marginLeft: 4 }, props.displayDownloadButton ? { marginTop: 0 } : { marginTop: -26 }]} />
+      		<Img fluid={data.logoAndName.childImageSharp.fluid} style={{ width: "200px", marginTop: -10, marginLeft: 4 }} />
     	</Link>
 }
 
