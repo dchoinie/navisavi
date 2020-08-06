@@ -36,7 +36,7 @@ export const Logo = (hamburger) => {
     	</Link>
     :
     	<Link to="/" className="">
-      		<Img fluid={data.logoAndName.childImageSharp.fluid} style={{ width: "200px", marginTop: -26, marginLeft: 4 }} />
+      		<Img fluid={data.logoAndName.childImageSharp.fluid} style={{ width: "200px", marginTop: -10, marginLeft: 4 }} />
     	</Link>
 }
 

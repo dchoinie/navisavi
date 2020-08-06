@@ -57,12 +57,12 @@
 
 .subTagline > div {
     font-size: 28px;
-    font-family: "SofiaPro-Regular", sans-serif;
     color: var(--light-grey);
 }
 
 .lastSubTagline {
     margin-bottom: 50px;
+    font-family: "SofiaPro-Bold", sans-serif;
 }
 
 .signUpContainer {
