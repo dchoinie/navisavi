@@ -33,12 +33,12 @@ export const Logo = (props) => {
     	}
   	`)
   	return props.hamburger ?
-    	<Link to="/" className="">
-      		<Img fluid={data.logo.childImageSharp.fluid} style={{ width: "62px", marginTop: -7, marginLeft: -6 }} />
+    	<Link to="/">
+      		<Img fluid={data.logo.childImageSharp.fluid}  style={{ width: "62px", marginTop: -7, marginLeft: -6 }} />
     	</Link>
     :
-    	<Link to="/" className="">
-      		<Img fluid={data.logoAndName.childImageSharp.fluid} style={{ width: "200px", marginTop: -10, marginLeft: 4 }} />
+    	<Link to="/">
+      		<Img fluid={data.logoAndName.childImageSharp.fluid} className={styles.logoAndNameImg} style={props.displayDownloadButton ? { marginTop: -26 } : { marginTop: 0 }} />
     	</Link>
 }
 
