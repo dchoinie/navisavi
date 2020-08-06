@@ -39,10 +39,10 @@ const Earn = () => {
             <div className={styles.container}>
                 <div className={styles.title}>Rewards</div>
                 <div className={styles.contentContainer}>
-                    <div className={styles.imageContainer}>
+                    <div className={styles.imageContainer} style={{ width: dim, height: dim }}>
                         <BackgroundImage
                             fluid={data.logo.childImageSharp.fluid}
-                            className={styles.logo}
+                            className={styles.image}
                             style={{ width: dim, height: dim }}
                         />
                     </div>

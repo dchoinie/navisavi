@@ -25,6 +25,7 @@
 .imageContainer {
     padding-left: 80px;
     flex: 5;
+    overflow: hidden;
 }
 
 .image {
@@ -54,9 +55,15 @@
     color: var(--dark-grey);
 }
 
-@media screen and (max-width: 1175px) {
+@media screen and (max-width: 1259px) {
     .textContainer {
         margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .pointContainer {
+        margin-bottom: 20px;
     }
 }
 
@@ -72,6 +79,10 @@
     .textContainer {
         margin: 0;
         padding: 0 150px;
+    }
+
+    .pointContainer {
+        margin-bottom: 40px;
     }
 }
 
