@@ -1,5 +1,5 @@
 const path = require("path")
-const careersInfo = require("./src/components/data/careersInfo")
+const careersInfo = require("./src/data/careersInfo")
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -51,7 +51,7 @@ exports.createPages = ({ graphql, actions }) => {
   })
 }
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = ({ actions }) => {
 	const { createPage } = actions
 	const careerDescriptionTemplate = path.resolve("src/templates/careerDescriptionTemplate.js")
 	careersInfo.careers.forEach(career => {
@@ -59,7 +59,7 @@ exports.createPages = ({ graphql, actions }) => {
         	path: `careers/${career.slug}`,
         	component: careerDescriptionTemplate,
         	context: {
-          		slug: career.slug
+          		career: career
         	},
       	})
     })
