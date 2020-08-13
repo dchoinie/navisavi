@@ -15,6 +15,7 @@ const tagString = tags => {
 }
 
 export default ({ career }) => {
+	console.log("mailto:contact@navi-savi.com?subject="+encodeURIComponent(career.title)+encodeURIComponent(" Internship Application"))
   	return (
 	    <div className={styles.container}>
 	        <SEO title={career.title} />
